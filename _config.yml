@@ -28,7 +28,7 @@ plugins:
 
 sass:
   sass_dir: _sass
-  style: nested
+  style: compressed
 
 # Exclude from processing.
 # The following items will not be processed, by default.
