@@ -2,7 +2,58 @@
 layout: default
 ---
 
-<div class="home">
+{%- include progress-bar.html -%}
+
+<div class="home-mobile d-md-none">
+
+    <nav class="pl-3 pr-3 pt-2 pb-2">
+        <div class="row">
+            <div class="col-6">
+                <img class="logo-mobile" src="{{ "/assets/img/logo.png" | relative_url }}" alt="logo"/>
+            </div>
+            <div class="col-6 text-right">
+                <button type="button" class="btn-don">JE FAIS UN DON</button>
+            </div>
+        </div>
+    </nav>
+    <div class="p-3">
+        <p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur consequuntur natus facilis odit iure, ab veritatis eius, vitae nostrum eveniet dignissimos necessitatibus ut voluptates quos! Excepturi maxime temporibus fugiat soluta!</p>
+        <div class="row">
+            <div class="col-sm-4 col-12">
+                <div class="text-center text-sm-right">
+                    <img src="{{ "assets/img/president.png" | relative_url }}" alt="president"/>
+                </div>
+            </div>
+            <div class="col-sm-8 col-12">
+                <div class="d-none d-sm-block d-md-none"><br></div>
+                <p class="text-center text-sm-left president-text"><span class="text-bold text-condensed">Jean-Baptiste Favatier,</span><br> Président de l’Ordre de Malte France</p>
+            </div>
+        </div>
+    </div>
+    <div class="bandeau-covid">
+        <p class="text-center">COVID-19* - Dernière mise à jour <span>{{ page.last_modified_at | date: '%d/%m/%y %H:%M' }}</span></p>
+    </div>
+    <section class="posts">
+        {% if site.paginate %}
+                {% assign posts = paginator.posts %}
+                {% else %}
+                {% assign posts = site.posts %}
+                {% endif %}
+                
+                {% for post in posts %}
+                <article class="post {% if post.urgence_post %}urgence{% endif %}">
+                    <div class="post-publication-time"><span>{{ post.date | date: 'à %H:%M'}}</span></div>
+                    <h1  class="post-title">{{ post.title }}</h1>
+                    <div class="post-content">{{ post.content }}</div>
+                </article>
+                {% endfor %}
+    </section>
+</div>
+
+
+
+
+<div class="home d-none d-md-block">
     <aside class="left-menu">    
         <div class="left-container">
             <div>
@@ -67,5 +118,4 @@ layout: default
             </section>
         </div>
     </div>
-    {%- include progress-bar.html -%}
 </div>

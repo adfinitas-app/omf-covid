@@ -8,181 +8,261 @@ $blue: #354253;
 $transitionSpeed: 0.4s;
 
 body {
-  background: $backgroundColor;
-  color: $bodyColor;
-  font-family: $bodyFont;
+	background: $backgroundColor;
+	color: $bodyColor;
+	font-family: $bodyFont;
 }
 
 
 .btn-don {
-  color: #fff;
-  border-color: $red;
-  background-color: $red;
-  border-radius: 8px;
-  width: 100%;
-  font-weight: bold;
-  padding: 7px 0;
-  border: 1px solid transparent;
-  letter-spacing: 0.01rem;
+	color: #fff;
+	border-color: $red;
+	background-color: $red;
+	border-radius: 8px;
+	width: 100%;
+	font-weight: bold;
+	padding: 7px 0;
+	border: 1px solid transparent;
+	letter-spacing: 0.01rem;
 }
 
 .text-bold {
-  font-weight: bold;
+	font-weight: bold;
 }
 
 .text-condensed {
-  letter-spacing: 0.01rem;
+	letter-spacing: 0.01rem;
 }
 
 .left-menu {
-  background-color: #F8F8F8;
-  position: fixed;
-  left: 0;
-  top: 0;
-  padding: 20px;
-  height: 100vh;
-  width: $leftMenuWidth;
-  
-  & > .row {
-    height: 100%;
-  }
-  
-  .left-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-    width: 100%;
-  }
-  
-  .ensemble {
-    font-size: 20px;
-  }
-  
-  .remise {
-    font-size: 13px;
-    text-align: center;
-  }
+	background-color: #F8F8F8;
+	position: fixed;
+	left: 0;
+	top: 0;
+	padding: 20px;
+	height: 100vh;
+	width: $leftMenuWidth;
+	
+	& > .row {
+		height: 100%;
+	}
+	
+	.left-container {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		height: 100%;
+		width: 100%;
+	}
+	
+	.ensemble {
+		font-size: 20px;
+	}
+	
+	.remise {
+		font-size: 13px;
+		text-align: center;
+	}
 }
 
 .content {
-  padding-left: $leftMenuWidth;
-  
-  .message-president {
-    background-color: $blue;
-    padding: 20px;
-    color: #fff;
-    
-    .president-text {
-      font-size: 14px;
-      display: inline-block;
-      max-width: 200px;
-    }
-    
-    .aujourdhui {
-      font-size: 20px;
-    }
-    
-    .chers-amis {
-      font-size: 18px;
-    }
-    
-    .arrow-down {
-      cursor: pointer;
-      transition: transform $transitionSpeed ease-in-out;
-      transform: rotateX(0deg)
-    }
-    
-    .arrow-down.active {
-      transition: transform $transitionSpeed ease-in-out;
-      transform: rotateX(-180deg)
-    }
-    
-    #click-to-expand {
-      font-size: 18px;
-      max-height: 0px;
-      -webkit-transition: max-height $transitionSpeed ease-in-out;
-      -moz-transition: max-height $transitionSpeed ease-in-out;
-      -ms-transition: max-height $transitionSpeed ease-in-out;
-      -o-transition: max-height $transitionSpeed ease-in-out;
-      transition: max-height $transitionSpeed ease-in-out;
-      overflow: hidden;
-    }
-    #click-to-expand:hover {
-      height:auto;
-      max-height:1000px;
-    }
-  }
-  
-  .blog {
-    color: #000000;
-    position: relative;
-    
-    .covid-19 {
-      display: inline-block;
-      background-color: $red;
-      color: #ffffff;
-      position: absolute;
-      left: 0;
-      top: 0;
-      font-size: 50px;
-      padding: 0 20px;
-    }
-    
-    .last-update { 
-      display: inline-block;
-      color: $blue;
-      position: absolute;
-      right: 0;
-      top: 0;
-      font-size: 14px;
-      padding: 5px;
-    }
-    
-    .last-update-time {
-      font-size: 20px;
-      color: $red;
-    }
-    
-    .posts {
-      padding: 95px 20px 20px 20px;
-      
-      .post {
-        position: relative;
-        padding: 20px 150px 0 20px;
-        
-        .post-publication-time {
-          background: url('https://adfinitas-statics-cdn.s3.eu-west-3.amazonaws.com/OMF/LP_COVID19/background-publication-time.png');
-          height: 48px;
-          width: 100px;
-          padding-top: 12px;
-          padding-left: 23px;
-          position: absolute;
-          right: -20px;
-          top: 23px;
-        }
-        
-        &.urgence .post-publication-time {
-          background: url('https://adfinitas-statics-cdn.s3.eu-west-3.amazonaws.com/OMF/LP_COVID19/background-publication-time-red.png');
-          color: #fff;
-        }
-        
-        .post-title {
-          font-weight: bold;
-          font-size: 22px;
-          color: $blue;
-        }
-        
-        &.urgence .post-title {
-          color: $red;
-        }
-        
-        .post-content {
-          font-size: 16px;
-          color: $blue;
-        }
-      }
-    }
-  }
+	padding-left: $leftMenuWidth;
+	
+	.message-president {
+		background-color: $blue;
+		padding: 20px;
+		color: #fff;
+		
+		.president-text {
+			font-size: 14px;
+			display: inline-block;
+			max-width: 200px;
+		}
+		
+		.aujourdhui {
+			font-size: 20px;
+		}
+		
+		.chers-amis {
+			font-size: 18px;
+		}
+		
+		.arrow-down {
+			cursor: pointer;
+			transition: transform $transitionSpeed ease-in-out;
+			transform: rotateX(0deg)
+		}
+		
+		.arrow-down.active {
+			transition: transform $transitionSpeed ease-in-out;
+			transform: rotateX(-180deg)
+		}
+		
+		#click-to-expand {
+			font-size: 18px;
+			max-height: 0px;
+			-webkit-transition: max-height $transitionSpeed ease-in-out;
+			-moz-transition: max-height $transitionSpeed ease-in-out;
+			-ms-transition: max-height $transitionSpeed ease-in-out;
+			-o-transition: max-height $transitionSpeed ease-in-out;
+			transition: max-height $transitionSpeed ease-in-out;
+			overflow: hidden;
+		}
+		#click-to-expand:hover {
+			height:auto;
+			max-height:1000px;
+		}
+	}
+	
+	.blog {
+		color: #000000;
+		position: relative;
+		
+		.covid-19 {
+			display: inline-block;
+			background-color: $red;
+			color: #ffffff;
+			position: absolute;
+			left: 0;
+			top: 0;
+			font-size: 50px;
+			padding: 0 20px;
+		}
+		
+		.last-update { 
+			display: inline-block;
+			color: $blue;
+			position: absolute;
+			right: 0;
+			top: 0;
+			font-size: 14px;
+			padding: 5px;
+		}
+		
+		.last-update-time {
+			font-size: 20px;
+			color: $red;
+		}
+		
+		.posts {
+			padding: 95px 20px 20px 20px;
+			
+			.post {
+				position: relative;
+				padding: 20px 150px 0 20px;
+				
+				.post-publication-time {
+					background: url('https://adfinitas-statics-cdn.s3.eu-west-3.amazonaws.com/OMF/LP_COVID19/background-publication-time.png');
+					height: 48px;
+					width: 100px;
+					padding-top: 12px;
+					padding-left: 23px;
+					position: absolute;
+					right: -20px;
+					top: 23px;
+				}
+				
+				&.urgence .post-publication-time {
+					background: url('https://adfinitas-statics-cdn.s3.eu-west-3.amazonaws.com/OMF/LP_COVID19/background-publication-time-red.png');
+					color: #fff;
+				}
+				
+				.post-title {
+					font-weight: bold;
+					font-size: 22px;
+					color: $blue;
+				}
+				
+				&.urgence .post-title {
+					color: $red;
+				}
+				
+				.post-content {
+					font-size: 16px;
+					color: $blue;
+				}
+			}
+		}
+	}
+}
+
+// ################ Mobile
+
+.home-mobile {
+	padding-top: 90px;
+	
+	nav {
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+		background-color: #fff;
+		
+		z-index: 1;
+		
+		.logo-mobile {
+			height: 50px;
+		}
+
+		.btn-don {
+			margin-top: 5px;
+		}
+	}
+	
+	.bandeau-covid {
+		background-color: $red;
+		
+		p {
+			font-size: 12px;
+			font-weight: bold;
+			color: #fff;
+			padding: 5px;
+		}
+	}
+
+	.posts {
+		padding: 10px;
+
+		.post {
+			margin-bottom: 40px;
+
+			.post-publication-time {
+				margin: 10px 0;
+	
+				span {
+					background-color: rgba(53, 66, 83, 0.1);
+					color: #000;
+					padding: 5px;
+				}
+			}
+	
+			&.urgence .post-publication-time {
+				span {
+					background-color: $red;
+					color: #fff;
+				}
+			}
+			.post-title {
+				font-weight: bold;
+				font-size: 22px;
+				color: $blue;
+			}
+	
+			&.urgence .post-title {
+				color: $red;
+			}
+	
+			.post-content {
+				font-size: 16px;
+				color: $blue;
+				padding-left: 15px;
+				border-left: 5px dotted $blue;
+			}
+
+			&.urgence .post-content {
+				border-left: 5px dotted $red;
+			}
+		}
+	}
 }
