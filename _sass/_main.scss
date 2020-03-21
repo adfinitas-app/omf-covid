@@ -43,11 +43,11 @@ body {
 	padding: 20px;
 	height: 100vh;
 	width: $leftMenuWidth;
-	
+
 	& > .row {
 		height: 100%;
 	}
-	
+
 	.left-container {
 		display: flex;
 		flex-direction: column;
@@ -56,11 +56,11 @@ body {
 		height: 100%;
 		width: 100%;
 	}
-	
+
 	.ensemble {
 		font-size: 20px;
 	}
-	
+
 	.remise {
 		font-size: 13px;
 		text-align: center;
@@ -69,37 +69,37 @@ body {
 
 .content {
 	padding-left: $leftMenuWidth;
-	
+
 	.message-president {
 		background-color: $blue;
 		padding: 20px;
 		color: #fff;
-		
+
 		.president-text {
 			font-size: 14px;
 			display: inline-block;
 			max-width: 200px;
 		}
-		
+
 		.aujourdhui {
 			font-size: 20px;
 		}
-		
+
 		.chers-amis {
 			font-size: 18px;
 		}
-		
+
 		.arrow-down {
 			cursor: pointer;
 			transition: transform $transitionSpeed ease-in-out;
 			transform: rotateX(0deg)
 		}
-		
+
 		.arrow-down.active {
 			transition: transform $transitionSpeed ease-in-out;
 			transform: rotateX(-180deg)
 		}
-		
+
 		#click-to-expand {
 			font-size: 18px;
 			max-height: 0px;
@@ -115,11 +115,11 @@ body {
 			max-height:1000px;
 		}
 	}
-	
+
 	.blog {
 		color: #000000;
 		position: relative;
-		
+
 		.covid-19 {
 			display: inline-block;
 			background-color: $red;
@@ -130,8 +130,8 @@ body {
 			font-size: 50px;
 			padding: 0 20px;
 		}
-		
-		.last-update { 
+
+		.last-update {
 			display: inline-block;
 			color: $blue;
 			position: absolute;
@@ -140,45 +140,46 @@ body {
 			font-size: 14px;
 			padding: 5px;
 		}
-		
+
 		.last-update-time {
 			font-size: 20px;
 			color: $red;
 		}
-		
+
 		.posts {
 			padding: 95px 20px 20px 20px;
-			
+
 			.post {
 				position: relative;
 				padding: 20px 150px 0 20px;
-				
+
 				.post-publication-time {
 					background: url('https://adfinitas-statics-cdn.s3.eu-west-3.amazonaws.com/OMF/LP_COVID19/background-publication-time.png');
 					height: 48px;
 					width: 100px;
-					padding-top: 12px;
+					padding-top: 8px;
 					padding-left: 23px;
 					position: absolute;
 					right: -20px;
 					top: 23px;
+					line-height:1;
 				}
-				
+
 				&.urgence .post-publication-time {
 					background: url('https://adfinitas-statics-cdn.s3.eu-west-3.amazonaws.com/OMF/LP_COVID19/background-publication-time-red.png');
 					color: #fff;
 				}
-				
+
 				.post-title {
 					font-weight: bold;
 					font-size: 22px;
 					color: $blue;
 				}
-				
+
 				&.urgence .post-title {
 					color: $red;
 				}
-				
+
 				.post-content {
 					font-size: 16px;
 					color: $blue;
@@ -192,16 +193,16 @@ body {
 
 .home-mobile {
 	padding-top: 90px;
-	
+
 	nav {
 		position: fixed;
 		top: 0;
 		left: 0;
 		width: 100%;
 		background-color: #fff;
-		
+
 		z-index: 1;
-		
+
 		.logo-mobile {
 			height: 50px;
 		}
@@ -210,10 +211,10 @@ body {
 			margin-top: 5px;
 		}
 	}
-	
+
 	.bandeau-covid {
 		background-color: $red;
-		
+
 		p {
 			font-size: 12px;
 			font-weight: bold;
@@ -230,14 +231,14 @@ body {
 
 			.post-publication-time {
 				margin: 10px 0;
-	
+
 				span {
 					background-color: rgba(53, 66, 83, 0.1);
 					color: #000;
 					padding: 5px;
 				}
 			}
-	
+
 			&.urgence .post-publication-time {
 				span {
 					background-color: $red;
@@ -249,11 +250,11 @@ body {
 				font-size: 22px;
 				color: $blue;
 			}
-	
+
 			&.urgence .post-title {
 				color: $red;
 			}
-	
+
 			.post-content {
 				font-size: 16px;
 				color: $blue;

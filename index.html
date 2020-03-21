@@ -1,0 +1,111 @@
+---
+layout: default
+title: "Ordre de Malte France - COVID-19"
+---
+  {%- include progress-bar.html -%}
+
+  <div class="home-mobile d-md-none">
+
+      <nav class="pl-3 pr-3 pt-2 pb-2">
+          <div class="row">
+              <div class="col-6">
+                  <img class="logo-mobile" src="{{ "/assets/img/logo.png" | relative_url }}" alt="logo"/>
+              </div>
+              <div class="col-6 text-right">
+                  <button type="button" class="btn-don">JE FAIS UN DON</button>
+              </div>
+          </div>
+      </nav>
+      <div class="p-3">
+          <p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur consequuntur natus facilis odit iure, ab veritatis eius, vitae nostrum eveniet dignissimos necessitatibus ut voluptates quos! Excepturi maxime temporibus fugiat soluta!</p>
+          <div class="row">
+              <div class="col-sm-4 col-12">
+                  <div class="text-center text-sm-right">
+                      <img src="{{ "assets/img/president.png" | relative_url }}" alt="president"/>
+                  </div>
+              </div>
+              <div class="col-sm-8 col-12">
+                  <div class="d-none d-sm-block d-md-none"><br></div>
+                  <p class="text-center text-sm-left president-text"><span class="text-bold text-condensed">Jean-Baptiste Favatier,</span><br> Président de l’Ordre de Malte France</p>
+              </div>
+          </div>
+      </div>
+      <div class="bandeau-covid">
+          <p class="text-center">COVID-19* - Dernière mise à jour <span>{{ page.last_modified_at | date: '%d/%m/%y %H:%M' }}</span></p>
+      </div>
+      <section class="posts">
+
+                  {% for post in site.posts %}
+                  <article class="post {% if post.urgence_post %}urgence{% endif %}">
+                      <div class="post-publication-time"><span>{{ post.date | date: 'à %H:%M'}}</span></div>
+                      <h1  class="post-title">{{ post.title }}</h1>
+                      <div class="post-content">{{ post.content }}</div>
+                  </article>
+                  {% endfor %}
+      </section>
+  </div>
+
+
+
+
+  <div class="home d-none d-md-block">
+      <aside class="left-menu">
+          <div class="left-container">
+              <div>
+                  <img class="logo mb-5" src="{{ "/assets/img/logo.png" | relative_url }}" alt="logo"/>
+              </div>
+              <p class="ensemble text-center"><span class="text-bold">Ensemble, + forts contre le COVID-19.</span> Pour faire face et prendre soin des plus fragiles, je suis solidaire.</p>
+              <button type="button" class="btn-don mb-3 mt-1">JE FAIS UN DON</button>
+              <p class="remise">XX% du montant de mon don à XXX sont déductibles de cet impôt, dans la limite de 20% du revenu net imposable. </p>
+          </div>
+      </aside>
+      <div class="content">
+          <header class="message-president">
+              <div class="row">
+                  <div class="col-sm-12 col-md-3 text-center">
+                      <div class="text-center mt-4">
+                          <img src="{{ "assets/img/president.png" | relative_url }}" alt="president"/>
+                      </div>
+                      <p class="text-center president-text"><span class="text-bold text-condensed">Jean-Baptiste Favatier,</span> Président de l’Ordre de Malte France</p>
+                  </div>
+                  <div class="col-sm-12 col-md-9">
+                      <p class="aujourdhui text-bold text-condensed">AUJOURD’HUI PLUS QUE JAMAIS,<br>RÉPONDONS ENSEMBLE À L’URGENCE DE LA SOLIDARITÉ</p>
+                      <p class="chers-amis">Chers amis,<br>
+                          Face à la crise sanitaire majeure que nous traversons, l’Ordre de Malte France est mobilisé pour maintenir et adapter autant que possible la continuité de ses activités, dans le respect des consignes pour la préservation de la santé de ses salariés, de ses bénévoles ainsi que des personnes que nous aidons.
+                      </p>
+                      <p id="click-to-expand">Les personnes les plus fragiles, notamment sans abri ou en situation de grande précarité, ont plus que jamais besoin de notre soutien et de notre secours.<br><br>
+
+                          Soyons clairs : dans ce contexte, nous risquons de voir notre collecte de dons baisser, alors que nous avons justement besoin de la générosité de tous pour mener nos actions vitales !<br><br>
+
+                          Voilà pourquoi je vous sollicite : dans cette épreuve, il nous faut compter sur la solidarité de chacun. C’est à ce prix que nous réussirons à :<br>
+                          - maintenir les missions de nos 10 000 bénévoles, telles que les maraudes sociales et médicalisées,<br>
+                          - assurer les activités de nos 1 400 secouristes à pied d’œuvre depuis le début de la crise,<br>
+                          - répondre aux besoins déjà grandissants et qui risquent d’exploser.<br><br>
+
+                          Le Président de la République en appelait à la solidarité des grandes associations, et nous pouvons être fiers d’en faire partie. Mais aujourd’hui, votre don est essentiel.<br><br>
+
+
+                          D’avance, un grand merci de nous aider à continuer de mobiliser toutes nos forces au service des plus fragiles, dans cette crise sans précédent.
+                          </p>
+                      <div class="text-center mv-3">
+                          <img id="arrow-down" class="arrow-down" src="{{ "assets/img/arrow-down.png" | relative_url }}" alt="fleche vers le bas"/>
+                      </div>
+                  </div>
+              </div>
+          </header>
+          <div class="blog">
+              <p class="covid-19 text-bold">COVID-19</p>
+              <p class="last-update">Dernière mise à jour <span class="last-update-time text-condensed">{{ page.last_modified_at | date: '%d/%m/%Y' }}</span></p>
+              <section class="posts">
+
+                  {% for post in site.posts %}
+                  <article class="post {% if post.urgence_post %}urgence{% endif %}">
+                      <h1  class="post-title">{{ post.title }}</h1>
+                      <div class="post-content">{{ post.content }}</div>
+                      <div class="post-publication-time"><b>{{ post.date | date: 'Le %d/%m'}}</b><br><small>{{ post.date | date: 'à %HH%M'}}</small></div>
+                  </article>
+                  {% endfor %}
+              </section>
+          </div>
+      </div>
+  </div>
