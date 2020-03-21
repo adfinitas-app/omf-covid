@@ -1,6 +1,6 @@
 ---
+date: 2020-03-14 12:00:00
 urgence_post: false
-publication_time:
 title: Plans bleus et plan blanc dans nos établissements
 ---
 
