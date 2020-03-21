@@ -25,6 +25,7 @@ body {
 	padding: 7px 0;
 	border: 1px solid transparent;
 	letter-spacing: 0.01rem;
+	font-family: 'Roboto Condensed', sans-serif;
 }
 
 .text-bold {
@@ -55,15 +56,22 @@ body {
 		align-items: center;
 		height: 100%;
 		width: 100%;
+
+		.mb-5{
+			margin-bottom: 10rem !important;
+		}
 	}
 
 	.ensemble {
 		font-size: 20px;
+		color:#354253;
+		line-height: 1.2
 	}
 
 	.remise {
 		font-size: 13px;
 		text-align: center;
+		color: #354253;
 	}
 }
 
@@ -79,10 +87,13 @@ body {
 			font-size: 14px;
 			display: inline-block;
 			max-width: 200px;
+			font-family: 'Roboto Condensed', sans-serif;
+			padding-top: 5px;
 		}
 
 		.aujourdhui {
 			font-size: 20px;
+			font-family: 'Roboto Condensed', sans-serif;
 		}
 
 		.chers-amis {
@@ -129,6 +140,7 @@ body {
 			top: 0;
 			font-size: 50px;
 			padding: 0 20px;
+			font-family: 'Roboto Condensed', sans-serif;
 		}
 
 		.last-update {
@@ -144,6 +156,8 @@ body {
 		.last-update-time {
 			font-size: 20px;
 			color: $red;
+			font-family: 'Roboto Condensed', sans-serif;
+			padding-left: 0.6rem;
 		}
 
 		.posts {
@@ -211,6 +225,16 @@ body {
 			margin-top: 5px;
 		}
 	}
+	.message-president{
+		background-color: $blue;
+		padding: 20px;
+		color: #fff;
+
+		.aujourdhui{
+			font-family: 'Roboto Condensed', sans-serif;
+		}
+	}
+
 
 	.bandeau-covid {
 		background-color: $red;
