@@ -24,6 +24,7 @@ title: "" # the name of your site, e.g. ACME Corp.
 # Build settings
 plugins:
   - jekyll-feed
+  - jekyll-sass-converter
   - jekyll-last-modified-at
 
 sass:
