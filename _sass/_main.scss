@@ -168,9 +168,9 @@ body {
 				padding: 20px 150px 0 20px;
 
 				.post-publication-time {
-					background: url('https://adfinitas-statics-cdn.s3.eu-west-3.amazonaws.com/OMF/LP_COVID19/background-publication-time.png');
+					background: url('/assets/background-publication-time.png');
 					height: 48px;
-					width: 100px;
+					width: 112px;
 					padding-top: 8px;
 					padding-left: 23px;
 					position: absolute;
@@ -180,7 +180,7 @@ body {
 				}
 
 				&.urgence .post-publication-time {
-					background: url('https://adfinitas-statics-cdn.s3.eu-west-3.amazonaws.com/OMF/LP_COVID19/background-publication-time-red.png');
+					background: url('/assets/background-publication-time-red.png');
 					color: #fff;
 				}
 

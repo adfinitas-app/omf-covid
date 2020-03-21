@@ -38,7 +38,7 @@ iraiser_url: "https://don.ordredemaltefrance.org/?cid=11&reserved_code_origine=W
 
                   {% for post in site.posts %}
                   <article class="post {% if post.urgence_post %}urgence{% endif %}">
-                      <div class="post-publication-time"><span>{{ post.date | date: 'Le %d/%m'}}<small> {{ post.date | date: 'à %HH%M'}}</small></span></div>
+                      <div class="post-publication-time"><span>{{ post.date | date: '%d.%m.%Y'}}<small> {{ post.date | date: 'à %HH%M'}}</small></span></div>
                       <h1  class="post-title text-uppercase">{{ post.title }}</h1>
                       <div class="post-content">{{ post.content }}</div>
                   </article>
@@ -107,7 +107,7 @@ iraiser_url: "https://don.ordredemaltefrance.org/?cid=11&reserved_code_origine=W
                   <article class="post {% if post.urgence_post %}urgence{% endif %}">
                       <h1  class="post-title text-uppercase">{{ post.title }}</h1>
                       <div class="post-content">{{ post.content }}</div>
-                      <div class="post-publication-time"><b>{{ post.date | date: 'Le %d/%m'}}</b><br><small>{{ post.date | date: 'à %HH%M'}}</small></div>
+                      <div class="post-publication-time"><b>{{ post.date | date: '%d.%m.%Y'}}</b><br><small>{{ post.date | date: 'à %HH%M'}}</small></div>
                   </article>
                   {% endfor %}
               </section>
