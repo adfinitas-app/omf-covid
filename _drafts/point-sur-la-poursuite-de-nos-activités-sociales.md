@@ -1,5 +1,5 @@
 ---
-date: 2020-03-19 00:00:00
+date: 2020-03-19 08:26:00
 urgence_post: false
 title: Point sur la poursuite de nos activités sociales
 ---
