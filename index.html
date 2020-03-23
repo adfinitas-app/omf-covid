@@ -55,6 +55,9 @@ iraiser_url: "https://don.ordredemaltefrance.org/?cid=11&reserved_code_origine=W
                       <div class="post-publication-time"><span>{{ post.date | date: '%d.%m.%Y'}}<small> {{ post.date | date: 'à %HH%M'}}</small></span></div>
                       <h1  class="post-title text-uppercase">{{ post.title }}</h1>
                       <div class="post-content">{{ post.content }}</div>
+                      {% for social in post.insertion_social %}
+                      <div class="">{{ social.contenu_code_block }}</div>
+                      {% endfor %}
                   </article>
                   {% endfor %}
       </section>
