@@ -1,6 +1,6 @@
 ---
-date: 2020-03-24 00:00:00
-urgence_post: true
+date: 2020-03-24 06:26:00
+urgence_post: false
 publication_image: /uploads/image1.png
 insertion_social:
   - contenu_code_block:
