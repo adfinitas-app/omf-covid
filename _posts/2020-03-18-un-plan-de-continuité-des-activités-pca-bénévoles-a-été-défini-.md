@@ -1,6 +1,6 @@
 ---
 date: 2020-03-18 08:50:00
-urgence_post: true
+urgence_post: false
 title: Un Plan de Continuité des Activités (PCA) bénévoles a été défini.
 ---
 

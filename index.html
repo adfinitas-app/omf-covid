@@ -55,8 +55,11 @@ iraiser_url: "https://don.ordredemaltefrance.org/?cid=11&reserved_code_origine=W
                       <div class="post-publication-time"><span>{{ post.date | date: '%d.%m.%Y'}}<small> {{ post.date | date: 'à %HH%M'}}</small></span></div>
                       <h1  class="post-title text-uppercase">{{ post.title }}</h1>
                       <div class="post-content">{{ post.content }}</div>
+                      {% if post.publication_image %}
+                        <div class="post-image"><img src="{{ post.publication_image }}" class="img-fluid"></div>
+                      {% endif %}
                       {% for social in post.insertion_social %}
-                      <div class="">{{ social.contenu_code_block }}</div>
+                        <div class="">{{ social.contenu_code_block }}</div>
                       {% endfor %}
                   </article>
                   {% endfor %}
@@ -121,9 +124,12 @@ iraiser_url: "https://don.ordredemaltefrance.org/?cid=11&reserved_code_origine=W
               <section class="posts">
 
                   {% for post in site.posts %}
-                  <article class="post {% if post.urgence_post %}urgence{% endif %}">
+                  <article class="post {% if post.urgence_post %}urgence{% endif %} pb-5">
                       <h1  class="post-title text-uppercase">{{ post.title }}</h1>
                       <div class="post-content">{{ post.content }}</div>
+                      {% if post.publication_image %}
+                        <div class="post-image"><img src="{{ post.publication_image }}" class="img-fluid w-75"></div>
+                      {% endif %}
                       {% for social in post.insertion_social %}
                       <div class="">{{ social.contenu_code_block }}</div>
                       {% endfor %}
