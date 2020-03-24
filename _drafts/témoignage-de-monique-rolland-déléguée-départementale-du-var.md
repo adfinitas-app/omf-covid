@@ -1,6 +1,7 @@
 ---
 date: 2020-03-24 00:00:00
 urgence_post: true
+publication_image:
 insertion_social:
   - contenu_code_block:
 title: 'Témoignage de Monique Rolland, Déléguée Départementale du Var'
