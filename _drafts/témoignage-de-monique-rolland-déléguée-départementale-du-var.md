@@ -6,7 +6,7 @@ insertion_social:
 title: 'Témoignage de Monique Rolland, Déléguée Départementale du Var'
 ---
 
-Samedi dernier, le 21 avril, Monique Rolland participait &agrave; Toulon, avec d’autres b&eacute;n&eacute;voles de l’OMF, &agrave; une nouvelle maraude sociale. Monique a pris quelques minutes de sont temps tr&egrave;s pr&eacute;cieux pour dresser un compte-rendu complet que vous pouvez consulter dans son int&eacute;gralit&eacute; ici.
+Samedi dernier, le 21 avril, Monique Rolland participait &agrave; Toulon, avec d’autres b&eacute;n&eacute;voles de l’OMF, &agrave; une nouvelle maraude sociale. Monique a pris quelques minutes de sont temps tr&egrave;s pr&eacute;cieux pour dresser un compte-rendu complet que [vous pouvez consulter dans son int&eacute;gralit&eacute; ici](/assets/doc/Ordre de Malte France - Témoignage Monique Rolland _maraude sociale 83.pdf).
 
 Vous le verrez, **la situation des personnes sans abri devient de plus en plus pr&eacute;occupante** : la nourriture, le mat&eacute;riel, et les produits d’hygi&egrave;nes commencent &agrave; manquer cruellement.
 
