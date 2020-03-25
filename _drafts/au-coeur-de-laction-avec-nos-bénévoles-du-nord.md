@@ -21,7 +21,7 @@ insertion_social:
       width="500" height="833" style="border:none;overflow:hidden"
       scrolling="no" frameborder="0" allowTransparency="true"
       allow="encrypted-media"></iframe>
-title: Au coeur de l'action avec nos bénévoles
+title: Au coeur de notre action avec nos bénévoles
 ---
 
 Reportage de France 3 diffus&eacute; le 23 avril sur l'action de nos b&eacute;n&eacute;voles &agrave; Dunkerque. Logistique, accueil des patients, d&eacute;sinfection, soutien &agrave; l’&eacute;quipe m&eacute;dicale sont au programme de ces journ&eacute;es charg&eacute;es de soutien aux malades : bravo &agrave; eux \!
