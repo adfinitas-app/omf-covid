@@ -16,4 +16,4 @@ title: L'Ordre de Malte France mobilisé pour les malades alsaciens
 
 Deux de nos b&eacute;n&eacute;voles sont &agrave; bord du TGV m&eacute;dicalis&eacute; qui &eacute;vacue ce jour une vingtaine de malades alsaciens vers l'ouest. Ils ont &eacute;t&eacute; mobilis&eacute;s pour renforcer les &eacute;quipes du SAMU intervenant dans cette op&eacute;ration. &nbsp; 🙌
 
-Un reportage vid&eacute;o r&eacute;alis&eacute; par le courrier de l'ouest vous permettra de mieux comprendre le d&eacute;fi que nous devons relever.
+Un reportage vid&eacute;o r&eacute;alis&eacute; par le courrier de l'ouest vous permettra de mieux comprendre le d&eacute;fi qu'il faut relever.
