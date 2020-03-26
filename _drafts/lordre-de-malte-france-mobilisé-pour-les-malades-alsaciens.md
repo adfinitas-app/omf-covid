@@ -1,6 +1,6 @@
 ---
 date: 2020-03-26 08:00:00
-urgence_post: false
+urgence_post: true
 publication_image: /uploads/image-tgv.png
 insertion_social:
   - contenu_code_block:
