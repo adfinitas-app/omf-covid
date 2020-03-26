@@ -2,6 +2,8 @@
 date: 2020-03-19 08:26:00
 urgence_post: false
 title: Point sur la poursuite de nos activités sociales
+publication_header_image:
+publication_footer_image:
 ---
 
 &Agrave; ce jour, quelques maraudes, quelques distributions de colis alimentaires et quelques petits d&eacute;jeuners continuent sur l’ensemble du territoire (dans une vingtaine de nos d&eacute;l&eacute;gations). Mobilis&eacute;es par les autorit&eacute;s, les &eacute;quipes font de leur mieux pour poursuivre leur action d’accompagnement des personnes les plus fragiles, tout en assurant la s&eacute;curit&eacute; sanitaire de tous.

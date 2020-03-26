@@ -2,6 +2,8 @@
 date: 2020-03-18 11:00:00
 urgence_post: false
 title: Les secouristes mobilisés depuis le premier jour
+publication_header_image:
+publication_footer_image:
 ---
 
 Engag&eacute;es par les Pr&eacute;fectures, les ARS ou les zones de d&eacute;fenses, nos Unit&eacute;s D&eacute;partementales d’Intervention de l’Ordre de Malte (UDIOM) sont &agrave; pied d’œuvre depuis le d&eacute;but de la crise.

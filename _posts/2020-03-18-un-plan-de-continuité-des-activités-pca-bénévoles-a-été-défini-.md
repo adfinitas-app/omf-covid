@@ -2,6 +2,8 @@
 date: 2020-03-18 08:50:00
 urgence_post: false
 title: Un Plan de Continuité des Activités (PCA) bénévoles a été défini.
+publication_header_image:
+publication_footer_image:
 ---
 
 Sur la base d’un questionnaire tr&egrave;s pr&eacute;cis adress&eacute; aux d&eacute;l&eacute;gations, de la disponibilit&eacute; des &eacute;quipements de protection et des remont&eacute;es terrain collect&eacute;es quotidiennement, la note diffus&eacute;e ce jour pr&eacute;cise les conditions dans lesquelles les activit&eacute;s peuvent se poursuivre.
