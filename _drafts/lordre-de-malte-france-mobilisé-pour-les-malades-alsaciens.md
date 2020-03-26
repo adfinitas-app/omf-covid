@@ -7,6 +7,6 @@ insertion_social:
 title: L'Ordre de Malte France mobilisé pour les malades alsaciens
 ---
 
-Deux de nos b&eacute;n&eacute;voles seront &agrave; bord du TGV m&eacute;dicalis&eacute; qui va &eacute;vacuer ce matin une vingtaine de malades alsaciens vers l'ouest. Ils ont &eacute;t&eacute; mobilis&eacute;s pour renforcer les &eacute;quipes du SAMU intervenant dans cette op&eacute;ration.&nbsp;&nbsp;
+Deux de nos b&eacute;n&eacute;voles seront &agrave; bord du TGV m&eacute;dicalis&eacute; qui va &eacute;vacuer ce jour une vingtaine de malades alsaciens vers l'ouest. Ils ont &eacute;t&eacute; mobilis&eacute;s pour renforcer les &eacute;quipes du SAMU intervenant dans cette op&eacute;ration.&nbsp;&nbsp;
 
 &nbsp;
