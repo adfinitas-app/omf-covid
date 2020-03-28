@@ -1,5 +1,5 @@
 ---
-date: 2020-03-15 12:00:00
+date: 2020-03-28 18:00:00
 title: INTERNATIONAL - Protéger la vie en Palestine
 urgence_post: false
 publication_header_image: /uploads/hopital-sainte-famille-bethleem-1.jpg
