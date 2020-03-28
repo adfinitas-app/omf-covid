@@ -10,7 +10,13 @@ insertion_video:
   - video_code_block:
 ---
 
-Avec la progression du coronavirus, la situation des personnes sans abri devient de plus en plus pr&eacute;occupante, et nous devons imp&eacute;rativement subvenir &agrave; leurs besoins qui ne cessent d'augmenter (notamment en eau, en nourriture, et en produits d'hygi&egrave;ne). D&egrave;s que les conditions de s&eacute;curit&eacute; de nos b&eacute;n&eacute;voles sont r&eacute;unies, les maraudes sociales et alimentaires de l'Ordre de Malte France continuent. De nombreux b&eacute;n&eacute;voles ont pris ou repris contact avec nous ces derniers jours, pour apporter leurs contributions &agrave; ces actions de solidarit&eacute;, y&nbsp;compris un grand nombre de personnes que nous n’avions jamais vu avant. Bravo &agrave; ceux qui agissent dans nos territoires pour prendre soins des plus fragiles, malgr&eacute; ce contexte tr&egrave;s difficile.
+Avec la progression du coronavirus, la situation **des personnes sans abri devient de plus en plus pr&eacute;occupante**, et nous devons imp&eacute;rativement subvenir &agrave; leurs besoins qui ne cessent d'augmenter (notamment en eau, en nourriture, et en produits d'hygi&egrave;ne).
+
+D&egrave;s que les conditions de s&eacute;curit&eacute; de nos b&eacute;n&eacute;voles sont r&eacute;unies, les maraudes sociales et alimentaires de l'Ordre de Malte France continuent. De nombreux b&eacute;n&eacute;voles ont pris ou repris contact avec nous ces derniers jours, pour apporter leurs contributions &agrave; ces actions de solidarit&eacute;, y&nbsp;compris un grand nombre de personnes que nous n’avions jamais vu avant.
+
+Bravo &agrave; ceux qui agissent dans nos territoires pour prendre soins des plus fragiles, malgr&eacute; ce contexte tr&egrave;s difficile.
+
+Rappel : pour faire face &agrave; cette situation in&eacute;dite, [nous comptons &eacute;galement sur votre soutien financier.](https://don.ordredemaltefrance.org/?cid=11&amp;reserved_code_origine=Webcovid){: target="_blank"}
 
 [https://www.valeursactuelles.com/societe/dans-la-mobilisation-contre-le-coronavirus-lordre-de-malte-joue-tout-son-role-117508](https://www.valeursactuelles.com/societe/dans-la-mobilisation-contre-le-coronavirus-lordre-de-malte-joue-tout-son-role-117508)
 
