@@ -1,5 +1,5 @@
 ---
-date: 2020-03-15 12:00:00
+date: 2020-03-28 10:00:00
 title: '"Tant que notre sécurité est assurée, nous continuons"'
 urgence_post: false
 publication_header_image:
@@ -10,7 +10,7 @@ insertion_video:
   - video_code_block:
 ---
 
-Avec la progression du coronavirus, la situation **des personnes sans abri devient de plus en plus pr&eacute;occupante**, et nous devons imp&eacute;rativement subvenir &agrave; leurs besoins qui ne cessent d'augmenter (notamment en eau, en nourriture, et en produits d'hygi&egrave;ne). D&egrave;s que les conditions de s&eacute;curit&eacute; de nos b&eacute;n&eacute;voles sont r&eacute;unies, **les maraudes sociales et alimentaires de l'Ordre de Malte France continuent**. De nombreux b&eacute;n&eacute;voles ont pris ou repris contact avec nous ces derniers jours, pour apporter leurs contributions &agrave; ces actions de solidarit&eacute;, y&nbsp;compris un grand nombre de personnes que nous n’avions jamais vu avant.
+Avec la progression du coronavirus, la situation **des personnes sans abri devient de plus en plus pr&eacute;occupante**, et nous devons imp&eacute;rativement subvenir &agrave; leurs besoins qui ne cessent d'augmenter (notamment en eau, en nourriture, et en produits d'hygi&egrave;ne). D&egrave;s que les conditions de s&eacute;curit&eacute; de nos b&eacute;n&eacute;voles sont r&eacute;unies, **les maraudes sociales et alimentaires de l'Ordre de Malte France continuent**. De nombreux b&eacute;n&eacute;voles ont pris ou repris contact avec nous ces derniers jours, pour apporter leurs contributions &agrave; ces actions de solidarit&eacute;, y compris un grand nombre de personnes que nous n’avions jamais vues avant.
 
 Bravo &agrave; ceux qui agissent dans nos territoires pour prendre soins des plus fragiles, malgr&eacute; ce contexte tr&egrave;s difficile.&nbsp;
 
