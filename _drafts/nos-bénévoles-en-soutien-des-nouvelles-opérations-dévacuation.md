@@ -13,4 +13,4 @@ insertion_video:
       allowfullscreen frameborder=0></iframe>
 ---
 
-4 de nos b&eacute;n&eacute;voles sont engag&eacute;s depuis ce matin &agrave; Nancy dans l'op&eacute;ration d'&eacute;vacuation de malades par TGV m&eacute;dicalis&eacute;. Ils se mobilisent pour d&eacute;sengorger les h&ocirc;pitaux du Grand-Est, l'une des r&eacute;gions les plus lourdement touch&eacute;es par l'&eacute;pid&eacute;mie.&nbsp;
+4 de nos b&eacute;n&eacute;voles sont engag&eacute;s depuis ce matin &agrave; Nancy et &agrave; Mulhouse dans l'op&eacute;ration d'&eacute;vacuation de malades en TGV m&eacute;dicalis&eacute;s. Ils se mobilisent pour d&eacute;sengorger les h&ocirc;pitaux du Grand-Est, l'une des r&eacute;gions les plus lourdement touch&eacute;es par l'&eacute;pid&eacute;mie.&nbsp;
