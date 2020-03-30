@@ -1,5 +1,5 @@
 ---
-date: 2020-03-30 08:36:00
+date: 2020-03-30 07:36:00
 title: Protéger nos résidents en prenant soins des plus fragiles
 urgence_post: false
 publication_header_image:
