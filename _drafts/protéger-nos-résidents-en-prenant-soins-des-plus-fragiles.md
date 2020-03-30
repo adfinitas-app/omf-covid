@@ -3,7 +3,7 @@ date: 2020-03-15 12:00:00
 title: Protéger nos résidents en prenant soins des plus fragiles
 urgence_post: false
 publication_header_image:
-publication_footer_image:
+publication_footer_image: /uploads/image-itw-2.png
 insertion_social:
   - social_code_block:
 insertion_video:
