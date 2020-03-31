@@ -2,6 +2,8 @@
 date: 2020-03-18 10:13:00
 urgence_post: false
 title: Plans bleus et plan blanc dans nos établissements
+publication_header_image:
+publication_footer_image:
 ---
 
 Tous nos &eacute;tablissements m&eacute;dico-sociaux accueillent de nombreuses personnes en grande vuln&eacute;rabilit&eacute;. Il &eacute;tait donc primordial d’adapter leur fonctionnement &agrave; l’&eacute;volution de la situation.

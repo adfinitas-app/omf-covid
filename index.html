@@ -52,15 +52,27 @@ iraiser_url: "https://don.ordredemaltefrance.org/?cid=11&reserved_code_origine=W
 
                   {% for post in site.posts %}
                   <article class="post {% if post.urgence_post %}urgence{% endif %}">
-                      <div class="post-publication-time"><span>{{ post.date | date: '%d.%m.%Y'}}<small> {{ post.date | date: 'à %HH%M'}}</small></span></div>
+                      <div class="post-publication-time">
+                        <span>{{ post.date | date: '%d.%m.%Y'}}<small> {{ post.date | date: 'à %HH%M'}}</small></span>
+                      </div>
                       <h1  class="post-title text-uppercase">{{ post.title }}</h1>
-                      <div class="post-content">{{ post.content }}</div>
-                      {% if post.publication_image %}
-                        <div class="post-image"><img src="{{ post.publication_image }}" class="img-fluid"></div>
+                      {% if post.publication_header_image %}
+                        <div class="post-image"><img src="{{ post.publication_header_image }}" class="img-fluid"></div>
                       {% endif %}
-                      {% for social in post.insertion_social %}
-                        <div class="">{{ social.contenu_code_block }}</div>
+                      <div class="post-content">
+                        {{ post.content }}
+                      </div>
+                      {% if post.publication_footer_image %}
+                        <div class="post-image"><img src="{{ post.publication_footer_image }}" class="img-fluid"></div>
+                      {% endif %}
+                      {% for video in post.insertion_video %}
+                        {% if video.video_code_block %}
+                      <div class="embed-responsive embed-responsive-16by9">{{ video.video_code_block }}</div>
+                        {% endif %}
                       {% endfor %}
+
+
+
                   </article>
                   {% endfor %}
       </section>
@@ -126,14 +138,49 @@ iraiser_url: "https://don.ordredemaltefrance.org/?cid=11&reserved_code_origine=W
 
                   {% for post in site.posts %}
                   <article class="post {% if post.urgence_post %}urgence{% endif %} pb-5">
-                      <h1  class="post-title text-uppercase">{{ post.title }}</h1>
-                      <div class="post-content">{{ post.content }}</div>
-                      {% if post.publication_image %}
-                        <div class="post-image"><img src="{{ post.publication_image }}" class="img-fluid w-75"></div>
+
+                      {% if post.publication_header_image %}
+
+                        <h1  class="post-title text-uppercase">{{ post.title }}</h1>
+                        <div class="card mb-2">
+                          <img src="{{ post.publication_header_image }}" class="card-img-top">
+                          <div class="card-body">
+                            <p class="card-text">{{ post.content }}</p>
+
+                            {% for video in post.insertion_video %}
+                              {% if video.video_code_block %}
+                                <div class="embed-responsive embed-responsive-16by9">{{ video.video_code_block }}</div>
+                              {% endif %}
+                            {% endfor %}
+
+                          </div>
+                        </div>
+
+                      {% else %}
+
+                        <h1  class="post-title text-uppercase">{{ post.title }}</h1>
+                        <div class="post-content">{{ post.content }}</div>
+                        {% if post.publication_footer_image %}
+                          <div class="post-image"><img src="{{ post.publication_footer_image }}" class="img-fluid w-75"></div>
+                        {% endif %}
+
+                        {% for video in post.insertion_video %}
+                          {% if video.video_code_block %}
+                            <div class="embed-responsive embed-responsive-16by9 w-50">{{ video.video_code_block }}</div>
+                          {% endif %}
+                        {% endfor %}
+
+                        <div class="row">
+                          {% for social in post.insertion_social %}
+                            {% if social.contenu_code_block %}
+                            <div class="col">
+                                  {{ social.contenu_code_block }}
+                            </div>
+                            {% endif %}
+                          {% endfor %}
+                        </div>
+
                       {% endif %}
-                      {% for social in post.insertion_social %}
-                      <div class="">{{ social.contenu_code_block }}</div>
-                      {% endfor %}
                       <div class="post-publication-time"><b>{{ post.date | date: '%d.%m.%Y'}}</b><br><small>{{ post.date | date: 'à %HH%M'}}</small></div>
                   </article>
                   {% endfor %}
