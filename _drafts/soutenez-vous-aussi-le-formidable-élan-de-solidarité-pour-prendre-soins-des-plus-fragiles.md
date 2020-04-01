@@ -1,5 +1,5 @@
 ---
-date: 2020-04-01 00:35:00
+date: 2020-04-01 00:00:00
 title: >-
   Un formidable élan de solidarité s’est levé : pour prendre soin des plus
   fragiles, soutenez-le vous aussi !
