@@ -1,5 +1,5 @@
 ---
-date: 2020-04-03 15:00:00
+date: 2020-04-03 13:00:00
 title: 'Train sanitaire : « Donner le meilleur de nous-mêmes, pour eux »'
 urgence_post: false
 publication_header_image:
