@@ -23,3 +23,5 @@ La moiti&eacute; des r&eacute;sidents sont retourn&eacute;s chez leurs parents. 
 **Une vie quotidienne boulevers&eacute;e**
 
 &laquo; Il a fallu modifier toutes les activit&eacute;s, explique Loïc Surget, directeur de la Maison Notre Dame de Philerme. La psychologue a fait un gros travail avec toute l’&eacute;quipe sur la communication, pour &eacute;tablir de nouveaux programmes, pictogrammes, agendas et &eacute;ph&eacute;m&eacute;rides. Nos professionnels ont pris le temps de bien expliquer aux r&eacute;sidents tous les changements, pour anticiper de possibles troubles du comportement ou r&eacute;gressions. Je remarque une fois de plus leurs vraies capacit&eacute;s d’adaptation, tout se passe bien pour le moment &raquo;. Cette p&eacute;riode est l’occasion d’innover, de participer plus &agrave; la vie de la Maison (jardinage, tri et pliage du linge, nettoyage des v&eacute;hicules…) ou encore de (re)d&eacute;couvrir de nouvelles activit&eacute;s : gymnastique douce, atelier esth&eacute;tique, th&eacute;&acirc;tre adapt&eacute;, jeux, roller, trottinette, trampoline, etc. &nbsp;
+
+![](/uploads/unnamed &#40;7&#41;.jpg){: width="480" height="640"}
