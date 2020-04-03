@@ -1,6 +1,6 @@
 ---
 date: 2020-04-02 12:00:00
-title: La vie continue dans nos établissements
+title: La vie continue dans nos maisons d'accueil spécialisées
 urgence_post: false
 publication_header_image:
 publication_footer_image:
