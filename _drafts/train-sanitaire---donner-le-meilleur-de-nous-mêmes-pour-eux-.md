@@ -5,12 +5,7 @@ urgence_post: false
 publication_header_image: /uploads/Groupe 24.png
 publication_footer_image:
 insertion_social:
-  - social_code_block: >-
-      <iframe
-      src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fordredemaltefrance%2Fposts%2F2929518900464462&width=500"
-      width="500" height="606" style="border:none;overflow:hidden"
-      scrolling="no" frameborder="0" allowTransparency="true"
-      allow="encrypted-media"></iframe>
+  - social_code_block:
 insertion_video:
   - video_code_block:
 ---
