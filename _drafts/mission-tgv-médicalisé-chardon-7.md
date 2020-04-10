@@ -1,5 +1,5 @@
 ---
-date: 2020-04-10 07:00:00
+date: 2020-04-09 07:00:00
 title: MISSION TGV MÉDICALISÉ CHARDON 7
 urgence_post: true
 publication_header_image:
