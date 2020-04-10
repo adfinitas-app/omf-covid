@@ -1,7 +1,7 @@
 ---
 date: 2020-03-15 12:00:00
 title: MISSION TGV MÉDICALISÉ CHARDON 7
-urgence_post: false
+urgence_post: true
 publication_header_image:
 publication_footer_image:
 insertion_social:
