@@ -1,5 +1,5 @@
 ---
-date: 2020-04-09 07:00:00
+date: 2020-04-10 07:00:00
 title: MISSION TGV MÉDICALISÉ CHARDON 9
 urgence_post: true
 publication_header_image:
@@ -10,7 +10,7 @@ insertion_video:
   - video_code_block:
 ---
 
-Encore une fois, les &eacute;quipes de l'Ordre de Malte France **sont mobilis&eacute;es aujourd'hui pour assurer le transfert de patients atteint du Covid-19** vers des h&ocirc;pitaux de l'ouest de la France. Nos secouristes seront &agrave; bord des trains pour &eacute;pauler les &eacute;quipes de soignants aupr&egrave;s des malades durant le trajet. Nous sommes extr&ecirc;mement reconnaissant envers nos b&eacute;n&eacute;voles qui donnent sans compter le meilleur d'eux m&ecirc;me pour prendre en charge les personnes atteintes du Covid-19.
+Encore une fois,&nbsp;**les &eacute;quipes de l' Ordre de Malte France sont mobilis&eacute;es aujourd'hui pour assurer le transfert de 40 patients atteint du Covid-19**&nbsp;vers des h&ocirc;pitaux de l'ouest de la France. Six secouristes de l’Ordre de Malte ont pris en charge ces malades dans les h&ocirc;pitaux de Paris jusqu’&agrave; la gare d’Austerlitz, les ont brancard&eacute;s &agrave; bord et les assureront jusqu’&agrave; leur d&eacute;barquement. Ils &eacute;paulent les &eacute;quipes de soignants aupr&egrave;s des malades durant le trajet. Nous sommes extr&ecirc;mement reconnaissant envers nos b&eacute;n&eacute;voles qui donnent sans compter le meilleur d'eux m&ecirc;me pour prendre en charge les personnes atteintes du Covid-19.
 
 Nous participons &agrave; ces op&eacute;rations depuis le d&eacute;but de la crise, et cette vid&eacute;o r&eacute;alis&eacute;e lors de l'op&eacute;ration Chardon 7 vous montrera les moyens exceptionnels &agrave; mobiliser pour assurer cette mission.
 
