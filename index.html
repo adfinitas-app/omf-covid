@@ -71,6 +71,17 @@ iraiser_url: 'https://don.ordredemaltefrance.org/?cid=11&reserved_code_origine=W
                       <div class="embed-responsive embed-responsive-16by9">{{ video.video_code_block }}</div>
                         {% endif %}
                       {% endfor %}
+                     
+                    {% for social in post.insertion_social %}
+                        <div class="row">
+                            {% if social.contenu_code_block %}
+                            <div class="col">
+                                  {{ social.contenu_code_block }}
+                            </div>
+                            {% endif %}
+                        </div>
+                    {% endfor %}
+                        
 
 
 
