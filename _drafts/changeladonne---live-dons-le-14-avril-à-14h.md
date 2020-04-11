@@ -3,14 +3,12 @@ date: 2020-03-15 12:00:00
 title: '#Changeladonne - live-dons le 14 avril à 14h'
 urgence_post: false
 publication_header_image:
-publication_footer_image:
+publication_footer_image: /uploads/changeladonne-odm.png
 insertion_social:
   - social_code_block:
 insertion_video:
   - video_code_block:
 ---
-
-![](/uploads/changeladonne-odm.png){: width="1501" height="1105"}
 
 Rendez-vous mardi 14 avril &agrave; 14:00 pour 1h de live-dons \#changeladonne pour soutenir 6 organisations en premi&egrave;re ligne contre le COVID-19, toutes œuvrant sur des th&eacute;matiques urgentes en ces temps de crise sanitaire. Ils agissent sur le terrain, rejoignons-les par nos dons.
 
