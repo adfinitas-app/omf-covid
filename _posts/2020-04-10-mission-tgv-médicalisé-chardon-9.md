@@ -5,7 +5,12 @@ urgence_post: true
 publication_header_image:
 publication_footer_image:
 insertion_social:
-  - social_code_block:
+  - social_code_block: >-
+      <iframe
+      src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fordredemaltefrance%2Fvideos%2F264337451245740%2F&show_text=1&width=560"
+      width="560" height="546" style="border:none;overflow:hidden"
+      scrolling="no" frameborder="0" allowTransparency="true"
+      allow="encrypted-media" allowFullScreen="true"></iframe>
 insertion_video:
   - video_code_block:
 ---
