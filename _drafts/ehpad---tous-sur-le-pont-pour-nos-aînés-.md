@@ -2,7 +2,7 @@
 date: 2020-03-15 12:00:00
 title: EHPAD - Tous sur le pont pour nos aînés.
 urgence_post: false
-publication_header_image:
+publication_header_image: /uploads/EHPAD-COVID.png
 publication_footer_image:
 insertion_social:
   - social_code_block:
