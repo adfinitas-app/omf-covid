@@ -22,9 +22,3 @@ Les t&eacute;moignages que nous recevons de nos d&eacute;l&eacute;gations confir
 * [Maraude sociale de Gap](https://www.ledauphine.com/sante/2020/04/14/ils-sont-mobilises-aupres-des-populations-fragiles-la-maraude-de-l-ordre-de-malte-en-images-coronavirus-covid19) (article dans le Dauphin&eacute; Lib&eacute;r&eacute;).
 
 Pour faire face aux impacts du coronavirus, notre association, gr&acirc;ce &agrave; ses b&eacute;n&eacute;voles et ses soignants, s'organise pour assurer des distributions journali&egrave;res de nourriture et permettre l'acc&egrave;s aux soins et aux m&eacute;dicaments des plus isol&eacute;s. **Mais nous ne pouvons le faire sans vous.&nbsp;**&nbsp;[Votre don](https://don.ordredemaltefrance.org/?cid=11&amp;reserved_code_origine=Webcovid){: target="_blank"} nous aide &agrave; &ecirc;tre l&agrave; aussi longtemps qu'il le faudra. Merci.&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
