@@ -14,6 +14,6 @@ insertion_video:
       picture-in-picture" allowfullscreen></iframe>
 ---
 
-Le LIVE-DONS du 14 AVRIL, anim&eacute; par Nagui, a r&eacute;uni environ 10.000 internautes, et les promesses de dons ont atteint plus de 160.000 euros &agrave; la fin de l'&eacute;v&egrave;nement. Merci &agrave; tousles donateurs.
+Le LIVE-DONS du 14 AVRIL, anim&eacute; par Nagui, a r&eacute;uni environ 10.000 internautes, et les promesses de dons ont atteint plus de 160.000 euros &agrave; la fin de l'&eacute;v&egrave;nement. Merci &agrave; tous les donateurs pour leur soutien.
 
 Vous pouvez [vous aussi faire un don](https://don.ordredemaltefrance.org/?cid=11&amp;reserved_code_origine=Webcovid) pour nous permettre d'agir pendant la crise sanitaire.
