@@ -1,5 +1,5 @@
 ---
-date: 2020-03-15 12:00:00
+date: 2020-04-16 08:00:00
 title: >-
   Au Sénégal, le Centre Hospitalier de l’Ordre de Malte prend en charge les
   patients atteints du Coronavirus.
