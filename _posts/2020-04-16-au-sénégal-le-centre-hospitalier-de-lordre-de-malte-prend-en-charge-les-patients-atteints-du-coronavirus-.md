@@ -21,4 +21,4 @@ L'Afrique doit faire face &agrave; la mont&eacute;e en puissance du coronavirus.
 
 D'ordinaire consacr&eacute; &agrave; la lutte contre la l&egrave;pre et aux op&eacute;rations de chirurgie avanc&eacute;e, nous esp&eacute;rons que sa grande capacit&eacute; permettra de faire face &agrave; la possible surcharge du syst&egrave;me de soins.
 
-Pour en savoir plus sur le Centre Hospitalier de l’Ordre de Malte &agrave; Dakar : &nbsp;<br>[https://www.ordredemaltefrance.org/organisation/implantations-dans-le-monde/senegal.html](https://www.ordredemaltefrance.org/organisation/implantations-dans-le-monde/senegal.html)
+[En savoir plus sur le Centre Hospitalier de l’Ordre de Malte &agrave; Dakar](https://www.ordredemaltefrance.org/organisation/implantations-dans-le-monde/senegal.html){: target="_blank"}.&nbsp;
