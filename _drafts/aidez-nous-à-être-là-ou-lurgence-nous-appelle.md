@@ -1,6 +1,6 @@
 ---
 date: 2020-03-15 12:00:00
-title: Aidez-nous à être là ou l'urgence nous appelle
+title: Aidez-nous à être là où l'urgence nous appelle
 urgence_post: true
 publication_header_image:
 publication_footer_image:
