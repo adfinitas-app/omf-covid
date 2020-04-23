@@ -1,5 +1,5 @@
 ---
-date: 2020-03-15 12:00:00
+date: 2020-04-23 17:00:00
 title: 'Etre secouriste bénévole pendant la crise sanitaire #Covid19'
 urgence_post: false
 publication_header_image:
