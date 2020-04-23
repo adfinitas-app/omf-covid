@@ -14,4 +14,4 @@ Geoffroy de Vauplane, chef d'&eacute;quipe secouriste &agrave; Paris, et Barth&e
 
 L'ensemble de nos secouristes sont b&eacute;n&eacute;voles, et chaque jour, ils se mobilisent pour sauver des vies. 👏👏👏👏👏👏💪❤️
 
-&nbsp;
+<iframe width="560" height="315" src="https://www.youtube.com/embed/jjuEFgaBHE4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
