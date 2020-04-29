@@ -1,5 +1,5 @@
 ---
-date: 2020-03-15 12:00:00
+date: 2020-04-28 00:00:00
 title: Dans les rues de Gap avec notre maraude pédestre
 urgence_post: false
 publication_header_image:
