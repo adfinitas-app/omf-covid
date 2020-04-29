@@ -8,11 +8,6 @@ insertion_social:
   - social_code_block:
 insertion_video:
   - video_code_block:
-  - video_code_block: >-
-      <iframe width="560" height="315"
-      src="https://www.youtube.com/embed/mFQqf4jcdh0" frameborder="0"
-      allow="accelerometer; autoplay; encrypted-media; gyroscope;
-      picture-in-picture" allowfullscreen></iframe>
 ---
 <div class="embed-responsive embed-responsive-16by9">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/mFQqf4jcdh0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
