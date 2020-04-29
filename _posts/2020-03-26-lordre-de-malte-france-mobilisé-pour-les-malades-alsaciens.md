@@ -1,7 +1,7 @@
 ---
 date: 2020-03-26 08:00:00
 urgence_post: true
-publication_header_image: /assets/img/image2.png
+publication_header_image: /assets/img/tgv-1.jpg
 publication_footer_image:
 insertion_video:
   - video_code_block: >-
