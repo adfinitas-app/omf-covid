@@ -2,7 +2,7 @@
 date: 2020-04-07 07:10:00
 title: Assurer la continuité des soins des plus fragiles
 urgence_post: false
-publication_header_image: /uploads/covid19-article-medicament@2x.png
+publication_header_image: /uploads/pharmacie.jpg
 publication_footer_image:
 insertion_social:
   - social_code_block:
