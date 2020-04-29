@@ -2,7 +2,7 @@
 date: 2020-04-03 13:00:00
 title: 'Train sanitaire : « Donner le meilleur de nous-mêmes, pour eux »'
 urgence_post: false
-publication_header_image: /uploads/Groupe 24.png
+publication_header_image: /uploads/TGV.jpg
 publication_footer_image:
 insertion_social:
   - social_code_block:
