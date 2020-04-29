@@ -3,7 +3,7 @@ date: 2020-04-11 11:00:00
 title: '#Changeladonne - live-dons le 14 avril à 14h'
 urgence_post: false
 publication_header_image:
-publication_footer_image: /uploads/changeladonne-odm.png
+publication_footer_image: /uploads/nuit-bien-commun.jpg
 insertion_social:
   - social_code_block:
 insertion_video:
