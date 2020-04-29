@@ -2,7 +2,7 @@
 date: 2020-03-24 18:26:00
 urgence_post: true
 publication_header_image:
-publication_footer_image: /uploads/image1.png
+publication_footer_image: /uploads/maraude.jpg
 insertion_social:
   - contenu_code_block:
 title: 'Témoignage de Monique Rolland, Déléguée Départementale du Var'
