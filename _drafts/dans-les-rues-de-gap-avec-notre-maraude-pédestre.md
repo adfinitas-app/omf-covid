@@ -15,3 +15,5 @@ Pour faire face aux impacts de la crise sanitaire, l'Ordre de Malte France, en a
 Un reportage a &eacute;t&eacute; r&eacute;alis&eacute; par la cha&icirc;ne locale DICI sur une de nos maraudes. Michel, le repr&eacute;sentant de la d&eacute;l&eacute;gation de l'Ordre de Malte dans les Hautes Alpes,&nbsp; rappelle deux objectifs prioritaires pour r&eacute;pondre &agrave; l'isolement des plus fragiles : passer du temps chaque matin avec les sans-abris, et faire le maximum **car personne ne doit avoir faim en 2020.&nbsp;**
 
 Pour nous aider &agrave; &ecirc;tre l&agrave; tant que la crise nous appelle, [faites un don.](https://covid19.ordredemaltefrance.org/){: target="_blank"}
+
+<iframe title="vimeo-player" src="https://player.vimeo.com/video/410300753" width="640" height="360" frameborder="0" allowfullscreen></iframe>
