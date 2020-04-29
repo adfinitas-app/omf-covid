@@ -4,7 +4,7 @@ title: >-
   Un formidable élan de solidarité s’est levé : pour prendre soin des plus
   fragiles, soutenez-le vous aussi !
 urgence_post: false
-publication_header_image: /uploads/image-covid-2.png
+publication_header_image: /uploads/fragile.jpg
 publication_footer_image:
 insertion_social:
   - social_code_block:
