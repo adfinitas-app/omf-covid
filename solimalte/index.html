@@ -1,47 +1,1415 @@
 ---
 layout: default
 title: Ordre de Malte France - COVID-19
-iraiser_url: 'https://don.ordredemaltefrance.org/?cid=11&reserved_code_origine=Webcovid'
+iraiser_url: "https://don.ordredemaltefrance.org/?cid=11&reserved_code_origine=Webcovid"
 ---
 
 {%- include progress-bar.html -%}
 
-  <div class="home-mobile d-md-none">
+<div class="home-mobile d-md-none">
+	<nav class="pl-3 pr-3 pt-2 pb-2 nav-mobile-solimalte">
+		<div class="row">
+			<div class="col-6">
+				<img class="logo-mobile" src="{{ "/assets/img/logo.png" | relative_url }}"
+				alt="logo"/>
+			</div>
+			<div class="col-6 text-right">
+				<a class="btn btn-don" href="{{ page.iraiser_url }}" role="button"
+					>JE FAIS UN DON</a
+				>
+			</div>
+		</div>
+	</nav>
 
-      <nav class="pl-3 pr-3 pt-2 pb-2">
-          <div class="row">
-              <div class="col-6">
-                  <img class="logo-mobile" src="{{ "/assets/img/logo.png" | relative_url }}" alt="logo"/>
-              </div>
-              <div class="col-6 text-right">
-                  <a class="btn btn-don" href="{{ page.iraiser_url }}" role="button">JE FAIS UN DON</a>
-              </div>
-          </div>
-      </nav>
-      
-  </div>
+	<div class="content-solimalte">
+		<!-- ACTU BAR -->
+		<div class="actu-bar d-one">
+			<ul>
+				<li><a href="https://covid19.ordredemaltefrance.org/" target="_blank">Actualités</a></li>
+				<li><a href="https://covid19.ordredemaltefrance.org/solimalte/" target="_blank">SOLIMALTE : NOTRE RÉPONSE GLOBALE POUR FAIRE FACE À LA CRISE SANITAIRE</a></li>
+			</ul>
+		</div>
+		<!-- ACTU BAR -->
+
+		<!-- HEADER -->
+		<header class="header">
+			<div>
+				<img class="header-title" src="{{ "assets/img/solimalte/header-title.png" |
+				relative_url }}"/>
+			</div>
+			<div>
+				<p class="header-text text-condensed">
+					BESOIN DE VOUS POUR DÉPLOYER LA SOLIDARITÉ DE TOUTES NOS FORCES
+				</p>
+			</div>
+		</header>
+		<!-- HEADER -->
+
+		<!-- CHIFFRES -->
+		<section class="chiffres">
+			<div class="detresse-container">
+				<img class="detresse-img" src="{{ "assets/img/solimalte/detresse-bg.png" |
+				relative_url }}"/>
+				<div class="detresse-text-container">
+					<p class="first text-condensed">
+						Détresse sanitaire,
+						<br />
+						sociale, alimentaire
+						<br />
+						et grande solitude…
+					</p>
+					<p class="second text-condensed">
+						<span>UNE CRISE</span> AUX
+						<br />
+						MULTIPLES VISAGES
+					</p>
+				</div>
+			</div>
+			<div class="container">
+				<div class="row">
+					<div class="col-12 col-lg-6 texts">
+						<p class="first">
+							Des sans-abri plus affamés, des familles et travailleurs pauvres plus
+							démunis, des personnes âgées plus isolées, des problèmes de santé
+							non traités et des inégalités creusées… L’épidémie de Covid-19 et les
+							semaines de confinement ont créé une situation d’urgence absolue avec
+							une très forte augmentation de la précarité qui multiplie et accroît les
+							besoins des plus fragiles.
+						</p>
+						<p class="second">
+							La réalité est implacable : avec moins de monde dans la rue, les sous de
+							la manche et les casse-croûte offerts se sont taris. Les gens sont
+							affamés…
+						</p>
+						<p class="delegue">
+							<span>Monique Rolland,</span> 63 ans, déléguée départementale du Var et
+							cheffe d’équipe.
+						</p>
+					</div>
+					<div class="col-12 col-lg-6">
+						<button
+							class="bloc-chiffre"
+							data-target="#collapse-sans-abris-mobile"
+							data-toggle="collapse"
+							aria-expanded="false"
+							aria-controls="collapse-sans-abris-mobile"
+						>
+							<div class="title-container">
+								<p class="title text-condensed">
+									<span>250&nbsp;000</span> sans-abris
+								</p>
+								<img class="plus" src="{{ "assets/img/solimalte/plus.png" |
+								relative_url }}"/>
+							</div>
+							<div class="collapse" id="collapse-sans-abris-mobile">
+								<p class="text">
+									Confiné dehors, Thomas, sans-abri, est plus isolé que jamais :
+									plus moyen de faire la manche pour se nourrir, plus de lieux où
+									se laver, moins de dispositifs d’aide d’urgence, moins de lieux
+									ouverts pour voir un médecin… Sa santé physique et mentale se
+									dégradent de jour en jour.
+								</p>
+							</div>
+						</button>
+
+						<button
+							class="bloc-chiffre"
+							data-target="#collapse-personnes-agees-mobile"
+							data-toggle="collapse"
+							aria-expanded="false"
+							aria-controls="collapse-personnes-agees-mobile"
+						>
+							<div class="title-container">
+								<p class="title text-condensed">
+									<span>1,5 millions</span> de personnes âgées isolées
+								</p>
+								<img class="plus" src="{{ "assets/img/solimalte/plus.png" |
+								relative_url }}"/>
+							</div>
+							<div class="collapse" id="collapse-personnes-agees-mobile">
+								<p class="text">
+									Veuf et sans famille, coupé de ses voisins et des commerçants qu’il aimait rencontrer chaque jour… Le confinement a fait perdre à André, 82 ans, les quelques liens sociaux pourtant essentiel à sa vie. Il souffre d’un isolement inquiétant.
+								</p>
+							</div>
+						</button>
+
+						<button
+							class="bloc-chiffre"
+							data-target="#collapse-travailleur-mobiles"
+							data-toggle="collapse"
+							aria-expanded="false"
+							aria-controls="collapse-travailleurs-mobile"
+						>
+							<div class="title-container">
+								<p class="title text-condensed">
+									Près de <span>500&nbsp;000</span> travailleurs pauvres
+								</p>
+								<img class="plus" src="{{ "assets/img/solimalte/plus.png" |
+								relative_url }}"/>
+							</div>
+							<div class="collapse" id="collapse-travailleurs-mobile">
+								<p class="text">
+									Dès le début de la crise, Jeanne, 30 ans, vivant seule avec sa petite fille, a perdu son emploi déjà précaire. Cette situation l’a faite basculer dans une grande précarité et une détresse alimentaire alarmante. Atteinte d’une maladie chronique, elle a repoussé sa dernière consultation en raison de ses difficultés financières.
+								</p>
+							</div>
+						</button>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- CHIFFRES -->
+
+		<!-- NOUVELLES FORCES -->
+		<section class="forces">
+			<div class="container">
+				<div class="row">
+					<div class="col-12 col-lg-6">
+						<div class="force-container">
+							<img class="force-img" src="{{ "assets/img/solimalte/un-bg.png" |
+							relative_url }}"/>
+							<div class="force-text-container">
+								<p class="first text-condensed">Nouvelle <span>force</span></p>
+								<p class="second text-condensed">
+									<span>pour combattre</span> la détresse<br />
+									dans toutes ses dimensions
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-12 col-lg-6 texts">
+						<p class="first">
+							Déjà fortement mobilisé depuis le début de la crise liée au Covid-19,
+							l’Ordre de Malte France réoriente toutes ses ressources pour faire face
+							de façon globale aux besoins multiples des plus fragiles. Un service
+							inédit d’urgence appelé Soli’Malte : des maraudes « tout en un » qui
+							vont à la rencontre des « invisibles », là où ils se trouvent, pour leur
+							apporter un secours alimentaire, sanitaire et social.
+						</p>
+					</div>
+				</div>
+
+				<div class="row mt-5">
+					<div class="col">
+						<div class="bloc-force">
+							<button
+								class="my-container une-equipe"
+								data-target="#collapse-une-equipe-mobile"
+								data-toggle="collapse"
+								aria-expanded="false"
+								aria-controls="collapse-une-equipe-mobile"
+							>
+								<div class="title-container">
+									<div class="background"></div>
+									<p class="title text-condensed">Une équipe</p>
+								</div>
+								<div class="button-container">
+									<span class="cross"></span>
+								</div>
+							</button>
+							<div class="collapse collapse-content" id="collapse-une-equipe-mobile">
+								<div class="row no-gutters p-2">
+									<div class="col-12 col-md-6 p-2">
+										<div class="collapsed-bloc">
+											<div class="picto-container">
+												<img class="logo-mobile" src="{{
+												"/assets/img/solimalte/collapse-bloc-picto-1.png" |
+												relative_url }}" alt=""/>
+											</div>
+											<div class="text-container">
+												<p class="big-text">
+													4 bénévoles<br />DONT 1 secouriste
+												</p>
+												<p class="small-text">ou professionnel de santé</p>
+											</div>
+										</div>
+									</div>
+									<div class="col-12 col-md-6 p-2">
+										<div class="collapsed-bloc">
+											<div class="picto-container">
+												<img class="logo-mobile" src="{{
+												"/assets/img/solimalte/collapse-bloc-picto-2.png" |
+												relative_url }}" alt=""/>
+											</div>
+											<div class="text-container">
+												<p class="big-text">
+													Se déplace<br />en unité mobile
+												</p>
+											</div>
+										</div>
+									</div>
+									<div class="col-12 col-md-6 p-2">
+										<div class="collapsed-bloc">
+											<div class="picto-container">
+												<img class="logo-mobile" src="{{
+												"/assets/img/solimalte/collapse-bloc-picto-3.png" |
+												relative_url }}" alt=""/>
+											</div>
+											<div class="text-container">
+												<p class="big-text">
+													Selon un circuit<br />fixe et défini
+												</p>
+											</div>
+										</div>
+									</div>
+									<div class="col-12 col-md-6 p-2">
+										<div class="collapsed-bloc">
+											<div class="picto-container">
+												<img class="logo-mobile" src="{{
+												"/assets/img/solimalte/collapse-bloc-picto-4.png" |
+												relative_url }}" alt=""/>
+											</div>
+											<div class="text-container">
+												<p class="big-text">
+													à la rencontre des plus fragiles
+												</p>
+												<p class="small-text">
+													sur leurs principaux lieux de vie ou de sommeil
+												</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="bloc-force">
+							<button
+								class="my-container une-reponse"
+								data-target="#collapse-une-reponse-mobile"
+								data-toggle="collapse"
+								aria-expanded="false"
+								aria-controls="collapse-une-reponse-mobile"
+							>
+								<div class="title-container">
+									<div class="background"></div>
+									<p class="title text-condensed">Une reponse tout en un</p>
+								</div>
+								<div class="button-container">
+									<span class="cross"></span>
+								</div>
+							</button>
+							<div class="collapse collapse-content" id="collapse-une-reponse-mobile">
+								<div class="row no-gutters p-2">
+									<div class="col-12 col-md-6 p-2">
+										<div class="collapsed-bloc">
+											<div class="picto-container">
+												<img class="logo-mobile" src="{{
+												"/assets/img/solimalte/collapse-bloc-picto-5.png" |
+												relative_url }}" alt=""/>
+											</div>
+											<div class="text-container">
+												<p class="big-text">L'urgence<br />alimentaire</p>
+												<ul class="my-list">
+													<li>
+														<span
+															>Distribution de repas ou de colis
+															alimentaires</span
+														>
+													</li>
+												</ul>
+											</div>
+										</div>
+									</div>
+									<div class="col-12 col-md-6 p-2">
+										<div class="collapsed-bloc">
+											<div class="picto-container">
+												<img class="logo-mobile" src="{{
+												"/assets/img/solimalte/collapse-bloc-picto-6.png" |
+												relative_url }}" alt=""/>
+											</div>
+											<div class="text-container">
+												<p class="big-text">Hygiène</p>
+												<ul class="my-list">
+													<li>
+														<span>Distribution de kits d’hygiène</span>
+													</li>
+													<li>
+														<span
+															>Si possible : accès à une douche</span
+														>
+													</li>
+												</ul>
+											</div>
+										</div>
+									</div>
+									<div class="col-12 col-md-6 p-2">
+										<div class="collapsed-bloc">
+											<div class="picto-container">
+												<img class="logo-mobile" src="{{
+												"/assets/img/solimalte/collapse-bloc-picto-7.png" |
+												relative_url }}" alt=""/>
+											</div>
+											<div class="text-container">
+												<p class="big-text">Soins d’urgence</p>
+												<ul class="my-list">
+													<li>
+														<span
+															>Alerte COVID-19, 1er diagnostic*</span
+														>
+													</li>
+													<li><span>Soins généraux</span></li>
+													<li><span>Distribution de masques**</span></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+									<div class="col-12 col-md-6 p-2">
+										<div class="collapsed-bloc">
+											<div class="picto-container">
+												<img class="logo-mobile" src="{{
+												"/assets/img/solimalte/collapse-bloc-picto-8.png" |
+												relative_url }}" alt=""/>
+											</div>
+											<div class="text-container">
+												<p class="big-text">Accompagnement bienveillant</p>
+												<ul class="my-list">
+													<li>
+														<span>Soutien psychologique et spirituel d’urgence</span>
+													</li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="bloc-force">
+							<button
+								class="my-container nos-besoins"
+								data-target="#collapse-nos-besoins-mobile"
+								data-toggle="collapse"
+								aria-expanded="false"
+								aria-controls="collapse-nos-besoins-mobile"
+							>
+								<div class="title-container">
+									<div class="background"></div>
+									<p class="title text-condensed">Nos besoins</p>
+								</div>
+								<div class="button-container">
+									<span class="cross"></span>
+								</div>
+							</button>
+							<div class="collapse collapse-content" id="collapse-nos-besoins-mobile">
+								<div class="row no-gutters p-2">
+									<div class="col-12 col-md-6 col-lg-4 p-2">
+										<div class="collapsed-bloc">
+											<p class="product-name text-condensed">Thermomètre</p>
+											<p class="product-price text-condensed">60&nbsp;€</p>
+											<div class="product-image-container">
+												<img class="product-image" src="{{ "assets/img/solimalte/product-1.png" | relative_url }}"/>
+											</div>
+										</div>
+									</div>
+									<div class="col-12 col-md-6 col-lg-4 p-2">
+										<div class="collapsed-bloc">
+											<p class="product-name text-condensed">Tensiomètre</p>
+											<p class="product-price text-condensed">70&nbsp;€</p>
+											<div class="product-image-container">
+												<img class="product-image" src="{{ "assets/img/solimalte/product-2.png" | relative_url }}"/>
+											</div>
+										</div>
+									</div>
+									<div class="col-12 col-md-6 col-lg-4 p-2">
+										<div class="collapsed-bloc">
+											<p class="product-name text-condensed">Oxymètre</p>
+											<p class="product-price text-condensed">55&nbsp;€</p>
+											<div class="product-image-container">
+												<img class="product-image" src="{{ "assets/img/solimalte/product-3.png" | relative_url }}"/>
+											</div>
+										</div>
+									</div>
+									<div class="col-12 col-md-6 col-lg-4 p-2">
+										<div class="collapsed-bloc">
+											<p class="product-name text-condensed">Gants à usages uniques</p>
+											<p class="product-price text-condensed">8&nbsp;€ <span>la boite</span></p>
+											<div class="product-image-container">
+												<img class="product-image" src="{{ "assets/img/solimalte/product-4.png" | relative_url }}"/>
+											</div>
+										</div>
+									</div>
+									<div class="col-12 col-md-6 col-lg-4 p-2">
+										<div class="collapsed-bloc">
+											<p class="product-name text-condensed">16 000 Masques</p>
+											<p class="product-price text-condensed">9&nbsp;216&nbsp;€ <span>0,57&nbsp;€ l'unité</span></p>
+											<div class="product-image-container">
+												<img class="product-image" src="{{ "assets/img/solimalte/product-5.png" | relative_url }}"/>
+											</div>
+										</div>
+									</div>
+									<div class="col-12 col-md-6 col-lg-4 p-2">
+										<div class="collapsed-bloc">
+											<p class="product-name text-condensed">10 000 kits hygiène</p>
+											<p class="product-price text-condensed">3€ <span class="mr-2">le kit femme </span> 3,41€ <span>le kit homme</span></p>
+											<div class="product-image-container">
+												<img class="product-image" src="{{ "assets/img/solimalte/product-6.png" | relative_url }}"/>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="row no-gutters p-2">
+									<div class="col p-2">
+										<a href="https://don.ordredemaltefrance.org/b?cid=14&lang=fr_FR" target="_blank" class="btn-don">
+											<span>Je fais un don</span>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- NOUVELLES FORCES -->
+
+		<!-- DEPLOIEMENT -->
+		<section class="deploiement">
+			<div class="container">
+				<div class="row">
+					<div class="d-none d-md-block col-md-4"></div>
+					<div class="col-12 col-md-4">
+						<p class="main-title text-condensed">
+							AIDEZ-NOUS À
+							<br>
+							<span class="big">
+								<span class="red">DEPLOYER</span>
+								Soli’Malte
+							</span>
+						</p>
+					</div>
+					<div class="d-none d-md-block col-md-4"></div>
+				</div>
+				<div class="row my-5">
+					<div class="col-12 col-lg-4">
+						<div class="background-container">
+							<div class="background one">
+								<p class="date text-condensed">17 Mars</p>
+								<p class="description">Début du confinement</p>
+							</div>
+						</div>				
+					</div>
+					<div class="col-12 col-lg-4">
+						<div class="background-container">
+							<div class="background two">
+								<p class="date text-condensed">24 Avril</p>
+								<p class="description">Lancement du<br> dispositif Soli’Malte<br> dans 13 villes</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-12 col-lg-4">
+						<div class="background-container">
+							<div class="background three">
+								<p class="date text-condensed">Au plus vite</p>
+								<p class="description">Déploiement partout<br> là où la crise<br> nous appelle</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row no-gutters">
+					<div class="col-12 col-md-4">
+						<a href="https://don.ordredemaltefrance.org/b?cid=14&lang=fr_FR" class="btn-don" target="_blank">
+							<span>Je fais un don</span>
+						</a>
+					</div>
+					<div class="col-12 col-md-8">
+						<div class="pour-accelerer-container text-condensed">
+							<p>POUR ACCÉLÉRER LE DÉPLOIEMENT DE SOLI’MALTE</p>
+						</div>
+					</div>
+					<div class="d-none d-md-block col-md-4"></div>
+				</div>
+			</div>
+		</section>
+		<!-- DEPLOIEMENT -->
+
+		<!-- DON -->
+		<section class="don">
+			<div class="container">
+				<div class="row mb-5">
+					<div class="col-12 col-lg-6">
+						<div class="background">
+							<p class="main-title">
+								DONNEZ-NOUS<span><br>DE LA FORCE</span>
+							</p>
+							<p class="sub-title">
+								POUR ÊTRE LÀ AUSSI LONGTEMPS QU’IL LE FAUDRA
+							</p>
+						</div>
+					</div>
+					<div class="col-12 col-lg-6">
+						<div class="flex-center">
+							<p class="text">Qui sait combien de temps cette crise sans précédent va durer ? Pour tenir jour après jour et déployer notre mobilisation d’urgence auprès des plus fragiles, ni nos équipes, ni nos moyens matériels ne doivent s’épuiser. <span>Dans ce combat, votre générosité est notre force !</span></p>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-12">
+						<!-- DON 1 -->
+						<label class="don-label">
+							<div class="row">
+								<div class="col-12 col-md-1">
+									<div class="center-cell">
+										<input type="radio"  name="don-amount" />
+									</div>
+								</div>
+								<div class="col-12 col-md-3">
+									<div class="center-cell">
+										<p class="don-price text-condensed">150<sup style="font-size: 25px">€</sup></p>
+									</div>
+								</div>
+								<div class="col-12 col-md-3 b-left">
+									<div class="center-cell">
+										<p class="don-title text-condensed">Nourrir</p>
+									</div>
+								</div>
+								<div class="col-12 col-md-5 b-left">
+									<div class="center-cell">
+										<p class="don-text">Votre don nous permet d’acheter et de distribuer des repas, packs d’eau, colis alimentaires…</p>
+									</div>
+								</div>
+							</div>
+						</label>
+						<!-- DON 1 -->
+
+						<!-- DON 2 -->
+						<label class="don-label">
+							<div class="row">
+								<div class="col-12 col-md-1">
+									<div class="center-cell">
+										<input type="radio"  name="don-amount" checked/>
+									</div>
+								</div>
+								<div class="col-12 col-md-3">
+									<div class="center-cell">
+										<p class="don-price text-condensed">300<sup style="font-size: 25px">€</sup></p>
+									</div>
+								</div>
+								<div class="col-12 col-md-3 b-left">
+									<div class="center-cell">
+										<p class="don-title text-condensed">Soigner et protéger</p>
+									</div>
+								</div>
+								<div class="col-12 col-md-5 b-left">
+									<div class="center-cell">
+										<p class="don-text">Votre don nous permet d’acheter et de distribuer des masques, des gants, et des tenus de bénévoles</p>
+									</div>
+								</div>
+							</div>
+						</label>
+						<!-- DON 2 -->
+
+						<!-- DON 3 -->
+						<label class="don-label">
+							<div class="row">
+								<div class="col-12 col-md-1">
+									<div class="center-cell">
+										<input type="radio" name="don-amount"  />
+									</div>
+								</div>
+								<div class="col-12 col-md-3">
+									<div class="center-cell">
+										<p class="don-price text-condensed">500<sup style="font-size: 25px">€</sup></p>
+									</div>
+								</div>
+								<div class="col-12 col-md-3 b-left">
+									<div class="center-cell">
+										<p class="don-title text-condensed">Aller à la rencontre</p>
+									</div>
+								</div>
+								<div class="col-12 col-md-5 b-left">
+									<div class="center-cell">
+										<p class="don-text">Votre don nous permet de participer au financement de 2 ambulances, et 6 véhicules légers et aux frais de carburants…</p>
+									</div>
+								</div>
+							</div>
+						</label>
+						<!-- DON 3 -->
+
+						<!-- DON AUTRE -->
+						<label class="don-label">
+							<div class="row">
+								<div class="col-12 col-md-1">
+									<div class="center-cell">
+										<!-- <input type="radio" name="don-amount"  /> -->
+									</div>
+								</div>
+								<div class="col-12 col-md-4">
+									<div class="center-cell flex-row">
+										<input type="text" id="free-amount-mobile" /><sup class="don-price" style="font-size: 25px; margin-right: 20px;">€</sup>
+									</div>
+								</div>
+								<div class="col-12 col-md-7 b-left">
+									<div class="center-cell">
+										<p class="don-text-other">JE FAIS UN DON DU MONTANT DE MON CHOIX</p>
+									</div>
+								</div>
+							</div>
+						</label>
+						<!-- DON AUTRE -->
+ 
+						<a href="#" class="btn-don mt-1">
+							<span>Je fais un don</span>
+						</a>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- DON -->
+
+		<!-- STATISTICS -->
+		<section class="statistics">
+			<div class="container">
+				<div class="row mb-5">
+					<div class="col-12">
+						<div class="background">
+							<p class="sub-title text-condensed">GRÂCE AUX NOUVELLES DISPOSITIONS FISCALES</p>
+							<p class="main-title text-condensed"><span>AUGMENTEZ</span> LA FORCE DE VOTRE DON</p>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-12 col-lg-6">
+						<div class="center-cell">
+							<p class="text">
+								Les dons dits “Coluche” aux 
+								organismes dont la vocation est de venir en aide aux personnes en difficulté tels que l’Ordre de Malte France sont <b>déductibles de l’Impôt sur le Revenu à hauteur de 75%.</b>
+								<br><br>
+								<span>Compte tenu du contexte, ce plafond vient de passer à 1000 €</span> au lieu de 552 € pour les dons effectués du 1er janvier au 31 décembre 2020. Au-delà de 1000 € de don, la déduction est de 66 % dans la limite de 20 % du revenu imposable.
+							 </p>
+						</div>
+					</div>
+					<div class="col-12 col-lg-6 text-center">
+						<img src="{{ 'assets/img/solimalte/stats-graph.png' | relative_url }}" />
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- STATISTICS -->
+	</div>
+
+</div>
 
 
 
-  
 
-  <div class="home d-none d-md-block">
-      <aside class="left-menu">
-          <div class="left-container">
-              <div>
-                  <img class="logo mb-5" src="{{ "/assets/img/logo.png" | relative_url }}" alt="logo"/>
-              </div>
-              <p class="ensemble text-center">
-                <span class="text-bold">Ensemble, + forts contre le COVID-19.</span>
-                <br>
-                <small>Pour faire face et prendre soin des plus fragiles, je suis solidaire.</small>
-              </p>
-              <a class="btn btn-don mb-3 mt-1" href="{{ page.iraiser_url }}" role="button">JE FAIS UN DON</a>
-              <p class="remise">75% du montant de mon don sont déductibles de l'Impôt sur le Revenu, dans la limite de 20% du revenu net imposable.</p>
-          </div>
-      </aside>
-      <div class="content">
-          
-          
-      </div>
-  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="home d-none d-md-block">
+	<aside class="left-menu">
+		<div class="left-container">
+			<div>
+				<img class="logo mb-5" src="{{ "/assets/img/logo.png" | relative_url }}"
+				alt="logo"/>
+			</div>
+			<p class="ensemble text-center">
+				<span class="text-bold">Ensemble, + forts contre le COVID-19.</span>
+				<br />
+				<small>Pour faire face et prendre soin des plus fragiles, je suis solidaire.</small>
+			</p>
+			<a class="btn btn-don mb-3 mt-1" href="{{ page.iraiser_url }}" role="button"
+				>JE FAIS UN DON</a
+			>
+			<p class="remise">
+				75% du montant de mon don sont déductibles de l'Impôt sur le Revenu, dans la limite
+				de 20% du revenu net imposable.
+			</p>
+		</div>
+	</aside>
+	<div class="content-solimalte">
+		<!-- ACTU BAR -->
+		<div class="actu-bar d-one">
+			<ul>
+				<li><a href="https://covid19.ordredemaltefrance.org/" target="_blank">Actualités</a></li>
+				<li><a href="https://covid19.ordredemaltefrance.org/solimalte" target="_blank">SOLIMALTE : NOTRE RÉPONSE GLOBALE POUR FAIRE FACE À LA CRISE SANITAIRE</a></li>
+			</ul>
+		</div>
+		<!-- ACTU BAR -->
+
+		<!-- HEADER -->
+		<header class="header">
+			<div>
+				<img class="header-title" src="{{ "assets/img/solimalte/header-title.png" |
+				relative_url }}"/>
+			</div>
+			<div>
+				<p class="header-text text-condensed">
+					BESOIN DE VOUS POUR DÉPLOYER LA SOLIDARITÉ DE TOUTES NOS FORCES
+				</p>
+			</div>
+		</header>
+		<!-- HEADER -->
+
+		<!-- CHIFFRES -->
+		<section class="chiffres">
+			<div class="detresse-container">
+				<img class="detresse-img" src="{{ "assets/img/solimalte/detresse-bg.png" |
+				relative_url }}"/>
+				<div class="detresse-text-container">
+					<p class="first text-condensed">
+						Détresse sanitaire,
+						<br />
+						sociale, alimentaire
+						<br />
+						et grande solitude…
+					</p>
+					<p class="second text-condensed">
+						<span>UNE CRISE</span> AUX
+						<br />
+						MULTIPLES VISAGES
+					</p>
+				</div>
+			</div>
+			<div class="container">
+				<div class="row">
+					<div class="col-12 col-lg-6 texts">
+						<p class="first">
+							Des sans-abri plus affamés, des familles et travailleurs pauvres plus
+							démunis, des personnes âgées plus isolées, des problèmes de santé
+							non traités et des inégalités creusées… L’épidémie de Covid-19 et les
+							semaines de confinement ont créé une situation d’urgence absolue avec
+							une très forte augmentation de la précarité qui multiplie et accroît les
+							besoins des plus fragiles.
+						</p>
+						<p class="second">
+							La réalité est implacable : avec moins de monde dans la rue, les sous de
+							la manche et les casse-croûte offerts se sont taris. Les gens sont
+							affamés…
+						</p>
+						<p class="delegue">
+							<span>Monique Rolland,</span> 63 ans, déléguée départementale du Var et
+							cheffe d’équipe.
+						</p>
+					</div>
+					<div class="col-12 col-lg-6">
+						<button
+							class="bloc-chiffre"
+							data-target="#collapse-sans-abris"
+							data-toggle="collapse"
+							aria-expanded="false"
+							aria-controls="collapse-sans-abris"
+						>
+							<div class="title-container">
+								<p class="title text-condensed">
+									<span>250&nbsp;000</span> sans-abris
+								</p>
+								<img class="plus" src="{{ "assets/img/solimalte/plus.png" |
+								relative_url }}"/>
+							</div>
+							<div class="collapse" id="collapse-sans-abris">
+								<p class="text">
+									Confiné dehors, Thomas, sans-abri, est plus isolé que jamais :
+									plus moyen de faire la manche pour se nourrir, plus de lieux où
+									se laver, moins de dispositifs d’aide d’urgence, moins de lieux
+									ouverts pour voir un médecin… Sa santé physique et mentale se
+									dégradent de jour en jour.
+								</p>
+							</div>
+						</button>
+
+						<button
+							class="bloc-chiffre"
+							data-target="#collapse-personnes-agees"
+							data-toggle="collapse"
+							aria-expanded="false"
+							aria-controls="collapse-personnes-agees"
+						>
+							<div class="title-container">
+								<p class="title text-condensed">
+									<span>1,5 millions</span> de personnes âgées isolées
+								</p>
+								<img class="plus" src="{{ "assets/img/solimalte/plus.png" |
+								relative_url }}"/>
+							</div>
+							<div class="collapse" id="collapse-personnes-agees">
+								<p class="text">
+									Veuf et sans famille, coupé de ses voisins et des commerçants qu’il aimait rencontrer chaque jour… Le confinement a fait perdre à André, 82 ans, les quelques liens sociaux pourtant essentiel à sa vie. Il souffre d’un isolement inquiétant.
+								</p>
+							</div>
+						</button>
+
+						<button
+							class="bloc-chiffre"
+							data-target="#collapse-travailleurs"
+							data-toggle="collapse"
+							aria-expanded="false"
+							aria-controls="collapse-travailleurs"
+						>
+							<div class="title-container">
+								<p class="title text-condensed">
+									Près de <span>500&nbsp;000</span> travailleurs pauvres
+								</p>
+								<img class="plus" src="{{ "assets/img/solimalte/plus.png" |
+								relative_url }}"/>
+							</div>
+							<div class="collapse" id="collapse-travailleurs">
+								<p class="text">
+									Dès le début de la crise, Jeanne, 30 ans, vivant seule avec sa petite fille, a perdu son emploi déjà précaire. Cette situation l’a faite basculer dans une grande précarité et une détresse alimentaire alarmante. Atteinte d’une maladie chronique, elle a repoussé sa dernière consultation en raison de ses difficultés financières.
+								</p>
+							</div>
+						</button>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- CHIFFRES -->
+
+		<!-- NOUVELLES FORCES -->
+		<section class="forces">
+			<div class="container">
+				<div class="row">
+					<div class="col-12 col-lg-6">
+						<div class="force-container">
+							<img class="force-img" src="{{ "assets/img/solimalte/un-bg.png" |
+							relative_url }}"/>
+							<div class="force-text-container">
+								<p class="first text-condensed">Nouvelle <span>force</span></p>
+								<p class="second text-condensed">
+									<span>pour combattre</span> la détresse<br />
+									dans toutes ses dimensions
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-12 col-lg-6 texts">
+						<p class="first">
+							Déjà fortement mobilisé depuis le début de la crise liée au Covid-19,
+							l’Ordre de Malte France réoriente toutes ses ressources pour faire face
+							de façon globale aux besoins multiples des plus fragiles. Un service
+							inédit d’urgence appelé Soli’Malte : des maraudes « tout en un » qui
+							vont à la rencontre des « invisibles », là où ils se trouvent, pour leur
+							apporter un secours alimentaire, sanitaire et social.
+						</p>
+					</div>
+				</div>
+
+				<div class="row mt-5">
+					<div class="col">
+						<div class="bloc-force">
+							<button
+								class="my-container une-equipe"
+								data-target="#collapse-une-equipe"
+								data-toggle="collapse"
+								aria-expanded="false"
+								aria-controls="collapse-une-equipe"
+							>
+								<div class="title-container">
+									<div class="background"></div>
+									<p class="title text-condensed">Une équipe</p>
+								</div>
+								<div class="button-container">
+									<span class="cross"></span>
+								</div>
+							</button>
+							<div class="collapse collapse-content" id="collapse-une-equipe">
+								<div class="row no-gutters p-2">
+									<div class="col-12 col-md-6 p-2">
+										<div class="collapsed-bloc">
+											<div class="picto-container">
+												<img class="logo-mobile" src="{{
+												"/assets/img/solimalte/collapse-bloc-picto-1.png" |
+												relative_url }}" alt=""/>
+											</div>
+											<div class="text-container">
+												<p class="big-text">
+													4 bénévoles<br />DONT 1 secouriste
+												</p>
+												<p class="small-text">ou professionnel de santé</p>
+											</div>
+										</div>
+									</div>
+									<div class="col-12 col-md-6 p-2">
+										<div class="collapsed-bloc">
+											<div class="picto-container">
+												<img class="logo-mobile" src="{{
+												"/assets/img/solimalte/collapse-bloc-picto-2.png" |
+												relative_url }}" alt=""/>
+											</div>
+											<div class="text-container">
+												<p class="big-text">
+													Se déplace<br />en unité mobile
+												</p>
+											</div>
+										</div>
+									</div>
+									<div class="col-12 col-md-6 p-2">
+										<div class="collapsed-bloc">
+											<div class="picto-container">
+												<img class="logo-mobile" src="{{
+												"/assets/img/solimalte/collapse-bloc-picto-3.png" |
+												relative_url }}" alt=""/>
+											</div>
+											<div class="text-container">
+												<p class="big-text">
+													Selon un circuit<br />fixe et défini
+												</p>
+											</div>
+										</div>
+									</div>
+									<div class="col-12 col-md-6 p-2">
+										<div class="collapsed-bloc">
+											<div class="picto-container">
+												<img class="logo-mobile" src="{{
+												"/assets/img/solimalte/collapse-bloc-picto-4.png" |
+												relative_url }}" alt=""/>
+											</div>
+											<div class="text-container">
+												<p class="big-text">
+													à la rencontre des plus fragiles
+												</p>
+												<p class="small-text">
+													sur leurs principaux lieux de vie ou de sommeil
+												</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="bloc-force">
+							<button
+								class="my-container une-reponse"
+								data-target="#collapse-une-reponse"
+								data-toggle="collapse"
+								aria-expanded="false"
+								aria-controls="collapse-une-reponse"
+							>
+								<div class="title-container">
+									<div class="background"></div>
+									<p class="title text-condensed">Une reponse tout en un</p>
+								</div>
+								<div class="button-container">
+									<span class="cross"></span>
+								</div>
+							</button>
+							<div class="collapse collapse-content" id="collapse-une-reponse">
+								<div class="row no-gutters p-2">
+									<div class="col-12 col-md-6 p-2">
+										<div class="collapsed-bloc">
+											<div class="picto-container">
+												<img class="logo-mobile" src="{{
+												"/assets/img/solimalte/collapse-bloc-picto-5.png" |
+												relative_url }}" alt=""/>
+											</div>
+											<div class="text-container">
+												<p class="big-text">L'urgence<br />alimentaire</p>
+												<ul class="my-list">
+													<li>
+														<span
+															>Distribution de repas ou de colis
+															alimentaires</span
+														>
+													</li>
+												</ul>
+											</div>
+										</div>
+									</div>
+									<div class="col-12 col-md-6 p-2">
+										<div class="collapsed-bloc">
+											<div class="picto-container">
+												<img class="logo-mobile" src="{{
+												"/assets/img/solimalte/collapse-bloc-picto-6.png" |
+												relative_url }}" alt=""/>
+											</div>
+											<div class="text-container">
+												<p class="big-text">Hygiène</p>
+												<ul class="my-list">
+													<li>
+														<span>Distribution de kits d’hygiène</span>
+													</li>
+													<li>
+														<span
+															>Si possible : accès à une douche</span
+														>
+													</li>
+												</ul>
+											</div>
+										</div>
+									</div>
+									<div class="col-12 col-md-6 p-2">
+										<div class="collapsed-bloc">
+											<div class="picto-container">
+												<img class="logo-mobile" src="{{
+												"/assets/img/solimalte/collapse-bloc-picto-7.png" |
+												relative_url }}" alt=""/>
+											</div>
+											<div class="text-container">
+												<p class="big-text">Soins d’urgence</p>
+												<ul class="my-list">
+													<li>
+														<span
+															>Alerte COVID-19, 1er diagnostic*</span
+														>
+													</li>
+													<li><span>Soins généraux</span></li>
+													<li><span>Distribution de masques**</span></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+									<div class="col-12 col-md-6 p-2">
+										<div class="collapsed-bloc">
+											<div class="picto-container">
+												<img class="logo-mobile" src="{{
+												"/assets/img/solimalte/collapse-bloc-picto-8.png" |
+												relative_url }}" alt=""/>
+											</div>
+											<div class="text-container">
+												<p class="big-text">Accompagnement bienveillant</p>
+												<ul class="my-list">
+													<li>
+														<span>Soutien psychologique et spirituel d’urgence</span>
+													</li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="bloc-force">
+							<button
+								class="my-container nos-besoins"
+								data-target="#collapse-nos-besoins"
+								data-toggle="collapse"
+								aria-expanded="false"
+								aria-controls="collapse-nos-besoins"
+							>
+								<div class="title-container">
+									<div class="background"></div>
+									<p class="title text-condensed">Nos besoins</p>
+								</div>
+								<div class="button-container">
+									<span class="cross"></span>
+								</div>
+							</button>
+							<div class="collapse collapse-content" id="collapse-nos-besoins">
+								<div class="row no-gutters p-2">
+									<div class="col-12 col-md-6 col-lg-4 p-2">
+										<div class="collapsed-bloc">
+											<p class="product-name text-condensed">Thermomètre</p>
+											<p class="product-price text-condensed">60&nbsp;€</p>
+											<div class="product-image-container">
+												<img class="product-image" src="{{ "assets/img/solimalte/product-1.png" | relative_url }}"/>
+											</div>
+										</div>
+									</div>
+									<div class="col-12 col-md-6 col-lg-4 p-2">
+										<div class="collapsed-bloc">
+											<p class="product-name text-condensed">Tensiomètre</p>
+											<p class="product-price text-condensed">70&nbsp;€</p>
+											<div class="product-image-container">
+												<img class="product-image" src="{{ "assets/img/solimalte/product-2.png" | relative_url }}"/>
+											</div>
+										</div>
+									</div>
+									<div class="col-12 col-md-6 col-lg-4 p-2">
+										<div class="collapsed-bloc">
+											<p class="product-name text-condensed">Oxymètre</p>
+											<p class="product-price text-condensed">55&nbsp;€</p>
+											<div class="product-image-container">
+												<img class="product-image" src="{{ "assets/img/solimalte/product-3.png" | relative_url }}"/>
+											</div>
+										</div>
+									</div>
+									<div class="col-12 col-md-6 col-lg-4 p-2">
+										<div class="collapsed-bloc">
+											<p class="product-name text-condensed">Gants à usages uniques</p>
+											<p class="product-price text-condensed">8&nbsp;€ <span>la boite</span></p>
+											<div class="product-image-container">
+												<img class="product-image" src="{{ "assets/img/solimalte/product-4.png" | relative_url }}"/>
+											</div>
+										</div>
+									</div>
+									<div class="col-12 col-md-6 col-lg-4 p-2">
+										<div class="collapsed-bloc">
+											<p class="product-name text-condensed">16 000 Masques</p>
+											<p class="product-price text-condensed">9&nbsp;216&nbsp;€ <span>0,57&nbsp;€ l'unité</span></p>
+											<div class="product-image-container">
+												<img class="product-image" src="{{ "assets/img/solimalte/product-5.png" | relative_url }}"/>
+											</div>
+										</div>
+									</div>
+									<div class="col-12 col-md-6 col-lg-4 p-2">
+										<div class="collapsed-bloc">
+											<p class="product-name text-condensed">10 000 kits hygiène</p>
+											<p class="product-price text-condensed">3€ <span class="mr-2">le kit femme </span> 3,41€ <span>le kit homme</span></p>
+											<div class="product-image-container">
+												<img class="product-image" src="{{ "assets/img/solimalte/product-6.png" | relative_url }}"/>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="row no-gutters p-2">
+									<div class="col p-2">
+										<a href="https://don.ordredemaltefrance.org/b?cid=14&lang=fr_FR" class="btn-don" target="_blank">
+											<span>Je fais un don</span>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- NOUVELLES FORCES -->
+
+		<!-- DEPLOIEMENT -->
+		<section class="deploiement">
+			<div class="container">
+				<div class="row">
+					<div class="d-none d-md-block col-md-4"></div>
+					<div class="col-12 col-md-4">
+						<p class="main-title text-condensed">
+							AIDEZ-NOUS À
+							<br>
+							<span class="big">
+								<span class="red">DEPLOYER</span>
+								Soli’Malte
+							</span>
+						</p>
+					</div>
+					<div class="d-none d-md-block col-md-4"></div>
+				</div>
+				<div class="row my-5">
+					<div class="col-12 col-lg-4">
+						<div class="background-container">
+							<div class="background one">
+								<p class="date text-condensed">17 Mars</p>
+								<p class="description">Début du confinement</p>
+							</div>
+						</div>				
+					</div>
+					<div class="col-12 col-lg-4">
+						<div class="background-container">
+							<div class="background two">
+								<p class="date text-condensed">24 Avril</p>
+								<p class="description">Lancement du<br> dispositif Soli’Malte<br> dans 13 villes</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-12 col-lg-4">
+						<div class="background-container">
+							<div class="background three">
+								<p class="date text-condensed">Au plus vite</p>
+								<p class="description">Déploiement partout<br> là où la crise<br> nous appelle</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row no-gutters">
+					<div class="col-12 col-md-4">
+						<a href="https://don.ordredemaltefrance.org/b?cid=14&lang=fr_FR" class="btn-don" target="_blank">
+							<span>Je fais un don</span>
+						</a>
+					</div>
+					<div class="col-12 col-md-8">
+						<div class="pour-accelerer-container text-condensed">
+							<p>POUR ACCÉLÉRER LE DÉPLOIEMENT DE SOLI’MALTE</p>
+						</div>
+					</div>
+					<div class="d-none d-md-block col-md-4"></div>
+				</div>
+			</div>
+		</section>
+		<!-- DEPLOIEMENT -->
+
+		<!-- DON -->
+		<section class="don">
+			<div class="container">
+				<div class="row mb-5">
+					<div class="col-12 col-lg-6">
+						<div class="background">
+							<p class="main-title">
+								DONNEZ-NOUS<span><br>DE LA FORCE</span>
+							</p>
+							<p class="sub-title">
+								POUR ÊTRE LÀ AUSSI LONGTEMPS QU’IL LE FAUDRA
+							</p>
+						</div>
+					</div>
+					<div class="col-12 col-lg-6">
+						<div class="flex-center">
+							<p class="text">Qui sait combien de temps cette crise sans précédent va durer ? Pour tenir jour après jour et déployer notre mobilisation d’urgence auprès des plus fragiles, ni nos équipes, ni nos moyens matériels ne doivent s’épuiser. <span>Dans ce combat, votre générosité est notre force !</span></p>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-12">
+						<!-- DON 1 -->
+						<label class="don-label">
+							<div class="row">
+								<div class="col-1">
+									<div class="center-cell">
+										<input type="radio"  name="don-amount" />
+									</div>
+								</div>
+								<div class="col-3">
+									<div class="center-cell">
+										<p class="don-price text-condensed">150<sup style="font-size: 25px">€</sup></p>
+									</div>
+								</div>
+								<div class="col-3 b-left">
+									<div class="center-cell">
+										<p class="don-title text-condensed">Nourrir</p>
+									</div>
+								</div>
+								<div class="col-5 b-left">
+									<div class="center-cell">
+										<p class="don-text">Votre don nous permet d’acheter et de distribuer des repas, packs d’eau, colis alimentaires…</p>
+									</div>
+								</div>
+							</div>
+						</label>
+						<!-- DON 1 -->
+
+						<!-- DON 2 -->
+						<label class="don-label">
+							<div class="row">
+								<div class="col-1">
+									<div class="center-cell">
+										<input type="radio"  name="don-amount" checked/>
+									</div>
+								</div>
+								<div class="col-3">
+									<div class="center-cell">
+										<p class="don-price text-condensed">300<sup style="font-size: 25px">€</sup></p>
+									</div>
+								</div>
+								<div class="col-3 b-left">
+									<div class="center-cell">
+										<p class="don-title text-condensed">Soigner et protéger</p>
+									</div>
+								</div>
+								<div class="col-5 b-left">
+									<div class="center-cell">
+										<p class="don-text">Votre don nous permet d’acheter et de distribuer des masques, des gants, et des tenus de bénévoles</p>
+									</div>
+								</div>
+							</div>
+						</label>
+						<!-- DON 2 -->
+
+						<!-- DON 3 -->
+						<label class="don-label">
+							<div class="row">
+								<div class="col-1">
+									<div class="center-cell">
+										<input type="radio" name="don-amount"  />
+									</div>
+								</div>
+								<div class="col-3">
+									<div class="center-cell">
+										<p class="don-price text-condensed">500<sup style="font-size: 25px">€</sup></p>
+									</div>
+								</div>
+								<div class="col-3 b-left">
+									<div class="center-cell">
+										<p class="don-title text-condensed">Aller à la rencontre</p>
+									</div>
+								</div>
+								<div class="col-5 b-left">
+									<div class="center-cell">
+										<p class="don-text">Votre don nous permet de participer au financement de 2 ambulances, et 6 véhicules légers et aux frais de carburants…</p>
+									</div>
+								</div>
+							</div>
+						</label>
+						<!-- DON 3 -->
+
+						<!-- DON AUTRE -->
+						<label class="don-label">
+							<div class="row">
+								<div class="col-1">
+									<div class="center-cell">
+										<!-- <input type="radio" name="don-amount"  /> -->
+									</div>
+								</div>
+								<div class="col-4">
+									<div class="center-cell flex-row">
+										<input type="text" id="free-amount" /><sup class="don-price" style="font-size: 25px; margin-right: 20px;">€</sup>
+									</div>
+								</div>
+								<div class="col-7 b-left">
+									<div class="center-cell">
+										<p class="don-text-other">JE FAIS UN DON DU MONTANT DE MON CHOIX</p>
+									</div>
+								</div>
+							</div>
+						</label>
+						<!-- DON AUTRE -->
+ 
+						<a href="#" class="btn-don mt-1">
+							<span>Je fais un don</span>
+						</a>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- DON -->
+
+		<!-- STATISTICS -->
+		<section class="statistics">
+			<div class="container">
+				<div class="row mb-5">
+					<div class="col-12">
+						<div class="background">
+							<p class="sub-title text-condensed">GRÂCE AUX NOUVELLES DISPOSITIONS FISCALES</p>
+							<p class="main-title text-condensed"><span>AUGMENTEZ</span> LA FORCE DE VOTRE DON</p>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-12 col-lg-6">
+						<div class="center-cell">
+							<p class="text">
+								Les dons dits “Coluche” aux 
+								organismes dont la vocation est de venir en aide aux personnes en difficulté tels que l’Ordre de Malte France sont <b>déductibles de l’Impôt sur le Revenu à hauteur de 75%.</b>
+								<br><br>
+								<span>Compte tenu du contexte, ce plafond vient de passer à 1000 €</span> au lieu de 552 € pour les dons effectués du 1er janvier au 31 décembre 2020. Au-delà de 1000 € de don, la déduction est de 66 % dans la limite de 20 % du revenu imposable.
+							 </p>
+						</div>
+					</div>
+					<div class="col-12 col-lg-6 text-center">
+						<img src="{{ 'assets/img/solimalte/stats-graph.png' | relative_url }}" />
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- STATISTICS -->
+	</div>
+</div>

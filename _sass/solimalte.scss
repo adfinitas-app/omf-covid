@@ -1,0 +1,905 @@
+.content-solimalte {
+	padding-left: $leftMenuWidth;
+
+	.actu-bar {
+		background-color: $blue;
+
+		ul {
+			color: $white;
+			display: flex;
+			flex-direction: row;
+			flex-wrap: wrap;
+			width: 100%;
+			padding: 5px 10px;
+			margin-bottom: 0;
+
+			li {
+				color: $white;
+				text-transform: uppercase;
+				font-size: 14px;
+				margin: 5px 20px;
+
+				a {
+					color: $white;
+
+				}
+				&:first-child {
+					opacity: 0.5;
+				}
+			}
+		}
+	}
+
+	.header {
+		background-image: url("/assets/img/solimalte/header-bg.png");
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center;
+		text-align: center;
+
+		.header-title {
+			margin-top: 250px;
+		}
+
+		.header-text {
+			margin-bottom: 100px;
+			margin-top: 40px;
+			font-size: 16px;
+			color: $white;
+			display: inline-block;
+			max-width: 320px;
+			text-align: center;
+		}
+	}
+
+	.chiffres {
+		position: relative;
+
+		.detresse-container {
+			min-height: 234px;
+			margin-bottom: 40px;
+
+			.detresse-img {
+				position: absolute;
+				left: 50%;
+				transform: translateX(-50%);
+				top: 20px;
+				z-index: 1;
+			}
+
+			.detresse-text-container {
+				position: relative;
+				z-index: 2;
+				padding-top: 65px;
+
+				.first {
+					color: $blue;
+					font-size: 16px;
+					font-weight: bold;
+					text-align: center;
+					text-transform: uppercase;
+					line-height: 1.1;
+					margin-bottom: 0;
+				}
+
+				.second {
+					color: $blue;
+					font-size: 38px;
+					font-weight: bold;
+					text-align: center;
+					text-transform: uppercase;
+					line-height: 1;
+					margin-bottom: 0;
+
+					span {
+						color: $red;
+					}
+				}
+			}
+		}
+
+		.texts {
+			.first {
+				color: $blue;
+				font-size: 16px;
+				line-height: 1.4;
+				margin-bottom: 40px;
+				margin-right: 5em;
+				margin-left: 25px;
+
+				&::first-letter {
+					float: left;
+					font-size: 46px;
+					padding-top: 6px;
+					text-transform: uppercase;
+					color: $red;
+				}
+			}
+
+			.second {
+				color: $blue;
+				border-left: 6px solid $red;
+				padding: 0 6px;
+				font-size: 20px;
+				font-style: italic;
+				font-weight: bold;
+				line-height: 1.4;
+				margin-bottom: 20px;
+				margin-right: 5em;
+				margin-left: 25px;
+			}
+
+			.delegue {
+				color: $blue;
+				font-size: 12px;
+				font-weight: 500;
+				line-height: 1.4;
+				margin-bottom: 40px;
+				margin-right: 5em;
+				margin-left: 25px;
+
+				span {
+					font-weight: 500;
+					color: $red;
+				}
+			}
+		}
+
+		.bloc-chiffre {
+			display: flex;
+			flex-direction: column;
+			width: 100%;
+			min-height: 128px;
+			background-color: rgba(53, 66, 83, 0.2);
+			padding: 20px;
+			outline: none;
+			border: none;
+			margin-bottom: 20px;
+
+			&[aria-expanded="true"] {
+				.plus {
+					transform: rotate(-45deg);
+				}
+			}
+
+			.title-container {
+				position: relative;
+				width: 100%;
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				align-items: flex-start;
+				width: 100%;
+				margin: auto 0;
+				text-align: left;
+				padding-right: 35px;
+
+				.title {
+					font-size: 20px;
+					text-transform: uppercase;
+					color: $blue;
+					font-weight: bold;
+					margin-bottom: 0;
+					line-height: 1.2;
+
+					span {
+						color: $red;
+					}
+				}
+
+				.plus {
+					transition: transform $transitionSpeed;
+					position: absolute;
+					right: 9px;
+					top: 5px;
+				}
+			}
+
+			.text {
+				text-align: left;
+				font-size: 16px;
+				color: $blue;
+				margin: 10px 0 0 0;
+			}
+		}
+	}
+
+	.forces {
+		background-color: $blue;
+		padding-top: 80px;
+		padding-bottom: 80px;
+
+		.force-container {
+			position: relative;
+
+			.force-img {
+				position: absolute;
+				left: 50%;
+				transform: translateX(-50%);
+				top: 0px;
+				z-index: 1;
+			}
+
+			.force-text-container {
+				.first {
+					color: $white;
+					font-size: 50px;
+					line-height: 1;
+					font-weight: bold;
+					text-transform: uppercase;
+					margin-bottom: 0;
+					text-align: center;
+					padding-top: 80px;
+
+					span {
+						color: $red;
+					}
+				}
+
+				.second {
+					color: $white;
+					font-size: 20px;
+					line-height: 1.1;
+					font-weight: bold;
+					text-transform: uppercase;
+					margin-bottom: 50px;
+					text-align: center;
+
+					span {
+						color: $red;
+					}
+				}
+			}
+		}
+
+		.texts {
+			.first {
+				color: $white;
+				font-size: 16px;
+				line-height: 1.4;
+				margin-bottom: 40px;
+				margin-right: 5em;
+				margin-left: 25px;
+				margin-top: 20px;
+
+				&::first-letter {
+					float: left;
+					font-size: 46px;
+					padding-top: 6px;
+					text-transform: uppercase;
+					color: $red;
+				}
+			}
+		}
+
+		.bloc-force {
+			display: block;
+			padding: 0px;
+			margin-bottom: 20px;
+			width: 100%;
+
+			.my-container {
+				display: flex;
+				flex-direction: row;
+				width: 100%;
+				height: 205px;
+				min-height: 205px;
+				outline: none;
+				border: none;
+				background: transparent;
+				padding: 0;
+				position: relative;
+
+				&[aria-expanded="true"] {
+					.button-container {
+						.cross {
+							&::after {
+								transform: rotate(45deg);
+							}
+							&::before {
+								transform: rotate(-45deg);
+							}
+						}
+					}
+				}
+
+				&:hover {
+					.background {
+						transform: scale(1.05);
+					}
+				}
+
+				.background {
+					background-size: cover;
+					background-repeat: no-repeat;
+					background-position: center center;
+					position: absolute;
+					left: 0;
+					top: 0;
+					width: 100%;
+					height: 100%;
+					transition: transform $transitionSpeed;
+					z-index: 1;
+				}
+
+				&.une-equipe {
+					.background {
+						background-image: url("/assets/img/solimalte/bloc-force-equipe-bg.png");
+					}
+				}
+				&.une-reponse {
+					.background {
+						background-image: url("/assets/img/solimalte/bloc-force-reponse-bg.png");
+					}
+				}
+				&.nos-besoins {
+					height: 105px;
+					min-height: 105px;
+					.button-container {
+						background-color: $white;
+
+						.cross {
+							&::before {
+								background-color: $blue;
+							}
+							&::after {
+								background-color: $blue;
+							}
+						}
+					}
+					.background {
+						background-color: rgba(255, 255, 255, 0.06);
+					}
+				}
+
+				.title-container {
+					position: relative;
+					width: 100%;
+					display: flex;
+					flex-direction: column;
+					justify-content: center;
+					align-items: flex-start;
+					height: 100%;
+					margin: auto 0;
+					text-align: left;
+					overflow: hidden;
+
+					.title {
+						font-size: 40px;
+						text-transform: uppercase;
+						color: $white;
+						font-weight: bold;
+						margin-bottom: 0;
+						line-height: 1.2;
+						padding-left: 40px;
+						position: relative;
+						z-index: 2;
+					}
+				}
+
+				.button-container {
+					min-width: 38px;
+					width: 38px;
+					background-color: $red;
+					position: relative;
+
+					.cross {
+						color: $white;
+						position: absolute;
+						top: 50%;
+						left: 50%;
+						transform: translate(-50%, -50%);
+						transition: transform $transitionSpeed, color $transitionSpeed;
+						height: 17px;
+
+						&::after {
+							height: 18px;
+							transition: transform $transitionSpeed;
+						}
+						&::before {
+							height: 18px;
+							transition: transform $transitionSpeed;
+						}
+					}
+				}
+			}
+
+			.collapse-content {
+				background-color: $white;
+
+				.collapsed-bloc {
+					background-color: rgba(53, 66, 83, 0.05);
+					min-height: 143px;
+					width: 100%;
+					display: flex;
+					align-items: center;
+					justify-content: center;
+					flex-direction: row;
+
+					.text-container {
+						margin-left: 15px;
+
+						.small-text {
+							font-size: 12px;
+							color: $blue;
+							line-height: 1.1;
+							margin-bottom: 0;
+							max-width: 200px;
+						}
+
+						.big-text {
+							font-weight: bold;
+							font-size: 20px;
+							color: $blue;
+							line-height: 1.1;
+							margin-bottom: 0;
+							text-transform: uppercase;
+							max-width: 200px;
+						}
+
+						.my-list {
+							margin-top: 5px;
+							padding-left: 15px;
+							max-width: 200px;
+
+							li {
+								color: $red;
+								line-height: 1.1;
+								margin-top: 5px;
+
+								span {
+									color: $blue;
+									font-size: 12px;
+								}
+							}
+						}
+					}
+				}
+			}
+
+			.collapse-content#collapse-nos-besoins {
+				background-color: $white;
+
+				.collapsed-bloc {
+					background-color: rgba(53, 66, 83, 0.05);
+					min-height: 220px;
+					width: 100%;
+					display: flex;
+					align-items: flex-start;
+					justify-content: flex-start;
+					flex-direction: column;
+					padding: 1em;
+
+					.product-name {
+						font-size: 18px;
+						color: $blue;
+						font-weight: bold;
+						margin-bottom: 0;
+						line-height: 1.2;
+						text-transform: uppercase;
+					}
+
+					.product-price {
+						font-size: 18px;
+						color: $red;
+						font-weight: bold;
+						margin-bottom: 0;
+						line-height: 1.2;
+						text-transform: uppercase;
+
+						span {
+							font-size: 10px;
+							color: $blue;
+							text-transform: none;
+							font-weight: normal;
+						}
+					}
+
+					.product-image-container {
+						width: 100%;
+						text-align: center;
+						margin: auto 0;
+
+						.product-image {
+							display: inline-block;
+						}
+					}
+				}
+			}
+		}
+	}
+
+	.deploiement {
+		padding: 40px 0;
+
+		.main-title {
+			font-size: 16px;
+			color: $blue;
+			font-weight: bold;
+			text-transform: uppercase;
+			text-align: center;
+			line-height: 1;
+			margin-bottom: 30px;
+
+			.big {
+				line-height: 1;
+				font-size: 38px;
+				.red {
+					line-height: 1;
+					color: $red;
+				}
+			}
+		}
+
+		.date {
+			line-height: 1.2;
+			font-size: 20px;
+			color: $blue;
+			font-weight: bold;
+			text-align: center;
+			text-transform: uppercase;
+			margin-bottom: 0;
+		}
+
+		.description {
+			line-height: 1.2;
+			font-size: 12px;
+			color: $blue;
+			font-weight: bold;
+			text-align: center;
+			margin-bottom: 0;
+		}
+
+		.background-container {
+			width: 100%;
+			height: 100%;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+		}
+
+		.background {
+			background-position: center top;
+			background-repeat: no-repeat;
+			display: flex;
+			flex-direction: column;
+			width: 100%;
+			align-items: center;
+			justify-content: center;
+			margin: 20px 0;
+
+			&.one {
+				height: 90px;
+				background-image: url("/assets/img/solimalte/deploiement-bg-1.png");
+			}
+			&.two {
+				height: 184px;
+				background-image: url("/assets/img/solimalte/deploiement-bg-2.png");
+			}
+			&.three {
+				height: 227px;
+				background-image: url("/assets/img/solimalte/deploiement-bg-3.png");
+			}
+		}
+
+		.pour-accelerer-container {
+			display: flex;
+			flex-direction: column;
+			width: 100%;
+			height: 100%;
+			justify-content: center;
+			align-items: center;
+			border: 1px solid rgba(53, 66, 83, 0.5);
+
+			p {
+				color: rgba(53, 66, 83, 0.5);
+				font-size: 20px;
+				font-weight: bold;
+				margin-bottom: 0;
+				padding-left: 10px;
+			}
+		}
+	}
+
+	.don {
+		background-color: #f7f7f9;
+		padding-top: 80px;
+		padding-bottom: 80px;
+
+		.background {
+			background-image: url(/assets/img/solimalte/don-bg.png);
+			background-position: center top;
+			background-repeat: no-repeat;
+			background-size: contain;
+
+			display: flex;
+			flex-direction: column;
+			width: 100%;
+			height: 100%;
+			justify-content: center;
+			align-items: center;
+			max-width: 270px;
+			min-height: 273px;
+			margin: 0 auto;
+
+			.main-title {
+				font-size: 38px;
+				color: $blue;
+				font-weight: bold;
+				margin-bottom: 0;
+				line-height: 1.1;
+				text-align: center;
+
+				span {
+					color: $red;
+					line-height: 1.1;
+				}
+			}
+
+			.sub-title {
+				font-size: 16px;
+				font-weight: bold;
+				color: $blue;
+				margin-bottom: 0;
+				line-height: 1.1;
+				text-align: center;
+			}
+		}
+
+		.flex-center {
+			display: flex;
+			flex-direction: column;
+			width: 100%;
+			height: 100%;
+			justify-content: center;
+			align-content: center;
+
+			.text {
+				color: $blue;
+				font-size: 16px;
+				line-height: 1.4;
+				margin-bottom: 40px;
+				margin-right: 5em;
+				margin-left: 25px;
+				margin-top: 20px;
+
+				span {
+					font-weight: bold;
+					color: $red;
+				}
+			}
+		}
+	}
+
+	.don-label {
+		background-color: white;
+		padding: 20px;
+		box-shadow: 0px 0px 1px 0px rgba(105, 105, 105, 1);
+		width: 100%;
+
+		.b-left {
+			border-left: 1px solid rgba(112, 112, 112, 0.2);
+		}
+
+		.center-cell {
+			display: flex;
+			flex-direction: column;
+			width: 100%;
+			height: 100%;
+			justify-content: center;
+			align-items: center;
+		}
+
+		.don-price {
+			color: $red;
+			font-weight: bold;
+			font-size: 40px;
+			margin-bottom: 0;
+			line-height: 1.2;
+		}
+
+		.don-title {
+			font-size: 25px;
+			color: $blue;
+			margin-bottom: 0;
+			line-height: 1.2;
+			font-weight: bold;
+			text-transform: uppercase;
+			width: 100%;
+		}
+
+		.don-text {
+			color: $blue;
+			font-size: 16px;
+			line-height: 1.3;
+			margin-bottom: 0;
+		}
+
+		#free-amount {
+			outline: none;
+			border: none;
+			border-bottom: 1px solid $red;
+			padding: 3px;
+			width: 100%;
+			color: $red;
+			font-weight: bold;
+			font-size: 40px;
+			margin-bottom: 0;
+			line-height: 1.2;
+			text-align: right;
+		}
+
+		.don-text-other {
+			color: $blue;
+			font-size: 16px;
+			font-weight: bold;
+			margin-bottom: 0;
+			line-height: 1.2;
+		}
+	}
+
+	.statistics {
+		padding: 20px;
+
+		.background {
+			background-image: url(/assets/img/solimalte/stats-bg.png);
+			background-position: center top;
+			background-repeat: no-repeat;
+			display: flex;
+			flex-direction: column;
+			height: 100%;
+			min-height: 195px;
+			width: 100%;
+			justify-content: center;
+			align-items: center;
+
+			.main-title {
+				font-weight: bold;
+				color: $blue;
+				line-height: 1;
+				margin-bottom: 0;
+				font-size: 38px;
+				text-align: center;
+
+				span {
+					color: $red;
+					line-height: 1;
+				}
+
+				max-width: 420px;
+			}
+
+			.sub-title {
+				font-weight: bold;
+				color: $blue;
+				font-size: 16px;
+				line-height: 1;
+				margin-bottom: 0;
+				max-width: 200px;
+				text-align: center;
+			}
+		}
+
+		.text {
+			color: $blue;
+			font-size: 16px;
+			line-height: 1.4;
+			margin-bottom: 40px;
+			margin-right: 5em;
+			margin-left: 25px;
+
+			&::first-letter {
+				float: left;
+				font-size: 46px;
+				padding-top: 6px;
+				text-transform: uppercase;
+				color: $red;
+			}
+
+			b {
+				font-weight: bold;
+			}
+
+			span {
+				font-weight: bold;
+				color: $red;
+			}
+		}
+	}
+
+	.btn-don {
+		border-radius: 0;
+		box-shadow: 0px 0px 5px 0px rgba(105, 105, 105, 1);
+		height: 75px;
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+		align-items: center;
+		justify-content: center;
+		text-transform: uppercase;
+
+		&:hover {
+			color: white;
+		}
+	}
+
+	img {
+		max-width: 100%;
+	}
+}
+
+@include media-breakpoint-down(md) {
+	.content-solimalte {
+		.don-label .don-title {
+			font-size: 16px; 
+		}
+	}
+}
+
+
+@include media-breakpoint-down(sm) {
+	.nav-mobile-solimalte {
+		z-index: 999 !important;
+	}
+
+	.content-solimalte {
+		padding-left: 0;
+	
+		.header {
+			padding: 20px;
+		}
+		
+		.chiffres .texts .first,
+		.chiffres .texts .second,
+		.chiffres .texts .third {
+			margin-right: 25px;
+		}
+
+		.forces .force-container .force-text-container .first {
+			font-size: 40px;
+		}
+		.forces .force-container .force-text-container .second {
+			font-size: 18px;
+		}
+		.forces .texts .first {
+			margin-right: 25px;
+		}
+		.forces .bloc-force .my-container .title-container .title {
+			font-size: 34px;
+		}
+
+		.deploiement .background {
+			margin: 30px 0;
+		}
+
+		.deploiement .pour-accelerer-container p {
+			text-align: center;
+			padding: 10px 0;
+		}
+
+		.don .flex-center .text {
+			margin-right: 25px;
+		}
+
+		.don .don-label {
+			.b-left {
+				border-left: none;
+				border-top: 1px solid rgba(112, 112, 112, 0.2);
+				padding: 10px 0;
+			}
+
+			.don-title {
+				text-align: center;
+			}
+
+			.don-text {
+				text-align: center;
+			}		
+		}
+
+		.statistics .text {
+			margin-right: 25px;
+		}
+	}
+}
