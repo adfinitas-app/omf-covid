@@ -14,7 +14,7 @@ $(document).ready(function() {
     
         btnDonAmount.text(nb);
         
-        addOrModifyQueryParameter(btnDon, 'amount', parseInt(nb * 100));
+        addOrModifyQueryParameter(btnDon, 'amount', parseInt(nb * 100), 'href');
     }
 
 

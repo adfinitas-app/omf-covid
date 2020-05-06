@@ -1,12 +1,15 @@
-transferQueryParams($('a'));
+transferQueryParams($('a'), 'href');
 
-function addOrModifyQueryParameter(elem, parameter, newValue, attr = 'href') {
+function addOrModifyQueryParameter(elem, parameter, newValue, attr) {
+    if (attr === undefined)
+        attr = 'href';
+
     if (!elem || elem.length === 0)
     return false;
     
     let elemHref = elem.attr(attr);
 
-    if (elemHref === '#' || elemHref.charAt(0) === '#')
+    if (!elemHref || elemHref === '#' || elemHref.charAt(0) === '#')
         return '';
     else if (elemHref.charAt(0) === '/') 
         elemHref = window.location.origin + elemHref;
@@ -40,7 +43,11 @@ function addOrModifyQueryParameter(elem, parameter, newValue, attr = 'href') {
     elem.attr(attr, newElemHref + hashtag);
 }
 
-function transferQueryParams($links, attr = 'href') {
+function transferQueryParams($links, attr) {
+
+    if (attr === undefined)
+        attr = 'href';
+
     const url_string = window.location.href;
     const url = new URL(url_string);
     
