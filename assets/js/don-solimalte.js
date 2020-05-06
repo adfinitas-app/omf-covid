@@ -16,20 +16,19 @@ $(document).ready(function() {
     $('input[name="don-amount"]:not(.free-amount-radio)').on('change', function() {
         const btnDon = $(this).parents('.don').find('.btn-don');
 
+        replaceAmount(btnDon, $(this).val());
+
         addOrModifyQueryParameter(btnDon, 'free_amount', 0, 'href');
         addOrModifyQueryParameter(btnDon, 'frequency', 'once', 'href');
-
-        replaceAmount(btnDon, $(this).val());
     });
 
     //WHEN SELECT THE RADIO OF FREE INPUT
     $('input[name="don-amount"].free-amount-radio').on('change', function() {
         const btnDon = $(this).parents('.don').find('.btn-don');
 
+        replaceAmount(btnDon, $(this).val());
         addOrModifyQueryParameter(btnDon, 'free_amount', 1, 'href');
         addOrModifyQueryParameter(btnDon, 'frequency', 'once', 'href');
-
-        replaceAmount(btnDon, $(this).val());
     });
 
     $('#free-amount, #free-amount-mobile').on('input', function() {
@@ -43,11 +42,10 @@ $(document).ready(function() {
         if (!isNaN(nb)) {
             const btnDon = $(this).parents('.don').find('.btn-don');
             
-            addOrModifyQueryParameter(btnDon, 'free_amount', '1', 'href');
-            addOrModifyQueryParameter(btnDon, 'frequency', 'once', 'href');
-    
             $('.free-amount-radio').val(nb);
             replaceAmount(btnDon, nb);
+            addOrModifyQueryParameter(btnDon, 'free_amount', '1', 'href');
+            addOrModifyQueryParameter(btnDon, 'frequency', 'once', 'href');
         }
     });
 
