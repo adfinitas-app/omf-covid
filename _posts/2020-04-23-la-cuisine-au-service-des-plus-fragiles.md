@@ -1,5 +1,5 @@
 ---
-date: 2020-04-28 11:00:00
+date: 2020-04-23 11:00:00
 title: La cuisine au service des plus fragiles
 urgence_post: false
 publication_header_image:
