@@ -32,13 +32,13 @@ function addOrModifyQueryParameter(elem, parameter, newValue, attr) {
     }
     if (elemValue) {
         // Modify
-        newElemHref = newElemHref.replace(`${parameter}=${elemValue}`, `${parameter}=${newValue}`)
+        newElemHref = newElemHref.replace(parameter + '=' + elemValue, parameter + '=' + newValue);
     } else {
         // Add
         if (addedInterrogation)
-            newElemHref += `${parameter}=${newValue}`;
+            newElemHref += parameter + '=' + newValue;
         else
-            newElemHref += `&${parameter}=${newValue}`;
+            newElemHref += '&' + parameter + '=' + newValue;
     }
     elem.attr(attr, newElemHref + hashtag);
 }

@@ -1,11 +1,5 @@
 $(document).ready(function() {
 
-    function updateBtnText(btnDonAmount, value) {
-
-        console.log(btnDonAmount, value);
-        btnDonAmount.text(value);
-    }
-
     function replaceAmount(btnDon, nb) {
         if (!btnDon || btnDon.length === 0 || !nb)
             return false;
