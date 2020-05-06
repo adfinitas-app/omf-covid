@@ -110,7 +110,6 @@
 				&::first-letter {
 					float: left;
 					font-size: 46px;
-					padding-top: 6px;
 					text-transform: uppercase;
 					color: $red;
 
@@ -120,7 +119,8 @@
 					padding:0 .1em 0 0;
 					height:.7em;
 					line-height:.85em;
-  					*line-height:1em; /* IE7 Only */
+
+					initial-letter: 2;
 				}
 			}
 
@@ -278,9 +278,16 @@
 				&::first-letter {
 					float: left;
 					font-size: 46px;
-					padding-top: 6px;
 					text-transform: uppercase;
 					color: $red;
+
+					font-size:250%;
+					margin:11px 0 -5px 0;
+					padding:0 .1em 0 0;
+					height:.7em;
+					line-height:.85em;
+
+					initial-letter: 2;
 				}
 			}
 		}
@@ -806,9 +813,16 @@
 			&::first-letter {
 				float: left;
 				font-size: 46px;
-				padding-top: 6px;
 				text-transform: uppercase;
 				color: $red;
+
+				font-size:250%;
+					margin:11px 0 -5px 0;
+					padding:0 .1em 0 0;
+					height:.7em;
+					line-height:.85em;
+
+					initial-letter: 2;
 			}
 
 			b {
