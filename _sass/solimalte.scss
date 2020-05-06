@@ -62,6 +62,8 @@
 				position: absolute;
 				left: 50%;
 				transform: translateX(-50%);
+				-webkit-transform: translateX(-50%);
+        		-ms-transform: translateX(-50%);
 				top: 20px;
 				z-index: 1;
 			}
@@ -171,7 +173,9 @@
 
 			&[aria-expanded="true"] {
 				.plus {
-					transform: rotate(-45deg);
+					-webkit-transform: rotate(-45deg);
+        			-ms-transform: rotate(-45deg);
+           			transform: rotate(-45deg);
 				}
 			}
 
@@ -206,6 +210,8 @@
 					right: 9px;
 					top: 50%;
 					transform: translateY(-50%);
+					-webkit-transform: translateY(-50%);
+        			-ms-transform: translateY(-50%);
 				}
 			}
 
@@ -229,7 +235,9 @@
 			.force-img {
 				position: absolute;
 				left: 50%;
-				transform: translateX(-50%);
+				-webkit-transform: translateX(-50%);
+        		-ms-transform: translateX(-50%);
+            	transform: translateX(-50%);
 				top: 0px;
 				z-index: 1;
 			}
@@ -321,10 +329,14 @@
 					.button-container {
 						.cross {
 							&::after {
-								transform: rotate(45deg);
+								-webkit-transform: rotate(45deg);
+        						-ms-transform: rotate(45deg);
+           						transform: rotate(45deg);
 							}
 							&::before {
-								transform: rotate(-45deg);
+								-webkit-transform: rotate(-45deg);
+        						-ms-transform: rotate(-45deg);
+           						transform: rotate(-45deg);
 							}
 						}
 					}
@@ -333,6 +345,8 @@
 				&:hover {
 					.background {
 						transform: scale(1.05);
+						-webkit-transform: scale(1.05);
+        				-ms-transform: scale(1.05);
 					}
 				}
 
@@ -416,6 +430,8 @@
 						top: 50%;
 						left: 50%;
 						transform: translate(-50%, -50%);
+						-webkit-transform: translate(-50%, -50%);
+        				-ms-transform: translate(-50%, -50%);
 						transition: transform $transitionSpeed, color $transitionSpeed;
 						height: 17px;
 
@@ -601,6 +617,8 @@
 				position: absolute;
 				top: 50%;
 				transform: translateY(-50%);
+				-webkit-transform: translateY(-50%);
+				-ms-transform: translateY(-50%);
 				right: -20px;
 			}
 		}
