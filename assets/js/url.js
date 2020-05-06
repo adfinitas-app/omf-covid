@@ -5,8 +5,8 @@ function addOrModifyQueryParameter(elem, parameter, newValue, attr = 'href') {
     return false;
     
     let elemHref = elem.attr(attr);
-    
-    if (elemHref === '#')
+
+    if (elemHref === '#' || elemHref.charAt(0) === '#')
         return '';
     else if (elemHref.charAt(0) === '/') 
         elemHref = window.location.origin + elemHref;
