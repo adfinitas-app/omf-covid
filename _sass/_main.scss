@@ -79,6 +79,34 @@ body {
 .content {
 	padding-left: $leftMenuWidth;
 
+	.actu-bar {
+		background-color: $blue;
+
+		ul {
+			color: $white;
+			display: flex;
+			flex-direction: row;
+			flex-wrap: wrap;
+			width: 100%;
+			padding: 5px 10px;
+			margin-bottom: 0;
+
+			li {
+				color: $white;
+				text-transform: uppercase;
+				font-size: 14px;
+				margin: 5px 20px;
+
+				a {
+					color: $white;
+				}
+				&:nth-child(2) {
+					opacity: 0.5;
+				}
+			}
+		}
+	}
+
 	.message-president {
 		background-color: $blue;
 		padding: 20px;
@@ -226,6 +254,35 @@ body {
 			margin-top: 5px;
 		}
 	}
+
+	.actu-bar {
+		background-color: $blue;
+
+		ul {
+			color: $white;
+			display: flex;
+			flex-direction: row;
+			flex-wrap: wrap;
+			width: 100%;
+			padding: 5px 10px;
+			margin-bottom: 0;
+
+			li {
+				color: $white;
+				text-transform: uppercase;
+				font-size: 14px;
+				margin: 5px 20px;
+
+				a {
+					color: $white;
+				}
+				&:nth-child(2) {
+					opacity: 0.5;
+				}
+			}
+		}
+	}
+
 	.message-president{
 		background-color: $blue;
 		padding: 20px;
