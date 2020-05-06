@@ -158,13 +158,14 @@
 			flex-direction: column;
 			width: 100%;
 			min-height: 128px;
+			height: 128px;
 			background-color: rgba(53, 66, 83, 0.2);
 			padding: 20px;
 			outline: none;
 			border: none;
 			margin-bottom: 20px;
 			cursor: pointer;
-			
+
 			&:hover {
 				text-decoration: none;
 			}
