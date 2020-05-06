@@ -51,7 +51,7 @@ function transferQueryParams($links, attr) {
     const url_string = window.location.href;
     const url = new URL(url_string);
     
-    url.searchParams.forEach((value, key) => {
+    url.searchParams.forEach(function(value, key) {
         $links.each(function() {
             const authorized_keys = ['reserved_code_origine', 'reserved_code_media', 'utm_source', 'utm_campaign', 'utm_medium'];
             
