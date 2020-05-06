@@ -273,7 +273,7 @@
                                             relative_url }}" alt=""/>
                                         </div>
                                         <div class="text-container">
-                                            <p class="big-text">L'urgence<br />alimentaire</p>
+                                            <p class="big-text">urgence<br />alimentaire</p>
                                             <ul class="my-list">
                                                 <li>
                                                     <span
@@ -299,8 +299,7 @@
                                                     <span>Distribution de kits d’hygiène</span>
                                                 </li>
                                                 <li>
-                                                    <span
-                                                        >Si possible : accès à une douche</span
+                                                    <span>Si possible, les orienter vers un accès à une douche</span
                                                     >
                                                 </li>
                                             </ul>
@@ -339,11 +338,19 @@
                                             <p class="big-text">Accompagnement bienveillant</p>
                                             <ul class="my-list">
                                                 <li>
-                                                    <span>Soutien psychologique et spirituel d’urgence</span>
+                                                    <span>Soutien psychologique d’urgence</span>
+                                                </li>
+                                                <li>
+                                                    <span>Orientation vers des solutions de prise en charge en cas de besoin</span>
                                                 </li>
                                             </ul>
                                         </div>
                                     </div>
+                                </div>
+                            </div>
+                            <div class="row asterisque-container">
+                                <div class="col">
+                                    <p class="asterisque">*prise de température, orientation vers  test et/ou prise en charge médicale / hospitalière **portés a minima pendant le service.</p>
                                 </div>
                             </div>
                         </div>
@@ -396,7 +403,7 @@
                                 </div>
                                 <div class="col-12 col-md-6 col-lg-4 p-2">
                                     <div class="collapsed-bloc">
-                                        <p class="product-name text-condensed">Gants à usages uniques</p>
+                                        <p class="product-name text-condensed">Gants à usage unique</p>
                                         <p class="product-price text-condensed">8&nbsp;€ <span>la boite</span></p>
                                         <div class="product-image-container">
                                             <img class="product-image" src="{{ "assets/img/solimalte/product-4.png" | relative_url }}"/>
@@ -406,7 +413,7 @@
                                 <div class="col-12 col-md-6 col-lg-4 p-2">
                                     <div class="collapsed-bloc">
                                         <p class="product-name text-condensed">16 000 Masques</p>
-                                        <p class="product-price text-condensed">9&nbsp;216&nbsp;€ <span>0,57&nbsp;€ l'unité</span></p>
+                                        <p class="product-price text-condensed">9&nbsp;120&nbsp;€ <span>0,57&nbsp;€ l'unité</span></p>
                                         <div class="product-image-container">
                                             <img class="product-image" src="{{ "assets/img/solimalte/product-5.png" | relative_url }}"/>
                                         </div>
@@ -461,14 +468,18 @@
                             <p class="date text-condensed">17 Mars</p>
                             <p class="description">Début du confinement</p>
                         </div>
+                        <img class="arrow-blue d-none d-lg-inline-block" src="{{ 'assets/img/solimalte/arrow-blue.png' | relative_url }}" />
+                        <img class="arrow-blue d-inline-block d-lg-none" src="{{ 'assets/img/solimalte/arrow-blue-down.png' | relative_url }}"/>
                     </div>				
                 </div>
                 <div class="col-12 col-lg-4">
                     <div class="background-container">
                         <div class="background two">
                             <p class="date text-condensed">24 Avril</p>
-                            <p class="description">Lancement du<br> dispositif Soli’Malte<br> dans 13 villes</p>
+                            <p class="description">Lancement du<br> dispositif Soli’Malte<br> dans 15 villes</p>
                         </div>
+                        <img class="arrow-blue d-none d-lg-inline-block" src="{{ 'assets/img/solimalte/arrow-blue.png' | relative_url }}" />
+                        <img class="arrow-blue d-inline-block d-lg-none" src="{{ 'assets/img/solimalte/arrow-blue-down.png' | relative_url }}" style="margin-top: 40px" />
                     </div>
                 </div>
                 <div class="col-12 col-lg-4">
@@ -522,24 +533,25 @@
                     <!-- DON 1 -->
                     <label class="don-label">
                         <div class="row">
-                            <div class="col-1">
+                            <div class="col-12 col-md-1">
                                 <div class="center-cell">
-                                    <input type="radio"  name="don-amount" />
+                                    <input type="radio"  name="don-amount" value="150" checked/>
                                 </div>
                             </div>
-                            <div class="col-3">
+                            <div class="col-12 col-md-3">
                                 <div class="center-cell">
                                     <p class="don-price text-condensed">150<sup style="font-size: 25px">€</sup></p>
                                 </div>
                             </div>
-                            <div class="col-3 b-left">
+                            <div class="col-12 col-md-3 b-left">
                                 <div class="center-cell">
                                     <p class="don-title text-condensed">Nourrir</p>
                                 </div>
                             </div>
-                            <div class="col-5 b-left">
+                            <div class="col-12 col-md-5 b-left">
                                 <div class="center-cell">
-                                    <p class="don-text">Votre don nous permet d’acheter et de distribuer des repas, packs d’eau, colis alimentaires…</p>
+                                    <p class="don-text">Votre don nous permet de distribuer des repas, des packs d’eau, des colis alimentaires…
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -549,24 +561,24 @@
                     <!-- DON 2 -->
                     <label class="don-label">
                         <div class="row">
-                            <div class="col-1">
+                            <div class="col-12 col-md-1">
                                 <div class="center-cell">
-                                    <input type="radio"  name="don-amount" checked/>
+                                    <input type="radio"  name="don-amount" value="300"/>
                                 </div>
                             </div>
-                            <div class="col-3">
+                            <div class="col-12 col-md-3">
                                 <div class="center-cell">
                                     <p class="don-price text-condensed">300<sup style="font-size: 25px">€</sup></p>
                                 </div>
                             </div>
-                            <div class="col-3 b-left">
+                            <div class="col-12 col-md-3 b-left">
                                 <div class="center-cell">
                                     <p class="don-title text-condensed">Soigner et protéger</p>
                                 </div>
                             </div>
-                            <div class="col-5 b-left">
+                            <div class="col-12 col-md-5 b-left">
                                 <div class="center-cell">
-                                    <p class="don-text">Votre don nous permet d’acheter et de distribuer des masques, des gants, et des tenus de bénévoles</p>
+                                    <p class="don-text">Votre don nous permet d’acheter et de distribuer des masques, des gants, du gel et des tenues de bénévoles...</p>
                                 </div>
                             </div>
                         </div>
@@ -576,24 +588,24 @@
                     <!-- DON 3 -->
                     <label class="don-label">
                         <div class="row">
-                            <div class="col-1">
+                            <div class="col-12 col-md-1">
                                 <div class="center-cell">
-                                    <input type="radio" name="don-amount"  />
+                                    <input type="radio" name="don-amount" value="500" />
                                 </div>
                             </div>
-                            <div class="col-3">
+                            <div class="col-12 col-md-3">
                                 <div class="center-cell">
                                     <p class="don-price text-condensed">500<sup style="font-size: 25px">€</sup></p>
                                 </div>
                             </div>
-                            <div class="col-3 b-left">
+                            <div class="col-12 col-md-3 b-left">
                                 <div class="center-cell">
                                     <p class="don-title text-condensed">Aller à la rencontre</p>
                                 </div>
                             </div>
-                            <div class="col-5 b-left">
+                            <div class="col-12 col-md-5 b-left">
                                 <div class="center-cell">
-                                    <p class="don-text">Votre don nous permet de participer au financement de 2 ambulances, et 6 véhicules légers et aux frais de carburants…</p>
+                                    <p class="don-text">Votre don nous permet de participer au financement de 2 ambulances, de 6 véhicules légers et aux frais de carburants </p>
                                 </div>
                             </div>
                         </div>
@@ -601,29 +613,31 @@
                     <!-- DON 3 -->
 
                     <!-- DON AUTRE -->
-                    <label class="don-label">
+                    <div class="don-label free-amount-label">
                         <div class="row">
-                            <div class="col-1">
+                            <div class="col-12 col-md-1">
                                 <div class="center-cell">
-                                    <!-- <input type="radio" name="don-amount"  /> -->
+                                    <input type="radio" name="don-amount" class="free-amount-radio" value="" />
                                 </div>
                             </div>
-                            <div class="col-4">
+                            <div class="col-12 col-md-4">
                                 <div class="center-cell flex-row">
-                                    <input type="text" id="free-amount{% if include.mobile == true %}-mobile{% endif %}" /><sup class="don-price" style="font-size: 25px; margin-right: 20px;">€</sup>
+                                    <input type="text" id="free-amount{% if include.mobile == true %}-mobile{% endif %}" />
+                                    <sup class="don-price d-none d-md-inline" style="font-size: 25px; margin-right: 20px;">€</sup>
+                                    <span class="don-price d-inline d-md-none">€</span>
                                 </div>
                             </div>
-                            <div class="col-7 b-left">
+                            <div class="col-12 col-md-7 b-left">
                                 <div class="center-cell">
                                     <p class="don-text-other">JE FAIS UN DON DU MONTANT DE MON CHOIX</p>
                                 </div>
                             </div>
                         </div>
-                    </label>
+                    </div>
                     <!-- DON AUTRE -->
 
-                    <a href="#" class="btn-don mt-1">
-                        <span>Je fais un don</span>
+                    <a href="https://don.ordredemaltefrance.org/b?cid=14&lang=fr_FR&amount=15000" class="btn-don mt-1">
+                        <span>Je fais un don de <span class="btn-don-amount">150</span>&nbsp;€</span>
                     </a>
                 </div>
             </div>
@@ -649,11 +663,11 @@
                             Les dons dits “Coluche” aux 
                             organismes dont la vocation est de venir en aide aux personnes en difficulté tels que l’Ordre de Malte France sont <b>déductibles de l’Impôt sur le Revenu à hauteur de 75%.</b>
                             <br><br>
-                            <span>Compte tenu du contexte, ce plafond vient de passer à 1000 €</span> au lieu de 552 € pour les dons effectués du 1er janvier au 31 décembre 2020. Au-delà de 1000 € de don, la déduction est de 66 % dans la limite de 20 % du revenu imposable.
+                            <span>Compte tenu du contexte, le plafond vient de passer à 1000 €</span> au lieu de 552 € pour les dons effectués du 1er janvier au 31 décembre 2020. Au-delà de 1000 € de don, la déduction est de 66 % dans la limite de 20 % du revenu imposable.
                          </p>
                     </div>
                 </div>
-                <div class="col-12 col-lg-6 text-center">
+                <div class="col-12 col-lg-6 text-center text-md-left">
                     <img src="{{ 'assets/img/solimalte/stats-graph.png' | relative_url }}" />
                 </div>
             </div>

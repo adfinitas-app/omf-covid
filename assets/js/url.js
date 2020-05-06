@@ -27,7 +27,6 @@ function addOrModifyQueryParameter(elem, parameter, newValue, attr = 'href') {
         newElemHref += '?';
         addedInterrogation = true;
     }
-    
     if (elemValue) {
         // Modify
         newElemHref = newElemHref.replace(`${parameter}=${elemValue}`, `${parameter}=${newValue}`)

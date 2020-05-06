@@ -480,6 +480,16 @@
 						}
 					}
 				}
+
+				.asterisque-container {
+					background-color: $blue;
+					.asterisque {
+						font-size: 9px;
+						margin-top: 5px;
+						color: rgba(255, 255, 255, 0.5);
+						margin-left: 10px;
+					}
+				}
 			}
 
 			.collapse-content#collapse-nos-besoins,
@@ -583,6 +593,14 @@
 			flex-direction: column;
 			align-items: center;
 			justify-content: center;
+			position: relative;
+
+			.arrow-blue {
+				position: absolute;
+				top: 50%;
+				transform: translateY(-50%);
+				right: -20px;
+			}
 		}
 
 		.background {
@@ -594,6 +612,7 @@
 			align-items: center;
 			justify-content: center;
 			margin: 20px 0;
+			position: relative;
 
 			&.one {
 				height: 90px;
@@ -602,10 +621,12 @@
 			&.two {
 				height: 184px;
 				background-image: url("/assets/img/solimalte/deploiement-bg-2.png");
+				background-size: auto 100%;
 			}
 			&.three {
 				height: 227px;
 				background-image: url("/assets/img/solimalte/deploiement-bg-3.png");
+				background-size: auto 100%;
 			}
 		}
 
@@ -871,6 +892,18 @@
 		.don-label .don-title {
 			font-size: 16px;
 		}
+
+		.deploiement .background-container {
+			padding-bottom: 40px;
+
+			.arrow-blue {
+				position: relative;
+				top: unset;
+				right: unset;
+				transform: unset;
+				bottom: 0;
+			}
+		}
 	}
 }
 
@@ -930,6 +963,11 @@
 			}
 
 			.don-text {
+				text-align: center;
+			}
+
+			.don-text-other {
+				margin-top: 15px;
 				text-align: center;
 			}
 		}
