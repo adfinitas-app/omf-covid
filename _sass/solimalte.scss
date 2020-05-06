@@ -311,6 +311,10 @@
 				padding: 0;
 				position: relative;
 
+				&:hover {
+					text-decoration: none;
+				}
+
 				&[aria-expanded="true"] {
 					.button-container {
 						.cross {
