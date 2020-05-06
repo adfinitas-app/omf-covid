@@ -16,4 +16,6 @@ Un [reportage a &eacute;t&eacute; r&eacute;alis&eacute; par la cha&icirc;ne loca
 
 Pour nous aider &agrave; &ecirc;tre l&agrave; tant que la crise nous appelle, [faites un don.](https://covid19.ordredemaltefrance.org/){: target="_blank"}
 
+<div class="embed-responsive embed-responsive-16by9">
 <iframe title="vimeo-player" src="https://player.vimeo.com/video/410300753" width="640" height="360" frameborder="0" allowfullscreen=""></iframe>
+</div>
