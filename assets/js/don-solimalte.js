@@ -61,5 +61,6 @@ $(document).ready(function() {
         $(this).find('input[name="don-amount"]').prop('checked', 'true');
 
         $('#free-amount, #free-amount-mobile').trigger('input');
+        $(this).find('input[type="text"]').focus();
     })
 });
