@@ -1,5 +1,15 @@
 transferQueryParams($('a'), 'href');
 
+function getParameterByName(name, url) {
+    if (!url) url = window.location.href;
+    name = name.replace(/[\[\]]/g, '\\$&');
+    var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
+        results = regex.exec(url);
+    if (!results) return null;
+    if (!results[2]) return '';
+    return decodeURIComponent(results[2].replace(/\+/g, ' '));
+}
+
 function addOrModifyQueryParameter(elem, parameter, newValue, attr) {
     if (attr === undefined)
         attr = 'href';
@@ -14,8 +24,9 @@ function addOrModifyQueryParameter(elem, parameter, newValue, attr) {
     else if (elemHref.charAt(0) === '/') 
         elemHref = window.location.origin + elemHref;
 
-    const elemUrl = new URL(elemHref);
-    const elemValue = elemUrl.searchParams.get(parameter);
+        console.log(elemHref);
+    // const elemUrl = new URL(elemHref);
+    const elemValue = getParameterByName(parameter, elemHref);
     
     let addedInterrogation = false;
     let newElemHref = elem.attr(attr);
