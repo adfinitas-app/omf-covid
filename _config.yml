@@ -27,7 +27,7 @@ plugins:
   - jekyll-feed
   - jekyll-sass-converter
   - jekyll-last-modified-at
-
+  - jekyll-autoprefixer
 sass:
   sass_dir: _sass
   style: compressed
