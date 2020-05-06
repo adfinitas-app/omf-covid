@@ -1,5 +1,5 @@
 ---
-date: 2020-04-29 07:00:00
+date: 2020-04-24 07:00:00
 title: Renforcer nos maraudes pour faire face à la crise Covid19
 urgence_post: false
 publication_header_image:
