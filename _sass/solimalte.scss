@@ -21,7 +21,6 @@
 
 				a {
 					color: $white;
-
 				}
 				&:first-child {
 					opacity: 0.5;
@@ -113,14 +112,15 @@
 					text-transform: uppercase;
 					color: $red;
 
+					font-size: 250%;
+					margin: 11px 0 -5px 0;
+					padding: 0 0.1em 0 0;
+					height: 0.7em;
+					line-height: 0.85em;
 
-					font-size:250%;
-					margin:11px 0 -5px 0;
-					padding:0 .1em 0 0;
-					height:.7em;
-					line-height:.85em;
-
+					// FIX SAFARI
 					initial-letter: 2;
+					-webkit-initial-letter: 2;
 				}
 			}
 
@@ -169,7 +169,6 @@
 			}
 
 			&[aria-expanded="true"] {
-
 				.plus {
 					transform: rotate(-45deg);
 				}
@@ -281,13 +280,15 @@
 					text-transform: uppercase;
 					color: $red;
 
-					font-size:250%;
-					margin:11px 0 -5px 0;
-					padding:0 .1em 0 0;
-					height:.7em;
-					line-height:.85em;
+					font-size: 250%;
+					margin: 11px 0 -5px 0;
+					padding: 0 0.1em 0 0;
+					height: 0.7em;
+					line-height: 0.85em;
 
+					// FIX SAFARI
 					initial-letter: 2;
+					-webkit-initial-letter: 2;
 				}
 			}
 		}
@@ -477,7 +478,8 @@
 				}
 			}
 
-			.collapse-content#collapse-nos-besoins, .collapse-content#collapse-nos-besoins-mobile {
+			.collapse-content#collapse-nos-besoins,
+			.collapse-content#collapse-nos-besoins-mobile {
 				background-color: $white;
 
 				.collapsed-bloc {
@@ -737,7 +739,8 @@
 			margin-bottom: 0;
 		}
 
-		#free-amount, #free-amount-mobile {
+		#free-amount,
+		#free-amount-mobile {
 			outline: none;
 			border: none;
 			border-bottom: 1px solid $red;
@@ -816,13 +819,15 @@
 				text-transform: uppercase;
 				color: $red;
 
-				font-size:250%;
-					margin:11px 0 -5px 0;
-					padding:0 .1em 0 0;
-					height:.7em;
-					line-height:.85em;
+				font-size: 250%;
+				margin: 11px 0 -5px 0;
+				padding: 0 0.1em 0 0;
+				height: 0.7em;
+				line-height: 0.85em;
 
-					initial-letter: 2;
+				// FIX SAFARI
+				initial-letter: 2;
+				-webkit-initial-letter: 2;
 			}
 
 			b {
@@ -860,11 +865,10 @@
 @include media-breakpoint-down(md) {
 	.content-solimalte {
 		.don-label .don-title {
-			font-size: 16px; 
+			font-size: 16px;
 		}
 	}
 }
-
 
 @include media-breakpoint-down(sm) {
 	.nav-mobile-solimalte {
@@ -873,11 +877,11 @@
 
 	.content-solimalte {
 		padding-left: 0;
-	
+
 		.header {
 			padding: 20px;
 		}
-		
+
 		.chiffres .texts .first,
 		.chiffres .texts .second,
 		.chiffres .texts .third {
@@ -923,7 +927,7 @@
 
 			.don-text {
 				text-align: center;
-			}		
+			}
 		}
 
 		.statistics .text {
