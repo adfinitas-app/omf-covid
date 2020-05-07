@@ -66,7 +66,7 @@ iraiser_url: 'https://don.ordredemaltefrance.org/?cid=11&reserved_code_origine=W
                     {% if post.pinned %}
                         <article class="post {% if post.urgence_post %}urgence{% endif %}">
                                       <div class="post-publication-time">
-                                        <span>A LA UNE<small> {{ post.date | date: '%d.%m.%Y'}}</small></span>
+                                        <span>A LA UNE<small>&nbsp;</small></span>
                                       </div>
                                       <h1  class="post-title text-uppercase">{{ post.title }}</h1>
                                       {% if post.publication_header_image %}
@@ -241,7 +241,7 @@ iraiser_url: 'https://don.ordredemaltefrance.org/?cid=11&reserved_code_origine=W
                          {% endfor %}
                          
                       {% endif %}
-                      <div class="post-publication-time"><b>A LA UNE</b><br><small>{{ post.date | date: '%d.%m.%Y'}}</small></div>
+                      <div class="post-publication-time"><b>A LA UNE</b><br><small>&nbsp;</small></div>
                   </article>
                     {% endif %}
                     {% unless post.pinned %}
