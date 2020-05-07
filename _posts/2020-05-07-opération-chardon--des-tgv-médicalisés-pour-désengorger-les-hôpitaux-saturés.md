@@ -1,5 +1,5 @@
 ---
-date: 2020-05-06 01:00:00
+date: 2020-05-07 08:00:00
 title: 'Opération Chardon : des TGV médicalisés pour désengorger les hôpitaux saturés'
 pinned: false
 urgence_post: false
