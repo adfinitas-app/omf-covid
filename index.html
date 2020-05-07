@@ -63,35 +63,68 @@ iraiser_url: 'https://don.ordredemaltefrance.org/?cid=11&reserved_code_origine=W
       <section class="posts">
 
                   {% for post in site.posts %}
-                  <article class="post {% if post.urgence_post %}urgence{% endif %}">
-                      <div class="post-publication-time">
-                        <span>{{ post.date | date: '%d.%m.%Y'}}<small> {{ post.date | date: 'à %HH%M'}}</small></span>
-                      </div>
-                      <h1  class="post-title text-uppercase">{{ post.title }}</h1>
-                      {% if post.publication_header_image %}
-                        <div class="post-image"><img src="{{ post.publication_header_image }}" class="img-fluid"></div>
-                      {% endif %}
-                      <div class="post-content">
-                        {{ post.content }}
-                      </div>
-                      {% if post.publication_footer_image %}
-                        <div class="post-image"><img src="{{ post.publication_footer_image }}" class="img-fluid"></div>
-                      {% endif %}
-                      
-                      {% for video in post.insertion_video %}
-                        {% if video.video_code_block %}
-                      <div class="embed-responsive embed-responsive-16by9">{{ video.video_code_block }}</div>
-                        {% endif %}
-                      {% endfor %}
-                     
-                    {% for social in post.insertion_social %}
-                            {% if social.social_code_block %}
-                                <div class="col-12 embed-responsive embed-responsive-16by9 w-100">
-                                  {{ social.social_code_block }}
-                                </div>
-                            {% endif %}
-                    {% endfor %}
-                  </article>
+                    {% if post.pinned %}
+                        <article class="post {% if post.urgence_post %}urgence{% endif %}">
+                                      <div class="post-publication-time">
+                                        <span>A LA UNE<small> {{ post.date | date: '%d.%m.%Y'}}</small></span>
+                                      </div>
+                                      <h1  class="post-title text-uppercase">{{ post.title }}</h1>
+                                      {% if post.publication_header_image %}
+                                        <div class="post-image"><img src="{{ post.publication_header_image }}" class="img-fluid"></div>
+                                      {% endif %}
+                                      <div class="post-content">
+                                        {{ post.content }}
+                                      </div>
+                                      {% if post.publication_footer_image %}
+                                        <div class="post-image"><img src="{{ post.publication_footer_image }}" class="img-fluid"></div>
+                                      {% endif %}
+                                      
+                                      {% for video in post.insertion_video %}
+                                        {% if video.video_code_block %}
+                                      <div class="embed-responsive embed-responsive-16by9">{{ video.video_code_block }}</div>
+                                        {% endif %}
+                                      {% endfor %}
+                                     
+                                    {% for social in post.insertion_social %}
+                                            {% if social.social_code_block %}
+                                                <div class="col-12 embed-responsive embed-responsive-16by9 w-100">
+                                                  {{ social.social_code_block }}
+                                                </div>
+                                            {% endif %}
+                                    {% endfor %}
+                            </article>
+                    {% endif %}
+                    {% unless post.pinned %}
+                                  <article class="post {% if post.urgence_post %}urgence{% endif %}">
+                                      <div class="post-publication-time">
+                                        <span>{{ post.date | date: '%d.%m.%Y'}}<small> {{ post.date | date: 'à %HH%M'}}</small></span>
+                                      </div>
+                                      <h1  class="post-title text-uppercase">{{ post.title }}</h1>
+                                      {% if post.publication_header_image %}
+                                        <div class="post-image"><img src="{{ post.publication_header_image }}" class="img-fluid"></div>
+                                      {% endif %}
+                                      <div class="post-content">
+                                        {{ post.content }}
+                                      </div>
+                                      {% if post.publication_footer_image %}
+                                        <div class="post-image"><img src="{{ post.publication_footer_image }}" class="img-fluid"></div>
+                                      {% endif %}
+                                      
+                                      {% for video in post.insertion_video %}
+                                        {% if video.video_code_block %}
+                                      <div class="embed-responsive embed-responsive-16by9">{{ video.video_code_block }}</div>
+                                        {% endif %}
+                                      {% endfor %}
+                                     
+                                    {% for social in post.insertion_social %}
+                                            {% if social.social_code_block %}
+                                                <div class="col-12 embed-responsive embed-responsive-16by9 w-100">
+                                                  {{ social.social_code_block }}
+                                                </div>
+                                            {% endif %}
+                                    {% endfor %}
+                                  </article>
+                    {% endunless %}
                   {% endfor %}
       </section>
   </div>
