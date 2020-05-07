@@ -77,6 +77,7 @@ iraiser_url: 'https://don.ordredemaltefrance.org/?cid=11&reserved_code_origine=W
                       {% if post.publication_footer_image %}
                         <div class="post-image"><img src="{{ post.publication_footer_image }}" class="img-fluid"></div>
                       {% endif %}
+                      
                       {% for video in post.insertion_video %}
                         {% if video.video_code_block %}
                       <div class="embed-responsive embed-responsive-16by9">{{ video.video_code_block }}</div>
@@ -90,10 +91,6 @@ iraiser_url: 'https://don.ordredemaltefrance.org/?cid=11&reserved_code_origine=W
                                 </div>
                             {% endif %}
                     {% endfor %}
-                        
-
-
-
                   </article>
                   {% endfor %}
       </section>
