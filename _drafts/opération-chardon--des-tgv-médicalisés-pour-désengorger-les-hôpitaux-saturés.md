@@ -13,4 +13,4 @@ insertion_video:
 
 Nos secouristes, avec la Croix Rouge et la FFSS, &eacute;vacuaient d&eacute;but avril les patients atteints de Covid19 vers l’ouest de la France, &agrave; travers une mission aussi impressionnante que complexe 💪
 
-Un grand merci aux secouristes b&eacute;n&eacute;voles pour leur solidarit&eacute; et leur d&eacute;vouement &agrave; toute &eacute;preuve 🙏
+Un grand merci aux secouristes b&eacute;n&eacute;voles comme Antoine et Lorraine pour leur solidarit&eacute; et leur d&eacute;vouement &agrave; toute &eacute;preuve 🙏
