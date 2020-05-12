@@ -4,26 +4,40 @@
 	.actu-bar {
 		background-color: $blue;
 
-		ul {
+		.actu-links {
 			color: $white;
 			display: flex;
 			flex-direction: row;
-			flex-wrap: wrap;
+			justify-content: center;
+			align-items: center;
 			width: 100%;
-			padding: 5px 10px;
+			//padding: 5px 10px;
 			margin-bottom: 0;
 
-			li {
+			a {
 				color: $white;
 				text-transform: uppercase;
 				font-size: 14px;
-				margin: 5px 20px;
+				padding: 10px 20px;
 
-				a {
-					color: $white;
-				}
 				&:first-child {
 					opacity: 0.5;
+					background-color: $blue;
+				}
+
+				&:nth-child(2) {
+					background-color: #293443;
+					width: 100%;
+
+					img {
+						margin-bottom: 6px;
+						margin-top: 6px;
+						margin-right: 5px;
+					}
+
+					br.only-xs {
+						display: none;
+					}
 				}
 			}
 		}
@@ -936,6 +950,11 @@
 	.content-solimalte {
 		padding-left: 0;
 
+		.actu-bar .actu-links {
+			flex-direction: column;
+			align-items: flex-start;
+		}
+
 		.header {
 			padding: 20px;
 		}
@@ -996,6 +1015,14 @@
 
 		.statistics .text {
 			margin-right: 25px;
+		}
+	}
+}
+
+@include media-breakpoint-down(xs) {
+	.content-solimalte {
+		.actu-bar .actu-links a:nth-child(2) br.only-xs {
+			display:block;
 		}
 	}
 }

@@ -79,29 +79,44 @@ body {
 .content {
 	padding-left: $leftMenuWidth;
 
-	.actu-bar {
+	.actu-bar.index {
 		background-color: $blue;
 
-		ul {
+		.actu-links {
 			color: $white;
 			display: flex;
 			flex-direction: row;
-			flex-wrap: wrap;
+			justify-content: center;
+			align-items: center;
 			width: 100%;
-			padding: 5px 10px;
+			//padding: 5px 10px;
 			margin-bottom: 0;
 
-			li {
+			a {
 				color: $white;
 				text-transform: uppercase;
 				font-size: 14px;
-				margin: 5px 20px;
+				padding: 10px 20px;
 
-				a {
-					color: $white;
+				&:first-child {
+					background-color: $blue;
 				}
+
 				&:nth-child(2) {
-					opacity: 0.5;
+					background-color: #293443;
+					width: 100%;
+					color: rgba(255, 255, 255, 0.5);
+					// opacity: 0.5;
+
+					img {
+						margin-bottom: 6px;
+						margin-top: 6px;
+						margin-right: 5px;
+					}
+
+					br.only-xs {
+						display: none;
+					}
 				}
 			}
 		}
@@ -255,31 +270,52 @@ body {
 		}
 	}
 
-	.actu-bar {
+	.actu-bar.index {
 		background-color: $blue;
 
-		ul {
+		.actu-links {
 			color: $white;
 			display: flex;
-			flex-direction: row;
-			flex-wrap: wrap;
+			flex-direction: column;
+			justify-content: center;
+			align-items: flex-start;
 			width: 100%;
-			padding: 5px 10px;
+			//padding: 5px 10px;
 			margin-bottom: 0;
 
-			li {
+			a {
 				color: $white;
 				text-transform: uppercase;
 				font-size: 14px;
-				margin: 5px 20px;
+				padding: 10px 20px;
 
-				a {
-					color: $white;
+				&:first-child {
+					background-color: $blue;
 				}
+
 				&:nth-child(2) {
-					opacity: 0.5;
+					background-color: #293443;
+					width: 100%;
+					color: rgba(255, 255, 255, 0.5);
+					// opacity: 0.5;
+
+					img {
+						margin-bottom: 6px;
+						margin-top: 6px;
+						margin-right: 5px;
+					}
+
+					br.only-xs {
+						display: none;
+					}
 				}
 			}
+		}
+	}
+
+	@include media-breakpoint-down(xs) {
+		.actu-bar.index .actu-links a:nth-child(2) br.only-xs {
+			display:block;
 		}
 	}
 
