@@ -23,7 +23,7 @@ $(document).on("click", ".btn-play", function () {
 	if (width < 200) width = headerElem.width();
 
 	if (headerElem.hasClass('desktop'))
-		headerElem.find(".header-video")[0].src += '&autoplay=1';
+		headerElem.find(".header-video")[0].src += '?autoplay=1';
 	headerElem.find(".header-video").width(width).show();
 
 	headerElem.find(".header-title").hide();
