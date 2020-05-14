@@ -13,3 +13,16 @@ if (arrowElem) {
 		}
 	});
 }
+
+$(document).on('click', '.btn-play', function() {
+	console.log($(this).parent().width());
+	const headerElem = $(this).parents('header');
+
+	headerElem.find('.header-video')
+	.width($(this).parent().width() * 0.80)
+	.show();
+
+	headerElem.find('.header-title').hide();
+	headerElem.find('.header-btn-container').hide();
+
+});

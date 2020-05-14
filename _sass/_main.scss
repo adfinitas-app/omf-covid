@@ -2,10 +2,10 @@
 
 $backgroundColor: #ffffff;
 $bodyColor: #000000;
-$bodyFont: 'Roboto', sans-serif;
+$bodyFont: "Roboto", sans-serif;
 
 $leftMenuWidth: 300px;
-$red: #E2001A;
+$red: #e2001a;
 $blue: #354253;
 $transitionSpeed: 0.4s;
 
@@ -14,7 +14,6 @@ body {
 	color: $bodyColor;
 	font-family: $bodyFont;
 }
-
 
 .btn-don {
 	color: #fff;
@@ -26,7 +25,7 @@ body {
 	padding: 7px 0;
 	border: 1px solid transparent;
 	letter-spacing: 0.01rem;
-	font-family: 'Roboto Condensed', sans-serif;
+	font-family: "Roboto Condensed", sans-serif;
 }
 
 .text-bold {
@@ -38,7 +37,7 @@ body {
 }
 
 .left-menu {
-	background-color: #F8F8F8;
+	background-color: #f8f8f8;
 	position: fixed;
 	left: 0;
 	top: 0;
@@ -58,15 +57,15 @@ body {
 		height: 100%;
 		width: 100%;
 
-		.mb-5{
+		.mb-5 {
 			margin-bottom: 10rem !important;
 		}
 	}
 
 	.ensemble {
 		font-size: 20px;
-		color:#354253;
-		line-height: 1.2
+		color: #354253;
+		line-height: 1.2;
 	}
 
 	.remise {
@@ -122,52 +121,44 @@ body {
 		}
 	}
 
-	.message-president {
-		background-color: $blue;
-		padding: 20px;
-		color: #fff;
+	.header {
+		background-color: black;
+		padding: 100px 20px;
+		text-align: center;
 
+		.header-title {
+			color: white;
+			font-size: 40px;
+			font-weight: bold;
+			text-align: center;
+		}
+
+		.header-btn-container {
+			text-align: center;
+
+			img {
+				cursor: pointer;
+			}
+		}
+
+		.header-video {
+			display: none;
+		}
+	}
+	.bandeau-president {
+		background-color: $blue;
+		display: flex;
+		padding: 40px 15px;
+		flex-direction: row;
+		justify-content: flex-start;
+		align-items: center;
+		
 		.president-text {
 			font-size: 14px;
-			display: inline-block;
-			max-width: 200px;
-			font-family: 'Roboto Condensed', sans-serif;
-			padding-top: 5px;
-		}
-
-		.aujourdhui {
-			font-size: 20px;
-			font-family: 'Roboto Condensed', sans-serif;
-		}
-
-		.chers-amis {
-			font-size: 18px;
-		}
-
-		.arrow-down {
-			cursor: pointer;
-			transition: transform $transitionSpeed ease-in-out;
-			transform: rotateX(0deg)
-		}
-
-		.arrow-down.active {
-			transition: transform $transitionSpeed ease-in-out;
-			transform: rotateX(-180deg)
-		}
-
-		#click-to-expand {
-			font-size: 18px;
-			max-height: 0px;
-			-webkit-transition: max-height $transitionSpeed ease-in-out;
-			-moz-transition: max-height $transitionSpeed ease-in-out;
-			-ms-transition: max-height $transitionSpeed ease-in-out;
-			-o-transition: max-height $transitionSpeed ease-in-out;
-			transition: max-height $transitionSpeed ease-in-out;
-			overflow: hidden;
-		}
-		#click-to-expand:hover {
-			height:auto;
-			max-height:1000px;
+			font-family: "Roboto Condensed", sans-serif;
+			width: 100%;
+			color: white;
+			margin: 0 15px;
 		}
 	}
 
@@ -184,7 +175,7 @@ body {
 			top: 0;
 			font-size: 50px;
 			padding: 0 20px;
-			font-family: 'Roboto Condensed', sans-serif;
+			font-family: "Roboto Condensed", sans-serif;
 		}
 
 		.last-update {
@@ -200,7 +191,7 @@ body {
 		.last-update-time {
 			font-size: 20px;
 			color: $red;
-			font-family: 'Roboto Condensed', sans-serif;
+			font-family: "Roboto Condensed", sans-serif;
 			padding-left: 0.6rem;
 		}
 
@@ -212,7 +203,7 @@ body {
 				padding: 20px 150px 0 20px;
 
 				.post-publication-time {
-					background: url('/assets/img/background-publication-time.png');
+					background: url("/assets/img/background-publication-time.png");
 					height: 48px;
 					width: 112px;
 					padding-top: 8px;
@@ -220,11 +211,11 @@ body {
 					position: absolute;
 					right: -20px;
 					top: 23px;
-					line-height:1;
+					line-height: 1;
 				}
 
 				&.urgence .post-publication-time {
-					background: url('/assets/img/background-publication-time-red.png');
+					background: url("/assets/img/background-publication-time-red.png");
 					color: #fff;
 				}
 
@@ -246,6 +237,24 @@ body {
 		}
 	}
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // ################ Mobile
 
@@ -315,20 +324,50 @@ body {
 
 	@include media-breakpoint-down(xs) {
 		.actu-bar.index .actu-links a:nth-child(2) br.only-xs {
-			display:block;
+			display: block;
 		}
 	}
 
-	.message-president{
+	.header {
+		background-color: black;
+		padding: 60px 10px;
+		text-align: center;
+
+		.header-title {
+			color: white;
+			font-size: 36px;
+			font-weight: bold;
+			text-align: center;
+		}
+
+		.header-btn-container {
+			text-align: center;
+
+			img {
+				cursor: pointer;
+			}
+		}
+
+		.header-video {
+			display: none;
+		}
+	}
+	.bandeau-president {
 		background-color: $blue;
-		padding: 20px;
-		color: #fff;
-
-		.aujourdhui{
-			font-family: 'Roboto Condensed', sans-serif;
+		display: flex;
+		padding: 40px 15px;
+		flex-direction: row;
+		justify-content: flex-start;
+		align-items: center;
+		
+		.president-text {
+			font-size: 14px;
+			font-family: "Roboto Condensed", sans-serif;
+			width: 100%;
+			color: white;
+			margin: 0 15px;
 		}
 	}
-
 
 	.bandeau-covid {
 		background-color: $red;
@@ -387,6 +426,6 @@ body {
 	}
 }
 
-@import './_cross.scss';
+@import "./_cross.scss";
 
-@import './solimalte.scss';
+@import "./solimalte.scss";
