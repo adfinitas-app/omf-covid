@@ -332,18 +332,25 @@ body {
 		background-color: black;
 		padding: 60px 10px;
 		text-align: center;
+		display: flex;
+		flex-direction: row;
+		width: 100%;
+		justify-content: center;
+		align-items: center;
 
 		.header-title {
 			color: white;
-			font-size: 36px;
+			font-size: 20px;
 			font-weight: bold;
 			text-align: center;
+			margin-right: 15px;
 		}
 
 		.header-btn-container {
 			text-align: center;
 
-			img {
+			.btn-play {
+				width: 60px;
 				cursor: pointer;
 			}
 		}
