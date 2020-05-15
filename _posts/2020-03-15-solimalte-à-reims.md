@@ -15,6 +15,6 @@ Gr&acirc;ce &agrave; votre soutien, le nouveau dispositif Soli'Malte est pr&eacu
 
 Un grand merci pour vos dons qui nous permettent de faire face &agrave; l'explosion de le pr&eacute;carit&eacute;, et un grand merci aux b&eacute;n&eacute;voles pour leur engagement solidaire et n&eacute;cessaire aupr&egrave;s des plus fragiles.
 
-<div class="embed-responsive embed-responsive-4by3">
-    <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fsecourisme51.ordredemaltefrance%2Fposts%2F2539822276240751&width=500" width="500" height="707" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media" class="embed-responsive-item"></iframe>
+<div class="embed-responsive">
+    <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fsecourisme51.ordredemaltefrance%2Fposts%2F2539822276240751&width=500" width="250" height="350" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media" class="embed-responsive-item"></iframe>
 </div>
