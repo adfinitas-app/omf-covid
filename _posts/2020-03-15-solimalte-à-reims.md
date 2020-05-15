@@ -13,4 +13,4 @@ insertion_video:
 
 Gr&acirc;ce &agrave; votre soutien, le nouveau dispositif Soli'Malte est pr&eacute;sent dans un nombre croissant de villes. Reims fait partie des villes d&eacute;ployant le dispositif, et nos b&eacute;n&eacute;voles ont pris le temps de nous partager les images de leur premi&egrave;re maraude "3 en 1".&nbsp;Un grand merci pour vos dons qui nous permettent de faire face &agrave; l'explosion de le pr&eacute;carit&eacute;, et un grand merci aux b&eacute;n&eacute;voles pour leur engagement solidaire et n&eacute;cessaire aupr&egrave;s des plus fragiles.<br><br>[En savoir plus sur Soli'Malte, un service in&eacute;dit d’urgence.](https://covid19.ordredemaltefrance.org/solimalte)<br><br>Plus d'informations sur cette premi&egrave;re maraude sur [la page Facebook Secourisme 51 Ordre de Malte France.](https://www.facebook.com/secourisme51.ordredemaltefrance/)
 
-![](/uploads/96003863-2539821942907451-7131076403621003264-o.jpg){: width="720" height="960"}
+![](/uploads/96003863-2539821942907451-7131076403621003264-o.jpg){: width="720" height="960" class="img-fluid w-100"}
