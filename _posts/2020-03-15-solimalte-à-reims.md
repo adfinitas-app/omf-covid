@@ -6,12 +6,7 @@ urgence_post: false
 publication_header_image:
 publication_footer_image:
 insertion_social:
-  - social_code_block: >-
-      <iframe
-      src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fsecourisme51.ordredemaltefrance%2Fposts%2F2539822276240751&width=500"
-      width="500" height="707" style="border:none;overflow:hidden"
-      scrolling="no" frameborder="0" allowTransparency="true"
-      allow="encrypted-media"></iframe>
+  - social_code_block:
 insertion_video:
   - video_code_block:
 ---
