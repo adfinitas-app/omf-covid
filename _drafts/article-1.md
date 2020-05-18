@@ -1,6 +1,6 @@
 ---
 date: 2020-03-15 12:00:00
-title: Article 1
+title: Soli'Malte à Reims
 pinned: false
 urgence_post: false
 publication_header_image:
