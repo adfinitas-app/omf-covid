@@ -17,4 +17,4 @@ D&eacute;ploy&eacute; dans de nombreuses villes, il t&eacute;moigne ainsi du bes
 
 Merci &agrave; vous pour vos dons, c’est gr&acirc;ce &agrave; vous que ce service a pu &ecirc;tre cr&eacute;&eacute;.
 
-[En savoir plus sur d&eacute;ploiement &agrave; Nantes](https://www.breizh-info.com/2020/05/07/143176/precarite-maraudes-lordre-de-malte-france-lance-solimalte-a-nantes/){: target="_blank"}.
+[En savoir plus sur d&eacute;ploiement de Soli'Malte &agrave; Nantes](https://www.breizh-info.com/2020/05/07/143176/precarite-maraudes-lordre-de-malte-france-lance-solimalte-a-nantes/){: target="_blank"}.
