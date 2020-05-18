@@ -19,6 +19,4 @@ Nous sommes fiers de nos b&eacute;n&eacute;voles et de cet &eacute;lan de solida
 
 👉 Reportage de France 3 &agrave; revoir ici ci-dessous (04:00min &agrave; 06:00min).
 
-<div class="embed-responsive embed-responsive-16by9 w-50">
-<iframe width="560" height="315" src="http://embedftv-a.akamaihd.net/b957ecde1c4c8acd0706fc5aeded9551" frameborder="0" allowfullscreen=""></iframe>
-</div>
+<div class="embed-responsive embed-responsive-16by9 w-50"><iframe width="560" height="315" src="http://embedftv-a.akamaihd.net/b957ecde1c4c8acd0706fc5aeded9551" frameborder="0" allowfullscreen=""></iframe></div>
