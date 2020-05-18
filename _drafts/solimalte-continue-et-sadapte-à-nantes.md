@@ -1,5 +1,5 @@
 ---
-date: 2020-03-11 09:00:00
+date: 2020-05-12 09:00:00
 title: Soli’Malte continue et s’adapte à Nantes
 pinned: false
 urgence_post: false
