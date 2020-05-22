@@ -1,5 +1,5 @@
 ---
-date: 2020-05-20 08:00:00
+date: 2020-05-18 08:00:00
 title: Le déploiement de Soli’Malte à Rouen
 pinned: false
 urgence_post: false
