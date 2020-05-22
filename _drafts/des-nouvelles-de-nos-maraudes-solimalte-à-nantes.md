@@ -24,5 +24,3 @@ Apr&egrave;s la prise de constantes et un temps d’&eacute;change, aucun des ca
 [Je fais un don maintenant](https://don.ordredemaltefrance.org/b?cid=14&amp;lang=fr_FR)
 
 &nbsp;
-
-&nbsp;
