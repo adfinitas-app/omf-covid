@@ -2,6 +2,10 @@
 layout: default
 title: Ordre de Malte France - COVID-19
 iraiser_url: "https://don.ordredemaltefrance.org/?cid=11&reserved_code_origine=Webcovid"
+titre_article: TITRE
+contenu_markdown:
+date_article: 26.05.2020
+heure_article: 8H00
 ---
 
 {%- include progress-bar.html -%}
@@ -59,14 +63,17 @@ iraiser_url: "https://don.ordredemaltefrance.org/?cid=11&reserved_code_origine=W
 		</p>
 	</div>
 	<section class="posts">
-		<article class="post {% if post.urgence_post %}urgence{% endif %}">
+		<article class="post">
 			<div class="post-publication-time">
-				<span>26.05.2020<small>
-						08H00</small></span	>
+				<span>{{ page.date_article }}
+				    <small>{{ page.heure_article }}</small>
+				</span>
 			</div>
-			<h1 class="post-title text-uppercase">TITRE</h1>
+			<h1 class="post-title text-uppercase">{{ page.titre_article }}</h1>
 			<div class="post-content">
-				{{ post.content }}
+			    {% if page.contenu_markdown %}
+                  {{ page.contenu_markdown | markdownify }}
+                {% endif %}
 			</div>
 		</article>
 	
@@ -140,12 +147,16 @@ iraiser_url: "https://don.ordredemaltefrance.org/?cid=11&reserved_code_origine=W
 			<section class="posts">
 				<article class="post pb-5">
 
-					<h1 class="post-title text-uppercase">TITRE</h1>
-					<div class="post-content">CONTENU</div>
+					<h1 class="post-title text-uppercase editable">{{ page.titre_article }}</h1>
+					<div class="post-content editable">
+					    {% if page.contenu_markdown %}
+                          {{ page.contenu_markdown | markdownify }}
+                        {% endif %}
+					</div>
 				
-					<div class="post-publication-time">
-						<b>26.05.2020</b><br />
-						<small>08H00</small>
+					<div class="post-publication-time editable">
+						<b>{{ page.date_article }}</b><br />
+						<small>{{ page.heure_article }}</small>
 					</div>
 				</article>
 			</section>
