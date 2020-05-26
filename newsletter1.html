@@ -236,29 +236,14 @@ _options:
 	<!-- ACTU BAR -->
 	<!-- HEADER WITH VIDEO -->
 	<header class="header">
-		<h1 class="header-title">
-			Mobilisés de toutes nos forces, sur tous les fronts de l’urgence
+		<h1 class="header-title text-uppercase">
+			{{ page.titre_article }}
 		</h1>
-		<!--
-		<div class="header-btn-container">
-			<img class="btn-play" src="{{ "assets/img/btn-play.png" | relative_url }}" alt="play" />
-		</div>
-		<iframe class="header-video" width="560" height="315" src="https://www.youtube.com/embed/-TCNwWfZWGU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-		-->
 	</header>
-	<section class="bandeau-president">
-		<div class="ml-0 ml-md-3">
-			<img src="{{ "assets/img/president.png" | relative_url }}" alt="president" />
-		</div>
-		<p class="president-text">
-			<span class="text-bold text-condensed">Jean-Baptiste Favatier,</span> Président de
-			l’Ordre de Malte France
-		</p>
-	</section>
 	<!-- HEADER WITH VIDEO -->
 	<div class="bandeau-covid">
 		<p class="text-center">
-			COVID-19* - Dernière mise à jour
+			COVID-19 - Dernière mise à jour
 			<span>{{ page.last_modified_at | date: '%d/%m/%y %H:%M' }}</span>
 		</p>
 	</div>
@@ -269,7 +254,6 @@ _options:
 				    <small>{{ page.heure_article }}</small>
 				</span>
 			</div>
-			<h1 class="post-title text-uppercase">{{ page.titre_article }}</h1>
 			<div class="post-content">
 			    {% if page.contenu_markdown %}
                   {{ page.contenu_markdown | markdownify }}
