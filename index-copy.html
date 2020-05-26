@@ -1,0 +1,305 @@
+---
+layout: default
+title: Ordre de Malte France - COVID-19
+iraiser_url: "https://don.ordredemaltefrance.org/?cid=11&reserved_code_origine=Webcovid"
+---
+
+{%- include progress-bar.html -%}
+
+<div class="home-mobile d-md-none">
+	<nav class="pl-3 pr-3 pt-2 pb-2">
+		<div class="row">
+			<div class="col-6">
+				<img class="logo-mobile" src="{{ "/assets/img/logo.png" | relative_url }}"
+				alt="logo"/>
+			</div>
+			<div class="col-6 text-right">
+				<a class="btn btn-don" href="{{ page.iraiser_url }}" role="button"
+					>JE FAIS UN DON</a
+				>
+			</div>
+		</div>
+	</nav>
+	<!-- ACTU BAR -->
+	<div class="actu-bar index">
+		<div class="actu-links">
+			<a href="https://covid19.ordredemaltefrance.org/">Actualités</a>
+			<a href="https://covid19.ordredemaltefrance.org/solimalte"
+				><img src="{{ 'assets/img/solimalte/actu-soli.png' | relative_url }}" />
+				<br class="only-xs" />: NOTRE RÉPONSE GLOBALE POUR FAIRE FACE À LA CRISE
+				SANITAIRE</a
+			>
+		</div>
+	</div>
+	<!-- ACTU BAR -->
+	<!-- HEADER WITH VIDEO -->
+	<header class="header">
+		<h1 class="header-title">
+			AUJOURD’HUI PLUS QUE JAMAIS, RÉPONDONS ENSEMBLE À L’URGENCE DE LA SOLIDARITÉ
+		</h1>
+		<div class="header-btn-container">
+			<img class="btn-play" src="{{ "assets/img/btn-play.png" | relative_url }}" alt="play"/>
+		</div>
+		<iframe class="header-video" width="560" height="315" src="https://www.youtube.com/embed/-TCNwWfZWGU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	</header>
+	<section class="bandeau-president">
+		<div class="ml-0 ml-md-3">
+			<img src="{{ "assets/img/president.png" | relative_url }}" alt="president"/>
+		</div>
+		<p class="president-text">
+			<span class="text-bold text-condensed">Jean-Baptiste Favatier,</span> Président de
+			l’Ordre de Malte France
+		</p>
+	</section>
+	<!-- HEADER WITH VIDEO -->
+	<div class="bandeau-covid">
+		<p class="text-center">
+			COVID-19* - Dernière mise à jour
+			<span>{{ page.last_modified_at | date: '%d/%m/%y %H:%M' }}</span>
+		</p>
+	</div>
+	<section class="posts">
+		{% for post in site.posts %} {% if post.pinned %}
+		<article class="post {% if post.urgence_post %}urgence{% endif %}">
+			<div class="post-publication-time">
+				<span>A LA UNE<small>&nbsp;</small></span>
+			</div>
+			<h1 class="post-title text-uppercase">{{ post.title }}</h1>
+			{% if post.publication_header_image %}
+			<div class="post-image">
+				<img src="{{ post.publication_header_image }}" class="img-fluid" />
+			</div>
+			{% endif %}
+			<div class="post-content">
+				{{ post.content }}
+			</div>
+			{% if post.publication_footer_image %}
+			<div class="post-image">
+				<img src="{{ post.publication_footer_image }}" class="img-fluid" />
+			</div>
+			{% endif %} {% for video in post.insertion_video %} {% if video.video_code_block %}
+			<div class="embed-responsive embed-responsive-16by9">{{ video.video_code_block }}</div>
+			{% endif %} {% endfor %} {% for social in post.insertion_social %} {% if
+			social.social_code_block %}
+			<div class="col-12 embed-responsive embed-responsive-16by9 w-100">
+				{{ social.social_code_block }}
+			</div>
+			{% endif %} {% endfor %}
+		</article>
+		{% endif %} {% unless post.pinned %}
+		<article class="post {% if post.urgence_post %}urgence{% endif %}">
+			<div class="post-publication-time">
+				<span
+					>{{ post.date | date: '%d.%m.%Y'}}<small>
+						{{ post.date | date: 'à %HH%M'}}</small
+					></span
+				>
+			</div>
+			<h1 class="post-title text-uppercase">{{ post.title }}</h1>
+			{% if post.publication_header_image %}
+			<div class="post-image">
+				<img src="{{ post.publication_header_image }}" class="img-fluid" />
+			</div>
+			{% endif %}
+			<div class="post-content">
+				{{ post.content }}
+			</div>
+			{% if post.publication_footer_image %}
+			<div class="post-image">
+				<img src="{{ post.publication_footer_image }}" class="img-fluid" />
+			</div>
+			{% endif %} {% for video in post.insertion_video %} {% if video.video_code_block %}
+			<div class="embed-responsive embed-responsive-16by9">{{ video.video_code_block }}</div>
+			{% endif %} {% endfor %} {% for social in post.insertion_social %} {% if
+			social.social_code_block %}
+			<div class="col-12 embed-responsive embed-responsive-16by9 w-100">
+				{{ social.social_code_block }}
+			</div>
+			{% endif %} {% endfor %}
+		</article>
+		{% endunless %} {% endfor %}
+	</section>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="home d-none d-md-block">
+	<aside class="left-menu">
+		<div class="left-container">
+			<div>
+				<img class="logo mb-5" src="{{ "/assets/img/logo.png" | relative_url }}"
+				alt="logo"/>
+			</div>
+			<p class="ensemble text-center">
+				<span class="text-bold">Ensemble, + forts contre le COVID-19.</span>
+				<br />
+				<small>Pour faire face et prendre soin des plus fragiles, je suis solidaire.</small>
+			</p>
+			<a class="btn btn-don mb-3 mt-1" href="{{ page.iraiser_url }}" role="button"
+				>JE FAIS UN DON</a
+			>
+			<p class="remise">
+				75% du montant de mon don sont déductibles de l'Impôt sur le Revenu, dans la limite
+				de 20% du revenu net imposable.
+			</p>
+		</div>
+	</aside>
+	<div class="content">
+		<!-- ACTU BAR -->
+		<div class="actu-bar index">
+			<div class="actu-links">
+				<a href="https://covid19.ordredemaltefrance.org/">Actualités</a>
+				<a href="https://covid19.ordredemaltefrance.org/solimalte"
+					><img src="{{ 'assets/img/solimalte/actu-soli.png' | relative_url }}" />
+					<br class="only-xs" />: NOTRE RÉPONSE GLOBALE POUR FAIRE FACE À LA CRISE
+					SANITAIRE</a
+				>
+			</div>
+		</div>
+		<!-- ACTU BAR -->
+		<!-- HEADER WITH VIDEO -->
+		<header class="header desktop">
+			<h1 class="header-title">
+				AUJOURD’HUI PLUS QUE JAMAIS, RÉPONDONS ENSEMBLE À L’URGENCE DE LA SOLIDARITÉ
+			</h1>
+			<div class="header-btn-container">
+				<img class="btn-play" src="{{ "assets/img/btn-play.png" | relative_url }}"
+				alt="play"/>
+			</div>
+			<iframe class="header-video" width="560" height="315" src="https://www.youtube.com/embed/-TCNwWfZWGU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		</header>
+		<section class="bandeau-president">
+			<div class="ml-0 ml-md-3">
+				<img src="{{ "assets/img/president.png" | relative_url }}" alt="president"/>
+			</div>
+			<p class="president-text">
+				<span class="text-bold text-condensed">Jean-Baptiste Favatier,</span> Président de
+				l’Ordre de Malte France
+			</p>
+		</section>
+		<!-- HEADER WITH VIDEO -->
+		<div class="blog">
+			<p class="covid-19 text-bold">COVID-19</p>
+			<p class="last-update">
+				Dernière mise à jour
+				<span class="last-update-time text-condensed"
+					>{{ page.last_modified_at | date: '%d.%m.%Y' }}</span
+				>
+			</p>
+			<section class="posts">
+				{% for post in site.posts %} {% if post.pinned %}
+				<article class="post {% if post.urgence_post %}urgence{% endif %} pb-5">
+					{% if post.publication_header_image %}
+
+					<h1 class="post-title text-uppercase">{{ post.title }}</h1>
+					<div class="card mb-2">
+						<a href="{{ page.iraiser_url }}">
+							<img src="{{ post.publication_header_image }}" class="card-img-top" />
+						</a>
+						<div class="card-body">
+							<p class="card-text">{{ post.content }}</p>
+
+							{% for video in post.insertion_video %} {% if video.video_code_block %}
+							<div class="embed-responsive embed-responsive-16by9">
+								{{ video.video_code_block }}
+							</div>
+							{% endif %} {% endfor %}
+						</div>
+					</div>
+
+					{% else %}
+
+					<h1 class="post-title text-uppercase">{{ post.title }}</h1>
+					<div class="post-content">{{ post.content }}</div>
+					{% if post.publication_footer_image %}
+					<img src="{{ post.publication_footer_image }}" class="img-fluid w-50" />
+					{% endif %} {% for video in post.insertion_video %} {% if video.video_code_block
+					%}
+					<div class="embed-responsive embed-responsive-16by9 w-50">
+						{{ video.video_code_block }}
+					</div>
+					{% endif %} {% endfor %} {% for social in post.insertion_social %} {% if
+					social.social_code_block %}
+					<div class="col-8 embed-responsive embed-responsive-16by9 w-50">
+						{{ social.social_code_block }}
+					</div>
+					{% endif %} {% endfor %} {% endif %}
+					<div class="post-publication-time">
+						<b>A LA UNE</b><br /><small>&nbsp;</small>
+					</div>
+				</article>
+				{% endif %} {% unless post.pinned %}
+				<article class="post {% if post.urgence_post %}urgence{% endif %} pb-5">
+					{% if post.publication_header_image %}
+
+					<h1 class="post-title text-uppercase">{{ post.title }}</h1>
+					<div class="card mb-2">
+						<a href="{{ page.iraiser_url }}">
+							<img src="{{ post.publication_header_image }}" class="card-img-top" />
+						</a>
+						<div class="card-body">
+							<p class="card-text">{{ post.content }}</p>
+
+							{% for video in post.insertion_video %} {% if video.video_code_block %}
+							<div class="embed-responsive embed-responsive-16by9">
+								{{ video.video_code_block }}
+							</div>
+							{% endif %} {% endfor %}
+						</div>
+					</div>
+
+					{% else %}
+
+					<h1 class="post-title text-uppercase">{{ post.title }}</h1>
+					<div class="post-content">{{ post.content }}</div>
+					{% if post.publication_footer_image %}
+					<img src="{{ post.publication_footer_image }}" class="img-fluid w-50" />
+					{% endif %} {% for video in post.insertion_video %} {% if video.video_code_block
+					%}
+					<div class="embed-responsive embed-responsive-16by9 w-50">
+						{{ video.video_code_block }}
+					</div>
+					{% endif %} {% endfor %} {% for social in post.insertion_social %} {% if
+					social.social_code_block %}
+					<div class="col-8 embed-responsive embed-responsive-16by9 w-50">
+						{{ social.social_code_block }}
+					</div>
+					{% endif %} {% endfor %} {% endif %}
+					<div class="post-publication-time">
+						<b>{{ post.date | date: '%d.%m.%Y'}}</b><br /><small
+							>{{ post.date | date: 'à %HH%M'}}</small
+						>
+					</div>
+				</article>
+				{% endunless %} {% endfor %}
+			</section>
+		</div>
+	</div>
+</div>
