@@ -312,8 +312,8 @@ _options:
 		<!-- ACTU BAR -->
 		<!-- HEADER WITH VIDEO -->
 		<header class="header desktop">
-			<h1 class="header-title">
-				Mobilisés de toutes nos forces, sur tous les fronts de l’urgence
+			<h1 class="header-title text-uppercase">
+				{{ page.titre_article }}
 			</h1>
 		</header>
 
@@ -325,8 +325,6 @@ _options:
 			</p>
 			<section class="posts">
 				<article class="post pb-5">
-
-					<h1 class="post-title text-uppercase">{{ page.titre_article }}</h1>
 					<div class="post-content" style="padding: 20px">
 					    {% if page.contenu_markdown %}
                           {{ page.contenu_markdown | markdownify }}
