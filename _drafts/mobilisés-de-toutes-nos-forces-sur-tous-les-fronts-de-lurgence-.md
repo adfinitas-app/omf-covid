@@ -4,7 +4,7 @@ title: 'Mobilisés de toutes nos forces, sur tous les fronts de l’urgence !'
 pinned: false
 urgence_post: false
 publication_header_image:
-publication_footer_image:
+publication_footer_image: /uploads/group-245.jpg
 insertion_social:
   - social_code_block:
 insertion_video:
