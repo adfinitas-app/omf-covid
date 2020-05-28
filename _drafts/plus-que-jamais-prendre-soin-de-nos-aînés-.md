@@ -4,7 +4,7 @@ title: 'Plus que jamais, prendre soin de nos aînés.'
 pinned: false
 urgence_post: false
 publication_header_image:
-publication_footer_image: /uploads/33-angesgardiens-1-1.jpg
+publication_footer_image: /uploads/group-246.jpg
 insertion_social:
   - social_code_block:
 insertion_video:
