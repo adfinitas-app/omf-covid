@@ -17,4 +17,4 @@ Nos b&eacute;n&eacute;voles sont comme toujours l&agrave; o&ugrave; l’urgence 
 
 Une mission qui apporte &eacute;galement du r&eacute;confort, car au del&agrave; de la distribution alimentaire, nos b&eacute;n&eacute;voles ont pris le temps de parler avec les &eacute;tudiants, souvent inquiets face &agrave; la situation.
 
-**👉**[**D&eacute;couvrir l'article&nbsp;**](https://www.lanouvellerepublique.fr/tours/covid-19-au-coeur-du-cluster-de-la-cite-u-de-grandmont-a-tours){: target="_blank"}
+**👉&nbsp;**[**D&eacute;couvrir l'article&nbsp;**](https://www.lanouvellerepublique.fr/tours/covid-19-au-coeur-du-cluster-de-la-cite-u-de-grandmont-a-tours){: target="_blank"}
