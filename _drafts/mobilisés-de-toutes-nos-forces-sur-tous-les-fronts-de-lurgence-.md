@@ -11,6 +11,6 @@ insertion_video:
   - video_code_block:
 ---
 
-D&eacute;couvrez l’ampleur de la mobilisation de l’Ordre de Malte France, sur notre territoire comme &agrave; l’international, partout o&ugrave; l’urgence nous a appel&eacute;s. R&eacute;activit&eacute;, innovation, adaptation : les ma&icirc;tres-mots d’une r&eacute;ponse &agrave; la hauteur des besoins in&eacute;dits et accrus que cette crise sanitaire et sociale nous a impos&eacute;s
+D&eacute;couvrez l’ampleur de la mobilisation de l’Ordre de Malte France, sur notre territoire comme &agrave; l’international, partout o&ugrave; l’urgence nous a appel&eacute;s. R&eacute;activit&eacute;, innovation, adaptation : les ma&icirc;tres-mots d’une r&eacute;ponse &agrave; la hauteur des besoins in&eacute;dits et accrus que cette crise sanitaire et sociale nous a impos&eacute;s.
 
 **👉**[En savoir plus](https://covid19.ordredemaltefrance.org/newsletter1.html)
