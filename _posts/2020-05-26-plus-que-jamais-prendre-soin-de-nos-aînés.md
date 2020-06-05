@@ -1,6 +1,6 @@
 ---
 date: 2020-05-26 12:00:00
-title: 'Plus que jamais, prendre soin de nos aînés.'
+title: 'Plus que jamais, prendre soin de nos aînés'
 pinned: false
 urgence_post: false
 publication_header_image:
