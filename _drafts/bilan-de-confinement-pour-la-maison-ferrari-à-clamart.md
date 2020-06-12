@@ -4,7 +4,7 @@ title: Bilan de confinement pour la Maison Ferrari à Clamart
 pinned: false
 urgence_post: false
 publication_header_image:
-publication_footer_image:
+publication_footer_image: /uploads/103135415-3087959844620366-1972642333594682461-o.jpg
 insertion_social:
   - social_code_block:
 insertion_video:
