@@ -5,7 +5,9 @@ title: >-
   du Covid-19
 pinned: false
 urgence_post: false
-publication_header_image:
+publication_header_image: >-
+  /uploads/novembre-2020/Ordre de Malte France - Crise sanitaire - Maison
+  Ferrari 1 (1) (1).jpg
 publication_footer_image:
 insertion_social:
   - social_code_block:
