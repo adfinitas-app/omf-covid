@@ -9,7 +9,7 @@ insertion_social:
 insertion_video:
   - video_code_block: >-
       <iframe
-      src='https://players.brightcove.net/610043537001/B1c7CqZH_default/index.html?videoId=6144916967001&autoplay=false'
+      src='https://players.brightcove.net/610043537001/B1c7CqZH_default/index.html?videoId=6144916967001&autoplay=muted'
       allowfullscreen frameborder=0></iframe>
 ---
 
