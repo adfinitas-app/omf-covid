@@ -17,4 +17,4 @@ Depuis le jeudi 29 octobre &agrave; minuit, les Fran&ccedil;ais vivent leur deux
 
 Dans ce contexte, toutes les équipes de l’Ordre de Malte France, continuent leur travail pour maintenir, &agrave; tout prix, leur aide, indispensable aux personnes les plus précaires, aux personnes de la rue.
 
-[Lire la suite&nbsp;](https://www.ordredemaltefrance.org/actualites/solidarite/reconfinement-l-ordre-de-malte-france-maintient-ses-activites){: target="_blank"}
+👉&nbsp;[Lire la suite&nbsp;](https://www.ordredemaltefrance.org/actualites/solidarite/reconfinement-l-ordre-de-malte-france-maintient-ses-activites){: target="_blank"}
