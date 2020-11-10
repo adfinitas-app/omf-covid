@@ -2,6 +2,8 @@
 layout: default
 title: Ordre de Malte France - COVID-19
 iraiser_url: "https://don.ordredemaltefrance.org/?cid=11&reserved_code_origine=Webcovid"
+pagination:
+  enabled: true
 ---
 
 {%- include progress-bar.html -%}
@@ -10,13 +12,10 @@ iraiser_url: "https://don.ordredemaltefrance.org/?cid=11&reserved_code_origine=W
 	<nav class="pl-3 pr-3 pt-2 pb-2">
 		<div class="row">
 			<div class="col-6">
-				<img class="logo-mobile" src="{{ "/assets/img/logo.png" | relative_url }}"
-				alt="logo"/>
+				<img class="logo-mobile" src="{{ "/assets/img/logo.png" | relative_url }}" alt="logo"/>
 			</div>
 			<div class="col-6 text-right">
-				<a class="btn btn-don" href="{{ page.iraiser_url }}" role="button"
-					>JE FAIS UN DON</a
-				>
+				<a class="btn btn-don" href="{{ page.iraiser_url }}" role="button">JE FAIS UN DON</a>
 			</div>
 		</div>
 	</nav>
@@ -26,8 +25,7 @@ iraiser_url: "https://don.ordredemaltefrance.org/?cid=11&reserved_code_origine=W
 			<a href="https://covid19.ordredemaltefrance.org/">Actualités</a>
 			<a href="https://covid19.ordredemaltefrance.org/solimalte"
 				><img src="{{ 'assets/img/solimalte/actu-soli.png' | relative_url }}" />
-				<br class="only-xs" />: NOTRE RÉPONSE GLOBALE POUR FAIRE FACE À LA CRISE
-				SANITAIRE</a
+				<br class="only-xs" />: NOTRE RÉPONSE GLOBALE POUR FAIRE FACE À LA CRISE SANITAIRE</a
 			>
 		</div>
 	</div>
@@ -40,15 +38,23 @@ iraiser_url: "https://don.ordredemaltefrance.org/?cid=11&reserved_code_origine=W
 		<div class="header-btn-container">
 			<img class="btn-play" src="{{ "assets/img/btn-play.png" | relative_url }}" alt="play"/>
 		</div>
-		<iframe class="header-video" width="560" height="315" src="https://www.youtube.com/embed/-TCNwWfZWGU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		<iframe
+			class="header-video"
+			width="560"
+			height="315"
+			src="https://www.youtube.com/embed/-TCNwWfZWGU"
+			frameborder="0"
+			allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+			allowfullscreen
+		></iframe>
 	</header>
 	<section class="bandeau-president">
 		<div class="ml-0 ml-md-3">
 			<img src="{{ "assets/img/president.png" | relative_url }}" alt="president"/>
 		</div>
 		<p class="president-text">
-			<span class="text-bold text-condensed">Jean-Baptiste Favatier,</span> Président de
-			l’Ordre de Malte France
+			<span class="text-bold text-condensed">Jean-Baptiste Favatier,</span> Président de l’Ordre de
+			Malte France
 		</p>
 	</section>
 	<!-- HEADER WITH VIDEO -->
@@ -59,7 +65,7 @@ iraiser_url: "https://don.ordredemaltefrance.org/?cid=11&reserved_code_origine=W
 		</p>
 	</div>
 	<section class="posts">
-		{% for post in site.posts %} {% if post.pinned %}
+		{% for post in paginator.posts %} {% if post.pinned %}
 		<article class="post {% if post.urgence_post %}urgence{% endif %}">
 			<div class="post-publication-time">
 				<span>A LA UNE<small>&nbsp;</small></span>
@@ -70,9 +76,7 @@ iraiser_url: "https://don.ordredemaltefrance.org/?cid=11&reserved_code_origine=W
 				<img src="{{ post.publication_header_image }}" class="img-fluid" />
 			</div>
 			{% endif %}
-			<div class="post-content">
-				{{ post.content }}
-			</div>
+			<div class="post-content">{{ post.content }}</div>
 			{% if post.publication_footer_image %}
 			<div class="post-image">
 				<img src="{{ post.publication_footer_image }}" class="img-fluid" />
@@ -90,9 +94,7 @@ iraiser_url: "https://don.ordredemaltefrance.org/?cid=11&reserved_code_origine=W
 		<article class="post {% if post.urgence_post %}urgence{% endif %}">
 			<div class="post-publication-time">
 				<span
-					>{{ post.date | date: '%d.%m.%Y'}}<small>
-						{{ post.date | date: 'à %HH%M'}}</small
-					></span
+					>{{ post.date | date: '%d.%m.%Y'}}<small> {{ post.date | date: 'à %HH%M'}}</small></span
 				>
 			</div>
 			<h1 class="post-title text-uppercase">{{ post.title }}</h1>
@@ -101,9 +103,7 @@ iraiser_url: "https://don.ordredemaltefrance.org/?cid=11&reserved_code_origine=W
 				<img src="{{ post.publication_header_image }}" class="img-fluid" />
 			</div>
 			{% endif %}
-			<div class="post-content">
-				{{ post.content }}
-			</div>
+			<div class="post-content">{{ post.content }}</div>
 			{% if post.publication_footer_image %}
 			<div class="post-image">
 				<img src="{{ post.publication_footer_image }}" class="img-fluid" />
@@ -117,45 +117,51 @@ iraiser_url: "https://don.ordredemaltefrance.org/?cid=11&reserved_code_origine=W
 			</div>
 			{% endif %} {% endfor %}
 		</article>
-		{% endunless %} {% endfor %}
+		{% endunless %} {% endfor %} {% if paginator.total_pages > 1 %}
+		<ul class="pager">
+			{% if paginator.first_page %}
+			<li class="previous">
+				<a href="{{ paginator.first_page_path | prepend: site.baseurl | replace: '//', '/' }}"
+					>&#x3c;&#x3c;</a
+				>
+			</li>
+			{% endif %} {% if paginator.previous_page %}
+			<li class="previous">
+				<a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}"
+					>&#x3c;</a
+				>
+			</li>
+			{% endif %} {% if paginator.page_trail %} {% for trail in paginator.page_trail %}
+			<li class="{% if page.url == trail.path %}selected{% endif %}">
+				<a
+					href="{{ trail.path | prepend: site.baseurl | replace: '//', '/' }}"
+					title="{{trail.title}}"
+					>{{ trail.num }}</a
+				>
+			</li>
+			{% endfor %} {% endif %} {% if paginator.next_page %}
+			<li class="next">
+				<a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}"
+					>&#62;</a
+				>
+			</li>
+			{% endif %} {% if paginator.last_page %}
+			<li class="previous">
+				<a href="{{ paginator.last_page_path | prepend: site.baseurl | replace: '//', '/' }}"
+					>&#62;&#62;</a
+				>
+			</li>
+			{% endif %}
+		</ul>
+		{% endif %}
 	</section>
 </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 <div class="home d-none d-md-block">
 	<aside class="left-menu">
 		<div class="left-container">
 			<div>
-				<img class="logo mb-5" src="{{ "/assets/img/logo.png" | relative_url }}"
-				alt="logo"/>
+				<img class="logo mb-5" src="{{ "/assets/img/logo.png" | relative_url }}" alt="logo"/>
 			</div>
 			<p class="ensemble text-center">
 				<span class="text-bold">Ensemble, + forts contre le COVID-19.</span>
@@ -166,8 +172,8 @@ iraiser_url: "https://don.ordredemaltefrance.org/?cid=11&reserved_code_origine=W
 				>JE FAIS UN DON</a
 			>
 			<p class="remise">
-				75% du montant de mon don sont déductibles de l'Impôt sur le Revenu, dans la limite
-				de 20% du revenu net imposable.
+				75% du montant de mon don sont déductibles de l'Impôt sur le Revenu, dans la limite de 20%
+				du revenu net imposable.
 			</p>
 		</div>
 	</aside>
@@ -178,8 +184,7 @@ iraiser_url: "https://don.ordredemaltefrance.org/?cid=11&reserved_code_origine=W
 				<a href="https://covid19.ordredemaltefrance.org/">Actualités</a>
 				<a href="https://covid19.ordredemaltefrance.org/solimalte"
 					><img src="{{ 'assets/img/solimalte/actu-soli.png' | relative_url }}" />
-					<br class="only-xs" />: NOTRE RÉPONSE GLOBALE POUR FAIRE FACE À LA CRISE
-					SANITAIRE</a
+					<br class="only-xs" />: NOTRE RÉPONSE GLOBALE POUR FAIRE FACE À LA CRISE SANITAIRE</a
 				>
 			</div>
 		</div>
@@ -190,18 +195,25 @@ iraiser_url: "https://don.ordredemaltefrance.org/?cid=11&reserved_code_origine=W
 				AUJOURD’HUI PLUS QUE JAMAIS, RÉPONDONS ENSEMBLE À L’URGENCE DE LA SOLIDARITÉ
 			</h1>
 			<div class="header-btn-container">
-				<img class="btn-play" src="{{ "assets/img/btn-play.png" | relative_url }}"
-				alt="play"/>
+				<img class="btn-play" src="{{ "assets/img/btn-play.png" | relative_url }}" alt="play"/>
 			</div>
-			<iframe class="header-video" width="560" height="315" src="https://www.youtube.com/embed/-TCNwWfZWGU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			<iframe
+				class="header-video"
+				width="560"
+				height="315"
+				src="https://www.youtube.com/embed/-TCNwWfZWGU"
+				frameborder="0"
+				allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+				allowfullscreen
+			></iframe>
 		</header>
 		<section class="bandeau-president">
 			<div class="ml-0 ml-md-3">
 				<img src="{{ "assets/img/president.png" | relative_url }}" alt="president"/>
 			</div>
 			<p class="president-text">
-				<span class="text-bold text-condensed">Jean-Baptiste Favatier,</span> Président de
-				l’Ordre de Malte France
+				<span class="text-bold text-condensed">Jean-Baptiste Favatier,</span> Président de l’Ordre
+				de Malte France
 			</p>
 		</section>
 		<!-- HEADER WITH VIDEO -->
@@ -214,7 +226,7 @@ iraiser_url: "https://don.ordredemaltefrance.org/?cid=11&reserved_code_origine=W
 				>
 			</p>
 			<section class="posts">
-				{% for post in site.posts %} {% if post.pinned %}
+				{% for post in paginator.posts %} {% if post.pinned %}
 				<article class="post {% if post.urgence_post %}urgence{% endif %} pb-5">
 					{% if post.publication_header_image %}
 
@@ -240,8 +252,7 @@ iraiser_url: "https://don.ordredemaltefrance.org/?cid=11&reserved_code_origine=W
 					<div class="post-content">{{ post.content }}</div>
 					{% if post.publication_footer_image %}
 					<img src="{{ post.publication_footer_image }}" class="img-fluid w-50" />
-					{% endif %} {% for video in post.insertion_video %} {% if video.video_code_block
-					%}
+					{% endif %} {% for video in post.insertion_video %} {% if video.video_code_block %}
 					<div class="embed-responsive embed-responsive-16by9 w-50">
 						{{ video.video_code_block }}
 					</div>
@@ -251,9 +262,7 @@ iraiser_url: "https://don.ordredemaltefrance.org/?cid=11&reserved_code_origine=W
 						{{ social.social_code_block }}
 					</div>
 					{% endif %} {% endfor %} {% endif %}
-					<div class="post-publication-time">
-						<b>A LA UNE</b><br /><small>&nbsp;</small>
-					</div>
+					<div class="post-publication-time"><b>A LA UNE</b><br /><small>&nbsp;</small></div>
 				</article>
 				{% endif %} {% unless post.pinned %}
 				<article class="post {% if post.urgence_post %}urgence{% endif %} pb-5">
@@ -281,8 +290,7 @@ iraiser_url: "https://don.ordredemaltefrance.org/?cid=11&reserved_code_origine=W
 					<div class="post-content">{{ post.content }}</div>
 					{% if post.publication_footer_image %}
 					<img src="{{ post.publication_footer_image }}" class="img-fluid w-50" />
-					{% endif %} {% for video in post.insertion_video %} {% if video.video_code_block
-					%}
+					{% endif %} {% for video in post.insertion_video %} {% if video.video_code_block %}
 					<div class="embed-responsive embed-responsive-16by9 w-50">
 						{{ video.video_code_block }}
 					</div>
@@ -298,7 +306,44 @@ iraiser_url: "https://don.ordredemaltefrance.org/?cid=11&reserved_code_origine=W
 						>
 					</div>
 				</article>
-				{% endunless %} {% endfor %}
+				{% endunless %} {% endfor %} {% if paginator.total_pages > 1 %}
+				<ul class="pager">
+					{% if paginator.first_page %}
+					<li class="previous">
+						<a href="{{ paginator.first_page_path | prepend: site.baseurl | replace: '//', '/' }}"
+							>&#x3c;&#x3c;</a
+						>
+					</li>
+					{% endif %} {% if paginator.previous_page %}
+					<li class="previous">
+						<a
+							href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}"
+							>&#x3c;</a
+						>
+					</li>
+					{% endif %} {% if paginator.page_trail %} {% for trail in paginator.page_trail %}
+					<li class="{% if page.url == trail.path %}selected{% endif %}">
+						<a
+							href="{{ trail.path | prepend: site.baseurl | replace: '//', '/' }}"
+							title="{{trail.title}}"
+							>{{ trail.num }}</a
+						>
+					</li>
+					{% endfor %} {% endif %} {% if paginator.next_page %}
+					<li class="next">
+						<a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}"
+							>&#62;</a
+						>
+					</li>
+					{% endif %} {% if paginator.last_page %}
+					<li class="previous">
+						<a href="{{ paginator.last_page_path | prepend: site.baseurl | replace: '//', '/' }}"
+							>&#62;&#62;</a
+						>
+					</li>
+					{% endif %}
+				</ul>
+				{% endif %}
 			</section>
 		</div>
 	</div>

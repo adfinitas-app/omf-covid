@@ -9,6 +9,8 @@ $red: #e2001a;
 $blue: #354253;
 $transitionSpeed: 0.4s;
 
+@import "./_pager.scss";
+
 body {
 	background: $backgroundColor;
 	color: $bodyColor;
