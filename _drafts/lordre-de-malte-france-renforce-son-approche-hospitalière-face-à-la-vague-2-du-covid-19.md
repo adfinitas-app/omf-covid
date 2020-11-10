@@ -1,5 +1,5 @@
 ---
-date: 2020-03-10 12:00:00
+date: 2020-11-10 09:00:00
 title: >-
   L’Ordre de Malte France renforce son approche hospitalière face à la vague 2
   du Covid-19
