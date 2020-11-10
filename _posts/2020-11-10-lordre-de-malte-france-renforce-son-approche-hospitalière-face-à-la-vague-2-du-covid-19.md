@@ -15,7 +15,7 @@ insertion_video:
   - video_code_block:
 ---
 
-**Le vendredi 6 novembre, Olivier Véran, Ministre des Solidarités et de la Santé et Brigitte Bourguignon, Ministre Déléguée, Chargée de l’Autonomie se sont rendues &agrave; la**[**Maison Ferrari**](https://etablissements.ordredemaltefrance.org/ehpad/maison-ferrari/){: target="_blank"}**, dans le cadre de la campagne des tests antigéniques lancée dans les établissements médico-sociaux. L’occasion pour notre association de rappeler l’approche hospitali&egrave;re sur laquelle elle fonde tout son travail, &agrave; l’heure o&ugrave; la pandémie de Covid-19 accél&egrave;re.**
+**Le vendredi 6 novembre, Olivier Véran, Ministre des Solidarités et de la Santé et Brigitte Bourguignon, Ministre Déléguée, Chargée de l’Autonomie se sont rendues &agrave; la&nbsp;**[**Maison Ferrari**](https://etablissements.ordredemaltefrance.org/ehpad/maison-ferrari/){: target="_blank"}**, dans le cadre de la campagne des tests antigéniques lancée dans les établissements médico-sociaux. L’occasion pour notre association de rappeler l’approche hospitali&egrave;re sur laquelle elle fonde tout son travail, &agrave; l’heure o&ugrave; la pandémie de Covid-19 accél&egrave;re.**
 
 La Maison Ferrari, [établissement pour personnes &acirc;gées dépendantes](https://www.ordredemaltefrance.org/actions-en-france/sante/dependance-et-alzheimer){: target="_blank"} de l’Ordre de Malte France &agrave; Clamart (Hauts de Seine), a accueilli Olivier Véran et Brigitte Bourguignon le 6 novembre.
 
