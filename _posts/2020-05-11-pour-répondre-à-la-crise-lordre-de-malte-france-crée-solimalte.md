@@ -1,7 +1,7 @@
 ---
-date: 2020-05-11 16:00:00
+date: 2020-05-11 16:20:00
 title: 'Pour répondre à la crise, L''Ordre de Malte France crée "Soli’Malte"'
-pinned: false
+pinned: true
 urgence_post: true
 publication_header_image:
 publication_footer_image:
