@@ -1,5 +1,5 @@
 ---
-date: 2020-11-11 12:00:00
+date: 2020-11-12 12:55:00
 title: 'Reconfinement : l’association continue à aider les plus fragiles'
 pinned: false
 urgence_post: false
