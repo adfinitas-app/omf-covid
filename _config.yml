@@ -22,6 +22,8 @@ baseurl: "" # the subpath of your site, e.g. /blog
 title: "" # the name of your site, e.g. ACME Corp.
 gtm_id: GTM-5DFT4J2
 
+timezone: Europe/Paris
+
 # Build settings
 plugins:
   - jekyll-feed
