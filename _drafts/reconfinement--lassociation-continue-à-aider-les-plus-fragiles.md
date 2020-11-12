@@ -1,5 +1,5 @@
 ---
-date: 2020-11-09 05:00:00
+date: 2020-11-12 12:30:00
 title: 'Reconfinement : l’association continue à aider les plus fragiles'
 pinned: false
 urgence_post: false
@@ -17,4 +17,6 @@ Depuis le jeudi 29 octobre &agrave; minuit, les Fran&ccedil;ais vivent leur deux
 
 Dans ce contexte, toutes les équipes de l’Ordre de Malte France, continuent leur travail pour maintenir, &agrave; tout prix, leur aide, indispensable aux personnes les plus précaires, aux personnes de la rue.
 
-👉&nbsp;[Lire la suite&nbsp;](https://www.ordredemaltefrance.org/actualites/solidarite/reconfinement-l-ordre-de-malte-france-maintient-ses-activites){: target="_blank"}
+[Lire la suite&nbsp;](https://www.ordredemaltefrance.org/actualites/solidarite/reconfinement-l-ordre-de-malte-france-maintient-ses-activites){: target="_blank"}
+
+👉[Nous soutenir avec un don](https://don.ordredemaltefrance.org/?cid=11&amp;reserved_code_origine=Webcovid){: target="_blank"}
