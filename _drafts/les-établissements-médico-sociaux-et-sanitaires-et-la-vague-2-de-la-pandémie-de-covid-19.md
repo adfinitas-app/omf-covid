@@ -1,5 +1,5 @@
 ---
-date: 2020-11-12 17:00:00
+date: 2020-11-12 18:00:00 +0100
 title: >-
   Les établissements médico-sociaux et sanitaires  et la vague 2 de la pandémie
   de Covid-19
