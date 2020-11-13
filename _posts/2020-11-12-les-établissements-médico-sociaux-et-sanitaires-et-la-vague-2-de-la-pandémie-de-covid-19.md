@@ -13,7 +13,7 @@ insertion_video:
   - video_code_block:
 ---
 
-**Face &agrave; la vague 2 de la pandémie de Covid-19,&nbsp;**[**les établissements médico-sociaux et sanitaires**](https://www.ordredemaltefrance.org/actions-en-france/sante/sante) **de l’Ordre de Malte France se mobilisent pour protéger, sans isoler, les résidents que nous accompagnons au quotidien. Le lien avec les familles et avec des activités essentielles &agrave; leur bien-&ecirc;tre sont au cœur du travail des soignants. &nbsp;**
+**Face &agrave; la vague 2 de la pandémie de Covid-19,&nbsp;**[**les établissements médico-sociaux et sanitaires**](https://www.ordredemaltefrance.org/actions-en-france/sante/sante){: target="_blank"} **de l’Ordre de Malte France se mobilisent pour protéger, sans isoler, les résidents que nous accompagnons au quotidien. Le lien avec les familles et avec des activités essentielles &agrave; leur bien-&ecirc;tre sont au cœur du travail des soignants. &nbsp;**
 
 Dans le plus strict du protocole sanitaire, tous les professionnels de santé qui travaillent au sein de nos établissements travaillent jour apr&egrave;s jour dans le souci d’offrir le meilleur aupr&egrave;s des résidents. Dans chaque établissement médico-social et sanitaire géré par notre association, les gestes barri&egrave;res et les consignes imposées par le gouvernement sont respectés &agrave; la lettre. L’objectif : contribuer &agrave; ce que ce nouvel épisode épidémique ait le moins d’effet possible sur les personnes que nous accompagnons.
 
