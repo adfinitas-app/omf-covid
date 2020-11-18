@@ -1,5 +1,5 @@
 ---
-date: 2020-03-15 13:00:00 +0100
+date: 2020-11-18 09:00:00 +0100
 title: "Grand Angle\_: l’hiver, facteur aggravant de la crise sanitaire"
 pinned: false
 urgence_post: false
