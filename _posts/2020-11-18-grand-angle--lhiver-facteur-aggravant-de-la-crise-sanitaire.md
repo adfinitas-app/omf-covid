@@ -4,7 +4,7 @@ title: "Grand Angle\_: l’hiver, facteur aggravant de la crise sanitaire"
 pinned: false
 urgence_post: false
 publication_header_image: >-
-  /uploads/novembre-2020/orde_de_malte_France_grande_precarite_article_18112020.jpg
+  /uploads/squooshordre-de-malte-france---epicerie-social-e-solidaire---oise---credit-maud-fée-1.jpg
 publication_footer_image:
 insertion_social:
   - social_code_block:
