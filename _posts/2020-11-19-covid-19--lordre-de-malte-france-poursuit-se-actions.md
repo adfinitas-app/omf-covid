@@ -20,10 +20,11 @@ Du Nord &agrave; l’Hérault, en passant par la Haute-Savoie, le Var, la Girond
 **Notre mobilisation hebdomadaire actuelle :**
 
 * **220** actions menées
-* **750** bénévoles mobilisés sur le terrain**4000** personnes en situation de grande précarité aidées
+* **750** bénévoles mobilisés sur le terrain
+* **4000** personnes en situation de grande précarité aidées
 
 &nbsp;
 
-**Pour continuer &agrave; aider les personnes les plus fragilisées par la crise sanitaire, nous avons besoin de vous \! =&gt; Bouton****– [Je fais un don](https://don.ordredemaltefrance.org/?cid=11&amp;reserved_code_origine=Webcovid){: target="_blank" rel="noopener"}** **\-**
+**Pour continuer &agrave; aider les personnes les plus fragilisées par la crise sanitaire, nous avons besoin de vous \! &nbsp;**👉&nbsp;**[Je fais un don](https://don.ordredemaltefrance.org/?cid=11&amp;reserved_code_origine=Webcovid){: target="_blank" rel="noopener"}**
 
-**Vous souhaitez rejoindre nos équipes de bénévoles ?**[**Contactez la délégation de votre département**](https://www.ordredemaltefrance.org/engagez-vous/devenez-benevoles) **(ou celle la plus proche de chez vous).**
+**Vous souhaitez rejoindre nos équipes de bénévoles ?&nbsp;**[**Contactez la délégation de votre département**](https://www.ordredemaltefrance.org/engagez-vous/devenez-benevoles) **(ou celle la plus proche de chez vous).**
