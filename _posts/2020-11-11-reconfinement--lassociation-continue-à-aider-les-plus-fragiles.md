@@ -1,11 +1,9 @@
 ---
-date: 2020-11-11 14:00:00
+date: 2020-11-11 15:00:00 +0100
 title: 'Reconfinement : l’association continue à aider les plus fragiles'
 pinned: false
 urgence_post: false
-publication_header_image: >-
-  /uploads/novembre-2020/Ordre de Malte France - Reconfinement - maraude -
-  solidarité_sd.jpg
+publication_header_image: /uploads/novembre-2020/article_13112020-2_sd.jpg
 publication_footer_image:
 insertion_social:
   - social_code_block:
