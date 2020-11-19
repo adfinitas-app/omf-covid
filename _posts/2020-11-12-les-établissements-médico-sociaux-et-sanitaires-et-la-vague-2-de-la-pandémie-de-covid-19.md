@@ -5,7 +5,7 @@ title: >-
   de Covid-19
 pinned: false
 urgence_post: false
-publication_header_image: /uploads/novembre-2020/article_13112020.png
+publication_header_image: /uploads/novembre-2020/article_13112020_sd.jpg
 publication_footer_image:
 insertion_social:
   - social_code_block:
