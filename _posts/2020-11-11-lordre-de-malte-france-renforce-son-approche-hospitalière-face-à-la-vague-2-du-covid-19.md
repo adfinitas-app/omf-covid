@@ -1,13 +1,11 @@
 ---
-date: 2020-11-11 16:00:00
+date: 2020-11-11 17:00:00 +0100
 title: >-
   L’Ordre de Malte France renforce son approche hospitalière face à la vague 2
   du Covid-19
 pinned: false
 urgence_post: false
-publication_header_image: >-
-  /uploads/novembre-2020/Ordre de Malte France - Crise sanitaire - Maison
-  Ferrari 1 (1) (1).jpg
+publication_header_image: /uploads/novembre-2020/article_12112020_sd.jpg
 publication_footer_image:
 insertion_social:
   - social_code_block:
