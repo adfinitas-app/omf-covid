@@ -1,6 +1,6 @@
 ---
 date: 2020-11-19 08:00:00 +0100
-title: 'Covid-19 : l’Ordre de Malte France poursuit se actions'
+title: 'Covid-19 : l’Ordre de Malte France poursuit ses actions'
 pinned: false
 urgence_post: false
 publication_header_image: /uploads/novembre-2020/article_19112020_sd.jpg
