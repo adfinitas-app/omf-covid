@@ -3,8 +3,8 @@ date: 2020-12-22 17:35:00 +0100
 title: "Établissements médico-sociaux\_:  continuité des activités et des liens familiaux, enjeux majeurs de la crise sanitaire"
 pinned: false
 urgence_post: false
-publication_header_image: /uploads/mas-rochefort---eddy-b--et-nathalie-j.jpg
-publication_footer_image: /uploads/mas-rochefort---eddy-b--et-nathalie-j.jpg
+publication_header_image: /uploads/mas-rochefort-omf.jpg
+publication_footer_image: /uploads/mas-rochefort-omf.jpg
 insertion_social:
   - social_code_block:
 insertion_video:
